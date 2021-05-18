@@ -91,4 +91,4 @@ jobs:
           command: npx npm-cli-login -u $USERNAME -p $PASSWORD -e $EMAIL -s @aw-web-design
       - run:
           name: Publish package
-          command: yarn publish dist --access=public
+          command: yarn publish --access=public
