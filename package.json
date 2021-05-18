@@ -1,6 +1,6 @@
 {
   "name": "@spicy-ui/styled-system",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.1",
   "description": "Responsive, theme-based style props for building design systems with React",
   "keywords": [
     "react",
