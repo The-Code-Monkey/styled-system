@@ -1,0 +1,15 @@
+version: 2
+registries:
+  npm-registry-npm-pkg-github-com-aw-web-design:
+    type: npm-registry
+    url: https://npm.pkg.github.com/aw-web-design
+    token: "${{secrets.NPM_REGISTRY_NPM_PKG_GITHUB_COM_AW_WEB_DESIGN_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  target-branch: dev
+  versioning-strategy: increase
