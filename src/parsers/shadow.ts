@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme } from "../types";
 
 export interface ShadowProps<ThemeType extends Theme = RequiredTheme> {
   boxShadow?: ResponsiveValue<CSS.Property.BoxShadow | (number & {}), ThemeType>;
@@ -9,12 +9,12 @@ export interface ShadowProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   boxShadow: {
-    property: 'boxShadow',
-    scale: 'shadows',
+    property: "boxShadow",
+    scale: "shadows",
   },
   textShadow: {
-    property: 'textShadow',
-    scale: 'shadows',
+    property: "textShadow",
+    scale: "shadows",
   },
 };
 

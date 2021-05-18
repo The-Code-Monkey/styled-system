@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
 
 export interface AnimationProps<ThemeType extends Theme = RequiredTheme> {
   animation?: ResponsiveValue<CSS.Property.Animation<TLengthStyledSystem>, ThemeType>;
@@ -16,36 +16,36 @@ export interface AnimationProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   animation: {
-    property: 'animation',
-    scale: 'animation.animation',
+    property: "animation",
+    scale: "animation.animation",
   },
   animationName: {
-    property: 'animationName',
-    scale: 'animation.name',
+    property: "animationName",
+    scale: "animation.name",
   },
   animationDuration: {
-    property: 'animationDuration',
-    scale: 'animation.duration',
+    property: "animationDuration",
+    scale: "animation.duration",
   },
   animationTimingFunction: {
-    property: 'animationTimingFunction',
-    scale: 'animation.timingFn',
+    property: "animationTimingFunction",
+    scale: "animation.timingFn",
   },
   animationDelay: {
-    property: 'animationDelay',
-    scale: 'animation.delay',
+    property: "animationDelay",
+    scale: "animation.delay",
   },
   animationIterationCount: {
-    property: 'animationIterationCount',
+    property: "animationIterationCount",
   },
   animationDirection: {
-    property: 'animationDirection',
+    property: "animationDirection",
   },
   animationFillMode: {
-    property: 'animationFillMode',
+    property: "animationFillMode",
   },
   animationPlayState: {
-    property: 'animationPlayState',
+    property: "animationPlayState",
   },
 };
 

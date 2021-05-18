@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { createParser, Parser } from './parser';
-import { createStyleFunction, CreateStyleFunctionArgs, StyleFn } from './styleFunction';
+import * as CSS from "csstype";
+import { createParser, Parser } from "./parser";
+import { createStyleFunction, CreateStyleFunctionArgs, StyleFn } from "./styleFunction";
 
 export interface SystemConfig {
   [key: string]: boolean | CreateStyleFunctionArgs;
@@ -26,7 +26,7 @@ export function system(args: SystemConfig = {}): Parser {
       return;
     }
 
-    if (typeof argConfig === 'function') {
+    if (typeof argConfig === "function") {
       config[key] = argConfig;
       return;
     }

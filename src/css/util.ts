@@ -1,17 +1,17 @@
-import { compose, StyleFn } from '../core';
-import { animation } from '../parsers/animation';
-import { background } from '../parsers/background';
-import { border } from '../parsers/border';
-import { color } from '../parsers/color';
-import { flexbox } from '../parsers/flexbox';
-import { grid } from '../parsers/grid';
-import { layout } from '../parsers/layout';
-import { other } from '../parsers/other';
-import { position } from '../parsers/position';
-import { shadow } from '../parsers/shadow';
-import { space } from '../parsers/space';
-import { transition } from '../parsers/transition';
-import { typography } from '../parsers/typography';
+import { compose, StyleFn } from "../core";
+import { animation } from "../parsers/animation";
+import { background } from "../parsers/background";
+import { border } from "../parsers/border";
+import { color } from "../parsers/color";
+import { flexbox } from "../parsers/flexbox";
+import { grid } from "../parsers/grid";
+import { layout } from "../parsers/layout";
+import { other } from "../parsers/other";
+import { position } from "../parsers/position";
+import { shadow } from "../parsers/shadow";
+import { space } from "../parsers/space";
+import { transition } from "../parsers/transition";
+import { typography } from "../parsers/typography";
 
 const all = compose(
   animation,
@@ -46,7 +46,7 @@ export function getParserDicts() {
       multiples[propName] = [...config.properties];
     }
 
-    if (config.transform && config.transform?.name !== 'getValue') {
+    if (config.transform && config.transform?.name !== "getValue") {
       transforms[propName] = config.transform;
     }
 

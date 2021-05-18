@@ -1,22 +1,22 @@
-import isPropValid from '@emotion/is-prop-valid';
-import memoize from '@emotion/memoize';
-import { compose } from '../core';
-import { animation } from '../parsers/animation';
-import { background } from '../parsers/background';
-import { border } from '../parsers/border';
-import { color } from '../parsers/color';
-import { extendedFlexbox } from '../parsers/extendedFlexbox';
-import { extendedGrid } from '../parsers/extendedGrid';
-import { flexbox } from '../parsers/flexbox';
-import { grid } from '../parsers/grid';
-import { layout } from '../parsers/layout';
-import { other } from '../parsers/other';
-import { position } from '../parsers/position';
-import { shadow } from '../parsers/shadow';
-import { space } from '../parsers/space';
-import { transition } from '../parsers/transition';
-import { typography } from '../parsers/typography';
-import { pseudoSelectors } from '../pseudo';
+import isPropValid from "@emotion/is-prop-valid";
+import memoize from "@emotion/memoize";
+import { compose } from "../core";
+import { animation } from "../parsers/animation";
+import { background } from "../parsers/background";
+import { border } from "../parsers/border";
+import { color } from "../parsers/color";
+import { extendedFlexbox } from "../parsers/extendedFlexbox";
+import { extendedGrid } from "../parsers/extendedGrid";
+import { flexbox } from "../parsers/flexbox";
+import { grid } from "../parsers/grid";
+import { layout } from "../parsers/layout";
+import { other } from "../parsers/other";
+import { position } from "../parsers/position";
+import { shadow } from "../parsers/shadow";
+import { space } from "../parsers/space";
+import { transition } from "../parsers/transition";
+import { typography } from "../parsers/typography";
+import { pseudoSelectors } from "../pseudo";
 
 const all = compose(
   animation,
@@ -46,7 +46,7 @@ export const allProps = [...all.propNames, ...Object.keys(pseudoSelectors)];
  * Use this when you don't want `@spicy-ui/styled-system` props included.
  */
 export function createShouldForwardProp(props: string[]) {
-  const regex = new RegExp(`^(${props.join('|')})$`);
+  const regex = new RegExp(`^(${props.join("|")})$`);
   return memoize((prop) => isPropValid(prop) && !regex.test(prop));
 }
 

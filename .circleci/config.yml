@@ -64,6 +64,7 @@ jobs:
           paths:
             - .
       - run: yarn lint
+      - run: yarn test
   build:
     executor:
       name: node/default

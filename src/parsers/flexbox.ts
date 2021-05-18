@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
 
 export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
   alignItems?: ResponsiveValue<CSS.Property.AlignItems, ThemeType>;
@@ -25,56 +25,56 @@ export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   alignItems: {
-    property: 'alignItems',
+    property: "alignItems",
   },
   alignContent: {
-    property: 'alignContent',
+    property: "alignContent",
   },
   justifyItems: {
-    property: 'justifyItems',
+    property: "justifyItems",
   },
   justifyContent: {
-    property: 'justifyContent',
+    property: "justifyContent",
   },
   flexWrap: {
-    property: 'flexWrap',
+    property: "flexWrap",
   },
   flexDirection: {
-    property: 'flexDirection',
+    property: "flexDirection",
   },
   flex: {
-    property: 'flex',
+    property: "flex",
   },
   flexFlow: {
-    property: 'flexFlow',
+    property: "flexFlow",
   },
   flexGrow: {
-    property: 'flexGrow',
+    property: "flexGrow",
   },
   flexShrink: {
-    property: 'flexShrink',
+    property: "flexShrink",
   },
   flexBasis: {
-    property: 'flexBasis',
-    scale: 'sizes',
+    property: "flexBasis",
+    scale: "sizes",
   },
   justifySelf: {
-    property: 'justifySelf',
+    property: "justifySelf",
   },
   alignSelf: {
-    property: 'alignSelf',
+    property: "alignSelf",
   },
   order: {
-    property: 'order',
+    property: "order",
   },
   placeItems: {
-    property: 'placeItems',
+    property: "placeItems",
   },
   placeContent: {
-    property: 'placeContent',
+    property: "placeContent",
   },
   placeSelf: {
-    property: 'placeSelf',
+    property: "placeSelf",
   },
 };
 

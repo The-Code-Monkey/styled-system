@@ -1,10 +1,10 @@
-import { compose, system, Parser } from '..';
+import { compose, system, Parser } from "..";
 
-describe('compose', () => {
+describe("compose", () => {
   const color = system({
     color: true,
     bg: {
-      property: 'backgroundColor',
+      property: "backgroundColor",
     },
   });
 
@@ -12,33 +12,33 @@ describe('compose', () => {
     fontSize: true,
   });
 
-  it('should combines style parsers', () => {
+  it("should combines style parsers", () => {
     const parser = compose(color, fontSize);
 
     const styles = parser({
-      color: 'tomato',
-      bg: 'black',
+      color: "tomato",
+      bg: "black",
       fontSize: 32,
     });
 
-    expect(typeof parser).toBe('function');
+    expect(typeof parser).toBe("function");
     expect(styles).toEqual({
       fontSize: 32,
-      color: 'tomato',
-      backgroundColor: 'black',
+      color: "tomato",
+      backgroundColor: "black",
     });
   });
 
-  it('should handle null parsers', () => {
-    const parser = compose((null as unknown) as Parser, ({} as unknown) as Parser);
+  it("should handle null parsers", () => {
+    const parser = compose(null as unknown as Parser, {} as unknown as Parser);
 
     const styles = parser({
-      color: 'tomato',
-      bg: 'black',
+      color: "tomato",
+      bg: "black",
       fontSize: 32,
     });
 
-    expect(typeof parser).toBe('function');
+    expect(typeof parser).toBe("function");
     expect(styles).toEqual({});
   });
 });

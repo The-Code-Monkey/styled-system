@@ -1,4 +1,4 @@
-import { createParser, Parser } from './parser';
+import { createParser, Parser } from "./parser";
 
 export const compose = (...parsers: Parser[]) => {
   let config = {};

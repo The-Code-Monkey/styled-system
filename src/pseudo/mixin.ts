@@ -1,5 +1,5 @@
-import { css } from '../css';
-import { pseudoSelectors } from './selectors';
+import { css } from "../css";
+import { pseudoSelectors } from "./selectors";
 
 export type PseudoProps = Partial<Record<keyof typeof pseudoSelectors, any>>;
 

@@ -1,5 +1,5 @@
-import { isFunction, isObject } from '../utils';
-import { pseudoSelectors } from './selectors';
+import { isFunction, isObject } from "../utils";
+import { pseudoSelectors } from "./selectors";
 
 /**
  * Remaps known pseudo prop keys to their CSS selectors.

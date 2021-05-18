@@ -1,8 +1,8 @@
-import { allProps, shouldForwardProp, sfp } from '..';
+import { allProps, shouldForwardProp, sfp } from "..";
 
-describe('shouldForwardProp', () => {
-  it('should return true for valid HTML attributes', () => {
-    const should = shouldForwardProp('href');
+describe("shouldForwardProp", () => {
+  it("should return true for valid HTML attributes", () => {
+    const should = shouldForwardProp("href");
     expect(should).toBe(true);
   });
 
@@ -11,8 +11,8 @@ describe('shouldForwardProp', () => {
     expect(should).toBe(false);
   });
 
-  it('should return false for an added prop', () => {
-    const should = sfp(['someCustomProp'])('someCustomProp');
+  it("should return false for an added prop", () => {
+    const should = sfp(["someCustomProp"])("someCustomProp");
     expect(should).toBe(false);
   });
 });
