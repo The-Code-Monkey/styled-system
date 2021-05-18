@@ -3,12 +3,6 @@
   "trailingComma": "all",
   "overrides": [
     {
-      "files": "*.js",
-      "options": {
-        "parser": "babel"
-      }
-    },
-    {
       "files": ["*.ts", "*.tsx"],
       "options": {
         "parser": "typescript"
