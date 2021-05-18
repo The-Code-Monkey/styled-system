@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
 
 export interface BackgroundProps<ThemeType extends Theme = RequiredTheme> {
   background?: ResponsiveValue<CSS.Property.Background<TLengthStyledSystem>, ThemeType>;
@@ -21,26 +21,26 @@ export interface BackgroundProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   background: {
-    property: 'background',
-    scale: 'colors',
+    property: "background",
+    scale: "colors",
   },
   backgroundImage: {
-    property: 'backgroundImage',
+    property: "backgroundImage",
   },
   backgroundClip: {
-    property: 'backgroundClip',
+    property: "backgroundClip",
   },
   backgroundSize: {
-    property: 'backgroundSize',
+    property: "backgroundSize",
   },
   backgroundPosition: {
-    property: 'backgroundPosition',
+    property: "backgroundPosition",
   },
   backgroundRepeat: {
-    property: 'backgroundRepeat',
+    property: "backgroundRepeat",
   },
   backgroundAttachment: {
-    property: 'backgroundAttachment',
+    property: "backgroundAttachment",
   },
 };
 

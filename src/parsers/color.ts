@@ -1,8 +1,8 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from "../types";
 
-export interface ColorProps<ThemeType extends Theme = RequiredTheme, TVal = ThemeValue<'colors', ThemeType>> {
+export interface ColorProps<ThemeType extends Theme = RequiredTheme, TVal = ThemeValue<"colors", ThemeType>> {
   backgroundColor?: ResponsiveValue<TVal, ThemeType>;
   bgColor?: ResponsiveValue<TVal, ThemeType>;
   color?: ResponsiveValue<TVal, ThemeType>;
@@ -11,15 +11,15 @@ export interface ColorProps<ThemeType extends Theme = RequiredTheme, TVal = Them
 
 const config: SystemConfig = {
   backgroundColor: {
-    property: 'backgroundColor',
-    scale: 'colors',
+    property: "backgroundColor",
+    scale: "colors",
   },
   color: {
-    property: 'color',
-    scale: 'colors',
+    property: "color",
+    scale: "colors",
   },
   opacity: {
-    property: 'opacity',
+    property: "opacity",
   },
 };
 

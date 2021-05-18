@@ -1,6 +1,6 @@
-import { defaultBreakpoints } from '../utils';
-import { Scale } from './types';
-import { get, merge, sort } from './util';
+import { defaultBreakpoints } from "../utils";
+import { Scale } from "./types";
+import { get, merge, sort } from "./util";
 
 function createMediaQuery(n: string) {
   return `@media screen and (min-width: ${n})`;
@@ -33,7 +33,7 @@ function parseResponsiveObject(
   let styles: any = {};
 
   Object.keys(raw).forEach((key) => {
-    const breakpoint = breakpoints[(key as unknown) as number]; // FIXME?
+    const breakpoint = breakpoints[key as unknown as number]; // FIXME?
     const value = raw[key];
     const style = sx(value, scale, props);
 
@@ -78,9 +78,9 @@ export function createParser(config: any) {
       const raw = props[key];
       const scale = get(props.theme, sx.scale, sx.defaults);
 
-      if (typeof raw === 'object') {
+      if (typeof raw === "object") {
         cache.breakpoints =
-          (!isCacheDisabled && cache.breakpoints) || get(props.theme, 'breakpoints', defaultBreakpoints);
+          (!isCacheDisabled && cache.breakpoints) || get(props.theme, "breakpoints", defaultBreakpoints);
 
         if (Array.isArray(raw)) {
           cache.media = (!isCacheDisabled && cache.media) || [null, ...(cache.breakpoints ?? []).map(createMediaQuery)];
@@ -113,7 +113,7 @@ export function createParser(config: any) {
   parser.propNames = Object.keys(config);
   parser.cache = cache;
 
-  const keys = Object.keys(config).filter((k) => !['config', 'propNames', 'cache'].includes(k));
+  const keys = Object.keys(config).filter((k) => !["config", "propNames", "cache"].includes(k));
 
   if (keys.length > 1) {
     keys.forEach((key) => {

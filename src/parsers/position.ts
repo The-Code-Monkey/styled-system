@@ -1,7 +1,7 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
-import { defaultTheme } from '../utils';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { defaultTheme } from "../utils";
 
 export interface PositionProps<ThemeType extends Theme = RequiredTheme> {
   position?: ResponsiveValue<CSS.Property.Position, ThemeType>;
@@ -15,30 +15,30 @@ export interface PositionProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   position: {
-    property: 'position',
+    property: "position",
   },
   zIndex: {
-    property: 'zIndex',
-    scale: 'zIndices',
+    property: "zIndex",
+    scale: "zIndices",
   },
   top: {
-    property: 'top',
-    scale: 'space',
+    property: "top",
+    scale: "space",
     defaultScale: defaultTheme.space,
   },
   right: {
-    property: 'right',
-    scale: 'space',
+    property: "right",
+    scale: "space",
     defaultScale: defaultTheme.space,
   },
   bottom: {
-    property: 'bottom',
-    scale: 'space',
+    property: "bottom",
+    scale: "space",
     defaultScale: defaultTheme.space,
   },
   left: {
-    property: 'left',
-    scale: 'space',
+    property: "left",
+    scale: "space",
     defaultScale: defaultTheme.space,
   },
 };

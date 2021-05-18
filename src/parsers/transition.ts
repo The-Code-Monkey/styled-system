@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
 
 export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
   transition?: ResponsiveValue<CSS.Property.Transition<TLengthStyledSystem>, ThemeType>;
@@ -12,24 +12,24 @@ export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   transition: {
-    property: 'transition',
-    scale: 'transition.transition',
+    property: "transition",
+    scale: "transition.transition",
   },
   transitionProperty: {
-    property: 'transitionProperty',
-    scale: 'transition.property',
+    property: "transitionProperty",
+    scale: "transition.property",
   },
   transitionDuration: {
-    property: 'transitionDuration',
-    scale: 'transition.duration',
+    property: "transitionDuration",
+    scale: "transition.duration",
   },
   transitionTiming: {
-    property: 'transitionTimingFunction',
-    scale: 'transition.timingFn',
+    property: "transitionTimingFunction",
+    scale: "transition.timingFn",
   },
   transitionDelay: {
-    property: 'transitionDelay',
-    scale: 'transition.delay',
+    property: "transitionDelay",
+    scale: "transition.delay",
   },
 };
 

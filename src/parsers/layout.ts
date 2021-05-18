@@ -1,7 +1,7 @@
-import * as CSS from 'csstype';
-import { get, Scale, system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from '../types';
-import { isNumber } from '../utils';
+import * as CSS from "csstype";
+import { get, Scale, system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { isNumber } from "../utils";
 
 function getWidth(scale?: Scale, n?: any) {
   return get(scale, n, !isNumber(n) || n > 1 ? n : `${n * 100}%`);
@@ -31,48 +31,48 @@ export interface LayoutProps<ThemeType extends Theme = RequiredTheme> {
 
 const config: SystemConfig = {
   width: {
-    property: 'width',
-    scale: 'sizes',
+    property: "width",
+    scale: "sizes",
     transform: getWidth,
   },
   height: {
-    property: 'height',
-    scale: 'sizes',
+    property: "height",
+    scale: "sizes",
   },
   minWidth: {
-    property: 'minWidth',
-    scale: 'sizes',
+    property: "minWidth",
+    scale: "sizes",
   },
   maxWidth: {
-    property: 'maxWidth',
-    scale: 'sizes',
+    property: "maxWidth",
+    scale: "sizes",
   },
   minHeight: {
-    property: 'minHeight',
-    scale: 'sizes',
+    property: "minHeight",
+    scale: "sizes",
   },
   maxHeight: {
-    property: 'maxHeight',
-    scale: 'sizes',
+    property: "maxHeight",
+    scale: "sizes",
   },
   display: {
-    property: 'display',
+    property: "display",
   },
   size: {
-    properties: ['width', 'height'],
-    scale: 'sizes',
+    properties: ["width", "height"],
+    scale: "sizes",
   },
   verticalAlign: {
-    property: 'verticalAlign',
+    property: "verticalAlign",
   },
   overflow: {
-    property: 'overflow',
+    property: "overflow",
   },
   overflowX: {
-    property: 'overflowX',
+    property: "overflowX",
   },
   overflowY: {
-    property: 'overflowY',
+    property: "overflowY",
   },
 };
 

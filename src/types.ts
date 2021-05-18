@@ -1,5 +1,5 @@
-import * as CSS from 'csstype';
-import { ObjectOrArray } from './core';
+import * as CSS from "csstype";
+import { ObjectOrArray } from "./core";
 
 export type TLengthStyledSystem = string | 0 | number;
 
@@ -28,7 +28,7 @@ export type ResponsiveValue<T, ThemeType extends Theme = RequiredTheme> =
   | T
   | null
   | Array<T | null>
-  | { [key in (ThemeValue<'breakpoints', ThemeType> & string) | number]?: T };
+  | { [key in (ThemeValue<"breakpoints", ThemeType> & string) | number]?: T };
 
 export type ThemeValue<K extends keyof ThemeType, ThemeType, TVal = any> = ThemeType[K] extends TVal[]
   ? number

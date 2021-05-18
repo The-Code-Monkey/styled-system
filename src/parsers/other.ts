@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { system, SystemConfig } from '../core';
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue, TLengthStyledSystem } from '../types';
+import * as CSS from "csstype";
+import { system, SystemConfig } from "../core";
+import { RequiredTheme, ResponsiveValue, Theme, ThemeValue, TLengthStyledSystem } from "../types";
 
 export interface OtherProps<ThemeType extends Theme = RequiredTheme> {
   appearance?: ResponsiveValue<CSS.Property.Appearance, ThemeType>;
@@ -16,66 +16,66 @@ export interface OtherProps<ThemeType extends Theme = RequiredTheme> {
   objectFit?: ResponsiveValue<CSS.Property.ObjectFit, ThemeType>;
   objectPosition?: ResponsiveValue<CSS.Property.ObjectPosition, ThemeType>;
   float?: ResponsiveValue<CSS.Property.Float, ThemeType>;
-  fill?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
-  stroke?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
+  fill?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
+  stroke?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
   outline?: ResponsiveValue<CSS.Property.Outline, ThemeType>;
-  outlineColor?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
+  outlineColor?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
 }
 
 const config: SystemConfig = {
   appearance: {
-    property: 'appearance',
+    property: "appearance",
   },
   transform: {
-    property: 'transform',
+    property: "transform",
   },
   transformOrigin: {
-    property: 'transformOrigin',
+    property: "transformOrigin",
   },
   visibility: {
-    property: 'visibility',
+    property: "visibility",
   },
   userSelect: {
-    property: 'userSelect',
+    property: "userSelect",
   },
   pointerEvents: {
-    property: 'pointerEvents',
+    property: "pointerEvents",
   },
   overflowWrap: {
-    property: 'overflowWrap',
+    property: "overflowWrap",
   },
   boxSizing: {
-    property: 'boxSizing',
+    property: "boxSizing",
   },
   cursor: {
-    property: 'cursor',
+    property: "cursor",
   },
   resize: {
-    property: 'resize',
+    property: "resize",
   },
   objectFit: {
-    property: 'objectFit',
+    property: "objectFit",
   },
   objectPosition: {
-    property: 'objectPosition',
+    property: "objectPosition",
   },
   float: {
-    property: 'float',
+    property: "float",
   },
   fill: {
-    property: 'fill',
-    scale: 'colors',
+    property: "fill",
+    scale: "colors",
   },
   stroke: {
-    property: 'stroke',
-    scale: 'colors',
+    property: "stroke",
+    scale: "colors",
   },
   outline: {
-    property: 'outline',
+    property: "outline",
   },
   outlineColor: {
-    property: 'outlineColor',
-    scale: 'colors',
+    property: "outlineColor",
+    scale: "colors",
   },
 };
 

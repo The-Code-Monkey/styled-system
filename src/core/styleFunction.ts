@@ -1,6 +1,6 @@
-import * as CSS from 'csstype';
-import { Scale } from './types';
-import { get } from './util';
+import * as CSS from "csstype";
+import { Scale } from "./types";
+import { get } from "./util";
 
 export interface StyleFn {
   (value: any, scale: Scale | undefined, props: any): any;
@@ -47,7 +47,7 @@ export function createStyleFunction({
   styleFn.properties = properties;
   styleFn.property = property;
   styleFn.scale = scale;
-  styleFn.transform = transform.name !== 'get' ? transform : undefined;
+  styleFn.transform = transform.name !== "get" ? transform : undefined;
   styleFn.defaults = defaultScale;
 
   return styleFn;

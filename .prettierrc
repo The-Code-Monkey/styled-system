@@ -1,6 +1,12 @@
 {
-  "endOfLine": "lf",
   "printWidth": 120,
-  "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
 }
