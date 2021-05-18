@@ -1,5 +1,5 @@
 {
-  "name": "@spicy-ui/styled-system",
+  "name": "@aw-web-design/styled-system",
   "version": "0.0.1-alpha.1",
   "description": "Responsive, theme-based style props for building design systems with React",
   "keywords": [
@@ -8,14 +8,9 @@
     "styled-components",
     "emotion"
   ],
-  "homepage": "https://github.com/spicy-ui/styled-system",
-  "bugs": "https://github.com/spicy-ui/styled-system/issues",
+  "homepage": "https://github.com/aw-web-design/styled-system",
+  "bugs": "https://github.com/aw-web-design/styled-system/issues",
   "license": "MIT",
-  "author": {
-    "name": "Alex Gabites",
-    "email": "hello@southpaw.co.nz",
-    "url": "http://southpaw.co.nz"
-  },
   "files": [
     "dist"
   ],
@@ -24,7 +19,7 @@
   "module": "dist/styled-system.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spicy-ui/styled-system.git"
+    "url": "https://github.com/aw-web-design/styled-system.git"
   },
   "scripts": {
     "clean": "rimraf dist",
