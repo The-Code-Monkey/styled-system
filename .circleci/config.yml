@@ -1,0 +1,93 @@
+version: 2.1
+  
+orbs:
+  node: circleci/node@2.0.3
+  
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test:
+          filters:
+            branches:
+              ignore:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              ignore:
+                - master
+                - /alpha-*/
+                - /beta-*/
+  deploy:
+    jobs:
+      - test:
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+                - /alpha-*/
+                - /beta-*/
+
+jobs:
+  test:
+    executor:
+      name: node/default
+      tag: '12.16'
+    steps:
+      - checkout
+      - run: yarn
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+      - run: yarn lint
+  build:
+    executor:
+      name: node/default
+      tag: '12.16'
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Build packages
+          command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  deploy:
+    executor:
+      name: node/default
+      tag: '12.16'
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Authenticate with registry
+          command: npx npm-cli-login -u $USERNAME -p $PASSWORD -e $EMAIL -s @aw-web-design
+      - run:
+          name: Publish package
+          command: yarn publish dist --access=public
