@@ -1,35 +1,52 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { Property } from 'csstype';
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
 
 export interface TransitionProps<ThemeType extends Theme = RequiredTheme> {
-  transition?: ResponsiveValue<CSS.Property.Transition<TLengthStyledSystem>, ThemeType>;
-  transitionProperty?: ResponsiveValue<CSS.Property.TransitionProperty, ThemeType>;
-  transitionDuration?: ResponsiveValue<CSS.Property.TransitionDuration<TLengthStyledSystem>, ThemeType>;
-  transitionTiming?: ResponsiveValue<CSS.Property.TransitionTimingFunction, ThemeType>;
-  transitionDelay?: ResponsiveValue<CSS.Property.TransitionDelay<TLengthStyledSystem>, ThemeType>;
+  transition?: ResponsiveValue<
+    Property.Transition<TLengthStyledSystem>,
+    ThemeType
+  >;
+  transitionProperty?: ResponsiveValue<Property.TransitionProperty, ThemeType>;
+  transitionDuration?: ResponsiveValue<
+    Property.TransitionDuration<TLengthStyledSystem>,
+    ThemeType
+  >;
+  transitionTiming?: ResponsiveValue<
+    Property.TransitionTimingFunction,
+    ThemeType
+  >;
+  transitionDelay?: ResponsiveValue<
+    Property.TransitionDelay<TLengthStyledSystem>,
+    ThemeType
+  >;
 }
 
 const config: SystemConfig = {
   transition: {
-    property: "transition",
-    scale: "transition.transition",
+    property: 'transition',
+    scale: 'transition.transition',
   },
   transitionProperty: {
-    property: "transitionProperty",
-    scale: "transition.property",
+    property: 'transitionProperty',
+    scale: 'transition.property',
   },
   transitionDuration: {
-    property: "transitionDuration",
-    scale: "transition.duration",
+    property: 'transitionDuration',
+    scale: 'transition.duration',
   },
   transitionTiming: {
-    property: "transitionTimingFunction",
-    scale: "transition.timingFn",
+    property: 'transitionTimingFunction',
+    scale: 'transition.timingFn',
   },
   transitionDelay: {
-    property: "transitionDelay",
-    scale: "transition.delay",
+    property: 'transitionDelay',
+    scale: 'transition.delay',
   },
 };
 

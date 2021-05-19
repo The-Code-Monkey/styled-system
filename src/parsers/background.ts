@@ -1,46 +1,69 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { Property } from 'csstype';
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
 
 export interface BackgroundProps<ThemeType extends Theme = RequiredTheme> {
-  background?: ResponsiveValue<CSS.Property.Background<TLengthStyledSystem>, ThemeType>;
-  bg?: ResponsiveValue<CSS.Property.Background<TLengthStyledSystem>, ThemeType>;
-  backgroundImage?: ResponsiveValue<CSS.Property.BackgroundImage, ThemeType>;
-  bgImage?: ResponsiveValue<CSS.Property.BackgroundImage, ThemeType>;
-  backgroundClip?: ResponsiveValue<CSS.Property.BackgroundClip, ThemeType>;
-  bgClip?: ResponsiveValue<CSS.Property.BackgroundClip, ThemeType>;
-  backgroundSize?: ResponsiveValue<CSS.Property.BackgroundSize<TLengthStyledSystem>, ThemeType>;
-  bgSize?: ResponsiveValue<CSS.Property.BackgroundSize<TLengthStyledSystem>, ThemeType>;
-  backgroundPosition?: ResponsiveValue<CSS.Property.BackgroundPosition<TLengthStyledSystem>, ThemeType>;
-  bgPosition?: ResponsiveValue<CSS.Property.BackgroundPosition<TLengthStyledSystem>, ThemeType>;
-  backgroundRepeat?: ResponsiveValue<CSS.Property.BackgroundRepeat, ThemeType>;
-  bgRepeat?: ResponsiveValue<CSS.Property.BackgroundRepeat, ThemeType>;
-  backgroundAttachment?: ResponsiveValue<CSS.Property.BackgroundAttachment, ThemeType>;
-  bgAttachment?: ResponsiveValue<CSS.Property.BackgroundAttachment, ThemeType>;
+  background?: ResponsiveValue<
+    Property.Background<TLengthStyledSystem>,
+    ThemeType
+  >;
+  bg?: ResponsiveValue<Property.Background<TLengthStyledSystem>, ThemeType>;
+  backgroundImage?: ResponsiveValue<Property.BackgroundImage, ThemeType>;
+  bgImage?: ResponsiveValue<Property.BackgroundImage, ThemeType>;
+  backgroundClip?: ResponsiveValue<Property.BackgroundClip, ThemeType>;
+  bgClip?: ResponsiveValue<Property.BackgroundClip, ThemeType>;
+  backgroundSize?: ResponsiveValue<
+    Property.BackgroundSize<TLengthStyledSystem>,
+    ThemeType
+  >;
+  bgSize?: ResponsiveValue<
+    Property.BackgroundSize<TLengthStyledSystem>,
+    ThemeType
+  >;
+  backgroundPosition?: ResponsiveValue<
+    Property.BackgroundPosition<TLengthStyledSystem>,
+    ThemeType
+  >;
+  bgPosition?: ResponsiveValue<
+    Property.BackgroundPosition<TLengthStyledSystem>,
+    ThemeType
+  >;
+  backgroundRepeat?: ResponsiveValue<Property.BackgroundRepeat, ThemeType>;
+  bgRepeat?: ResponsiveValue<Property.BackgroundRepeat, ThemeType>;
+  backgroundAttachment?: ResponsiveValue<
+    Property.BackgroundAttachment,
+    ThemeType
+  >;
+  bgAttachment?: ResponsiveValue<Property.BackgroundAttachment, ThemeType>;
 }
 
 const config: SystemConfig = {
   background: {
-    property: "background",
-    scale: "colors",
+    property: 'background',
+    scale: 'colors',
   },
   backgroundImage: {
-    property: "backgroundImage",
+    property: 'backgroundImage',
   },
   backgroundClip: {
-    property: "backgroundClip",
+    property: 'backgroundClip',
   },
   backgroundSize: {
-    property: "backgroundSize",
+    property: 'backgroundSize',
   },
   backgroundPosition: {
-    property: "backgroundPosition",
+    property: 'backgroundPosition',
   },
   backgroundRepeat: {
-    property: "backgroundRepeat",
+    property: 'backgroundRepeat',
   },
   backgroundAttachment: {
-    property: "backgroundAttachment",
+    property: 'backgroundAttachment',
   },
 };
 

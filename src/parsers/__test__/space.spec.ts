@@ -1,31 +1,31 @@
-import { space } from "../space";
+import { space } from '../space';
 
-describe("space", () => {
-  it("should return style objects", () => {
-    const styles = space({ m: "4px" });
+describe('space', () => {
+  it('should return style objects', () => {
+    const styles = space({ m: '4px' });
 
-    expect(styles).toEqual({ margin: "4px" });
+    expect(styles).toEqual({ margin: '4px' });
   });
 
-  it("should return 0 values", () => {
+  it('should return 0 values', () => {
     const styles = space({ m: 0 });
 
     expect(styles).toEqual({ margin: 0 });
   });
 
-  it("should return negative pixel values", () => {
+  it('should return negative pixel values', () => {
     const styles = space({ m: -2 });
 
     expect(styles).toEqual({ margin: -8 });
   });
 
-  it("should return negative em values", () => {
-    const styles = space({ m: "-16em" });
+  it('should return negative em values', () => {
+    const styles = space({ m: '-16em' });
 
-    expect(styles).toEqual({ margin: "-16em" });
+    expect(styles).toEqual({ margin: '-16em' });
   });
 
-  it("should return negative theme values", () => {
+  it('should return negative theme values', () => {
     const styles = space({
       theme: {
         space: [0, 4, 8],
@@ -36,30 +36,30 @@ describe("space", () => {
     expect(styles).toEqual({ margin: -8 });
   });
 
-  it("should return positive theme values", () => {
+  it('should return positive theme values', () => {
     const styles = space({
       theme: {
-        space: [0, "1em", "2em"],
+        space: [0, '1em', '2em'],
       },
       m: 2,
     });
 
-    expect(styles).toEqual({ margin: "2em" });
+    expect(styles).toEqual({ margin: '2em' });
   });
 
-  it("should return responsive values", () => {
+  it('should return responsive values', () => {
     const styles = space({
       m: [0, 2, 3],
     });
 
     expect(styles).toEqual({
       margin: 0,
-      "@media screen and (min-width: 40em)": { margin: 8 },
-      "@media screen and (min-width: 52em)": { margin: 16 },
+      '@media screen and (min-width: 40em)': { margin: 8 },
+      '@media screen and (min-width: 52em)': { margin: 16 },
     });
   });
 
-  it("should return aliased values", () => {
+  it('should return aliased values', () => {
     const styles = space({
       px: 2,
     });
@@ -67,52 +67,52 @@ describe("space", () => {
     expect(styles).toEqual({ paddingLeft: 8, paddingRight: 8 });
   });
 
-  it("should return string values from theme", () => {
+  it('should return string values from theme', () => {
     const styles = space({
       theme: {
-        space: [0, "1em"],
+        space: [0, '1em'],
       },
       padding: 1,
     });
 
-    expect(styles).toEqual({ padding: "1em" });
+    expect(styles).toEqual({ padding: '1em' });
   });
 
-  it("should return negative string values from theme", () => {
+  it('should return negative string values from theme', () => {
     const styles = space({
       theme: {
-        space: [0, "1em"],
+        space: [0, '1em'],
       },
       margin: -1,
     });
 
-    expect(styles).toEqual({ margin: "-1em" });
+    expect(styles).toEqual({ margin: '-1em' });
   });
 
-  it("should return values from theme object", () => {
+  it('should return values from theme object', () => {
     const styles = space({
       theme: {
         space: { sm: 1 },
       },
-      margin: "sm",
+      margin: 'sm',
     });
 
     expect(styles).toEqual({ margin: 1 });
   });
 
-  it("should pl prop sets paddingLeft", () => {
+  it('should pl prop sets paddingLeft', () => {
     const styles = space({ pl: 2 });
 
     expect(styles).toEqual({ paddingLeft: 8 });
   });
 
-  it("should pl prop sets paddingLeft 0", () => {
+  it('should pl prop sets paddingLeft 0', () => {
     const styles = space({ pl: 0 });
 
     expect(styles).toEqual({ paddingLeft: 0 });
   });
 
-  it("should px prop overrides pl prop", () => {
+  it('should px prop overrides pl prop', () => {
     const styles = space({
       pl: 1,
       px: 2,
@@ -121,7 +121,7 @@ describe("space", () => {
     expect(styles).toEqual({ paddingLeft: 8, paddingRight: 8 });
   });
 
-  it("should py prop overrides pb prop", () => {
+  it('should py prop overrides pb prop', () => {
     const styles = space({
       pb: 1,
       py: 2,
@@ -130,7 +130,7 @@ describe("space", () => {
     expect(styles).toEqual({ paddingTop: 8, paddingBottom: 8 });
   });
 
-  it("should mx prop overrides mr prop", () => {
+  it('should mx prop overrides mr prop', () => {
     const styles = space({
       mr: 1,
       mx: 2,
@@ -138,7 +138,7 @@ describe("space", () => {
     expect(styles).toEqual({ marginLeft: 8, marginRight: 8 });
   });
 
-  it("should my prop overrides mt prop", () => {
+  it('should my prop overrides mt prop', () => {
     const styles = space({
       mt: 1,
       my: 2,
@@ -147,7 +147,7 @@ describe("space", () => {
     expect(styles).toEqual({ marginTop: 8, marginBottom: 8 });
   });
 
-  it("should margin overrides m prop", () => {
+  it('should margin overrides m prop', () => {
     const styles = space({
       m: 1,
       margin: 2,
@@ -156,7 +156,7 @@ describe("space", () => {
     expect(styles).toEqual({ margin: 8 });
   });
 
-  it("should handle margin with no theme", () => {
+  it('should handle margin with no theme', () => {
     const styles = space({
       mt: 12,
     });
@@ -166,7 +166,7 @@ describe("space", () => {
     });
   });
 
-  it("should handle overriding margin/padding shortcut props", () => {
+  it('should handle overriding margin/padding shortcut props', () => {
     const styles = space({
       m: 4,
       mx: 3,
@@ -186,7 +186,7 @@ describe("space", () => {
     });
   });
 
-  it("should return single directions that override axes", () => {
+  it('should return single directions that override axes', () => {
     const styles = space({
       mx: 3,
       ml: 1,
@@ -204,7 +204,7 @@ describe("space", () => {
     });
   });
 
-  it("should support object values", () => {
+  it('should support object values', () => {
     const styles = space({
       m: {
         _: 0,
@@ -215,21 +215,21 @@ describe("space", () => {
 
     expect(styles).toEqual({
       margin: 0,
-      "@media screen and (min-width: 40em)": {
+      '@media screen and (min-width: 40em)': {
         margin: 4,
       },
-      "@media screen and (min-width: 52em)": {
+      '@media screen and (min-width: 52em)': {
         margin: 8,
       },
     });
   });
 
-  it("should support non-array breakpoints", () => {
+  it('should support non-array breakpoints', () => {
     const theme = {
       disableStyledSystemCache: true,
       breakpoints: {
-        small: "40em",
-        medium: "52em",
+        small: '40em',
+        medium: '52em',
       },
     };
 
@@ -247,11 +247,11 @@ describe("space", () => {
 
     expect(styles).toEqual({
       margin: 0,
-      "@media screen and (min-width: 40em)": {
+      '@media screen and (min-width: 40em)': {
         margin: 4,
         padding: 8,
       },
-      "@media screen and (min-width: 52em)": {
+      '@media screen and (min-width: 52em)': {
         margin: 8,
       },
     });

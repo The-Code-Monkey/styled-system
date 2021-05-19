@@ -1,6 +1,6 @@
-import { compose, get, Scale, system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from "../types";
-import { defaultTheme, isNumber } from "../utils";
+import { compose, get, Scale, system, SystemConfig } from '../core';
+import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
+import { defaultTheme, isNumber } from '../utils';
 
 export function getMargin(scale?: Scale, n?: any) {
   if (!isNumber(n)) {
@@ -18,7 +18,10 @@ export function getMargin(scale?: Scale, n?: any) {
   return value * (isNegative ? -1 : 1);
 }
 
-export interface MarginProps<ThemeType extends Theme = RequiredTheme, TVal = ThemeValue<"space", ThemeType>> {
+export interface MarginProps<
+  ThemeType extends Theme = RequiredTheme,
+  TVal = ThemeValue<'space', ThemeType>
+> {
   /** Margin on top, left, bottom and right */
   m?: ResponsiveValue<TVal, ThemeType>;
   /** Margin on top, left, bottom and right */
@@ -67,68 +70,68 @@ export interface MarginProps<ThemeType extends Theme = RequiredTheme, TVal = The
 
 const marginConfig: SystemConfig = {
   margin: {
-    property: "margin",
-    scale: "space",
+    property: 'margin',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginTop: {
-    property: "marginTop",
-    scale: "space",
+    property: 'marginTop',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginRight: {
-    property: "marginRight",
-    scale: "space",
+    property: 'marginRight',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginBottom: {
-    property: "marginBottom",
-    scale: "space",
+    property: 'marginBottom',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginLeft: {
-    property: "marginLeft",
-    scale: "space",
+    property: 'marginLeft',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginX: {
-    properties: ["marginLeft", "marginRight"],
-    scale: "space",
+    properties: ['marginLeft', 'marginRight'],
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginY: {
-    properties: ["marginTop", "marginBottom"],
-    scale: "space",
+    properties: ['marginTop', 'marginBottom'],
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginBlockStart: {
-    property: "marginBlockStart",
-    scale: "space",
+    property: 'marginBlockStart',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginBlockEnd: {
-    property: "marginBlockEnd",
-    scale: "space",
+    property: 'marginBlockEnd',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginInlineStart: {
-    property: "marginInlineStart",
-    scale: "space",
+    property: 'marginInlineStart',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   marginInlineEnd: {
-    property: "marginInlineEnd",
-    scale: "space",
+    property: 'marginInlineEnd',
+    scale: 'space',
     transform: getMargin,
     defaultScale: defaultTheme.space,
   },
@@ -148,7 +151,10 @@ marginConfig.me = marginConfig.marginInlineEnd;
 
 export const margin = system(marginConfig);
 
-export interface PaddingProps<ThemeType extends Theme = RequiredTheme, TVal = ThemeValue<"space", ThemeType>> {
+export interface PaddingProps<
+  ThemeType extends Theme = RequiredTheme,
+  TVal = ThemeValue<'space', ThemeType>
+> {
   /** Padding on top, left, bottom and right */
   p?: ResponsiveValue<TVal, ThemeType>;
   /** Padding on top, left, bottom and right */
@@ -197,58 +203,58 @@ export interface PaddingProps<ThemeType extends Theme = RequiredTheme, TVal = Th
 
 const paddingConfig: SystemConfig = {
   padding: {
-    property: "padding",
-    scale: "space",
+    property: 'padding',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingTop: {
-    property: "paddingTop",
-    scale: "space",
+    property: 'paddingTop',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingRight: {
-    property: "paddingRight",
-    scale: "space",
+    property: 'paddingRight',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingBottom: {
-    property: "paddingBottom",
-    scale: "space",
+    property: 'paddingBottom',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingLeft: {
-    property: "paddingLeft",
-    scale: "space",
+    property: 'paddingLeft',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingX: {
-    properties: ["paddingLeft", "paddingRight"],
-    scale: "space",
+    properties: ['paddingLeft', 'paddingRight'],
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingY: {
-    properties: ["paddingTop", "paddingBottom"],
-    scale: "space",
+    properties: ['paddingTop', 'paddingBottom'],
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingBlockStart: {
-    property: "paddingBlockStart",
-    scale: "space",
+    property: 'paddingBlockStart',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingBlockEnd: {
-    property: "paddingBlockEnd",
-    scale: "space",
+    property: 'paddingBlockEnd',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingInlineStart: {
-    property: "paddingInlineStart",
-    scale: "space",
+    property: 'paddingInlineStart',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   paddingInlineEnd: {
-    property: "paddingInlineEnd",
-    scale: "space",
+    property: 'paddingInlineEnd',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
 };
@@ -267,8 +273,9 @@ paddingConfig.pe = paddingConfig.paddingInlineEnd;
 
 export const padding = system(paddingConfig);
 
-export interface SpaceProps<ThemeType extends Theme = RequiredTheme, TVal = ThemeValue<"space", ThemeType>>
-  extends MarginProps<ThemeType, TVal>,
-    PaddingProps<ThemeType, TVal> {}
+export interface SpaceProps<
+  ThemeType extends Theme = RequiredTheme,
+  TVal = ThemeValue<'space', ThemeType>
+> extends MarginProps<ThemeType, TVal>, PaddingProps<ThemeType, TVal> {}
 
 export const space = compose(margin, padding);

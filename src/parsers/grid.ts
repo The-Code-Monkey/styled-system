@@ -1,83 +1,109 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
-import { defaultTheme } from "../utils";
+import { Property } from 'csstype';
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
+import { defaultTheme } from '../utils';
 
 export interface GridProps<ThemeType extends Theme = RequiredTheme> {
-  gridGap?: ResponsiveValue<CSS.Property.GridGap<TLengthStyledSystem>, ThemeType>;
-  gap?: ResponsiveValue<CSS.Property.Gap<TLengthStyledSystem>, ThemeType>;
-  gridRowGap?: ResponsiveValue<CSS.Property.GridRowGap<TLengthStyledSystem>, ThemeType>;
-  rowGap?: ResponsiveValue<CSS.Property.RowGap<TLengthStyledSystem>, ThemeType>;
-  gridColumnGap?: ResponsiveValue<CSS.Property.GridColumnGap<TLengthStyledSystem>, ThemeType>;
-  columnGap?: ResponsiveValue<CSS.Property.ColumnGap<TLengthStyledSystem>, ThemeType>;
-  gridRow?: ResponsiveValue<CSS.Property.GridRow, ThemeType>;
-  gridColumn?: ResponsiveValue<CSS.Property.GridColumn, ThemeType>;
-  gridAutoFlow?: ResponsiveValue<CSS.Property.GridAutoFlow, ThemeType>;
-  gridAutoRows?: ResponsiveValue<CSS.Property.GridAutoRows<TLengthStyledSystem>, ThemeType>;
-  gridAutoColumns?: ResponsiveValue<CSS.Property.GridAutoColumns<TLengthStyledSystem>, ThemeType>;
-  gridTemplateRows?: ResponsiveValue<CSS.Property.GridTemplateRows<TLengthStyledSystem>, ThemeType>;
-  gridTemplateColumns?: ResponsiveValue<CSS.Property.GridTemplateColumns<TLengthStyledSystem>, ThemeType>;
-  gridTemplateAreas?: ResponsiveValue<CSS.Property.GridTemplateAreas, ThemeType>;
-  gridArea?: ResponsiveValue<CSS.Property.GridArea, ThemeType>;
+  gridGap?: ResponsiveValue<Property.GridGap<TLengthStyledSystem>, ThemeType>;
+  gap?: ResponsiveValue<Property.Gap<TLengthStyledSystem>, ThemeType>;
+  gridRowGap?: ResponsiveValue<
+    Property.GridRowGap<TLengthStyledSystem>,
+    ThemeType
+  >;
+  rowGap?: ResponsiveValue<Property.RowGap<TLengthStyledSystem>, ThemeType>;
+  gridColumnGap?: ResponsiveValue<
+    Property.GridColumnGap<TLengthStyledSystem>,
+    ThemeType
+  >;
+  columnGap?: ResponsiveValue<
+    Property.ColumnGap<TLengthStyledSystem>,
+    ThemeType
+  >;
+  gridRow?: ResponsiveValue<Property.GridRow, ThemeType>;
+  gridColumn?: ResponsiveValue<Property.GridColumn, ThemeType>;
+  gridAutoFlow?: ResponsiveValue<Property.GridAutoFlow, ThemeType>;
+  gridAutoRows?: ResponsiveValue<
+    Property.GridAutoRows<TLengthStyledSystem>,
+    ThemeType
+  >;
+  gridAutoColumns?: ResponsiveValue<
+    Property.GridAutoColumns<TLengthStyledSystem>,
+    ThemeType
+  >;
+  gridTemplateRows?: ResponsiveValue<
+    Property.GridTemplateRows<TLengthStyledSystem>,
+    ThemeType
+  >;
+  gridTemplateColumns?: ResponsiveValue<
+    Property.GridTemplateColumns<TLengthStyledSystem>,
+    ThemeType
+  >;
+  gridTemplateAreas?: ResponsiveValue<Property.GridTemplateAreas, ThemeType>;
+  gridArea?: ResponsiveValue<Property.GridArea, ThemeType>;
 }
 
 const config: SystemConfig = {
   gridGap: {
-    property: "gridGap",
-    scale: "space",
+    property: 'gridGap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   gap: {
-    property: "gap",
-    scale: "space",
+    property: 'gap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   gridRowGap: {
-    property: "gridRowGap",
-    scale: "space",
+    property: 'gridRowGap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   rowGap: {
-    property: "rowGap",
-    scale: "space",
+    property: 'rowGap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   gridColumnGap: {
-    property: "gridColumnGap",
-    scale: "space",
+    property: 'gridColumnGap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   columnGap: {
-    property: "columnGap",
-    scale: "space",
+    property: 'columnGap',
+    scale: 'space',
     defaultScale: defaultTheme.space,
   },
   gridRow: {
-    property: "gridRow",
+    property: 'gridRow',
   },
   gridColumn: {
-    property: "gridColumn",
+    property: 'gridColumn',
   },
   gridAutoFlow: {
-    property: "gridAutoFlow",
+    property: 'gridAutoFlow',
   },
   gridAutoRows: {
-    property: "gridAutoRows",
+    property: 'gridAutoRows',
   },
   gridAutoColumns: {
-    property: "gridAutoColumns",
+    property: 'gridAutoColumns',
   },
   gridTemplateRows: {
-    property: "gridTemplateRows",
+    property: 'gridTemplateRows',
   },
   gridTemplateColumns: {
-    property: "gridTemplateColumns",
+    property: 'gridTemplateColumns',
   },
   gridTemplateAreas: {
-    property: "gridTemplateAreas",
+    property: 'gridTemplateAreas',
   },
   gridArea: {
-    property: "gridArea",
+    property: 'gridArea',
   },
 };
 
