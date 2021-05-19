@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.1.0",
-    "@emotion/memoize": "^0.7.5"
+    "@emotion/memoize": "^0.7.5",
+    "csstype": "^3.0.8"
   }
 }
