@@ -1,12 +1,18 @@
-import { defaultBreakpoints } from "../utils";
-import { Scale } from "./types";
-import { get, merge, sort } from "./util";
+import { defaultBreakpoints } from '../utils';
+import { Scale } from './types';
+import { get, merge, sort } from './util';
 
 function createMediaQuery(n: string) {
   return `@media screen and (min-width: ${n})`;
 }
 
-function parseResponsiveStyles(mediaQueries: Array<string | null>, sx: any, scale: Scale, raw: Array<any>, props: any) {
+function parseResponsiveStyles(
+  mediaQueries: Array<string | null>,
+  sx: any,
+  scale: Scale,
+  raw: Array<any>,
+  props: any
+) {
   let styles: any = {};
 
   raw.slice(0, mediaQueries.length).forEach((value, i) => {
@@ -28,12 +34,12 @@ function parseResponsiveObject(
   sx: any,
   scale: Scale,
   raw: Record<string, unknown>,
-  props: any,
+  props: any
 ) {
   let styles: any = {};
 
-  Object.keys(raw).forEach((key) => {
-    const breakpoint = breakpoints[key as unknown as number]; // FIXME?
+  Object.keys(raw).forEach(key => {
+    const breakpoint = breakpoints[(key as unknown) as number]; // FIXME?
     const value = raw[key];
     const style = sx(value, scale, props);
 
@@ -69,7 +75,7 @@ export function createParser(config: any) {
     let shouldSort = false;
     const isCacheDisabled = props.theme?.disableStyledSystemCache;
 
-    Object.keys(props).forEach((key) => {
+    Object.keys(props).forEach(key => {
       if (!config[key]) {
         return;
       }
@@ -78,20 +84,36 @@ export function createParser(config: any) {
       const raw = props[key];
       const scale = get(props.theme, sx.scale, sx.defaults);
 
-      if (typeof raw === "object") {
+      if (typeof raw === 'object') {
         cache.breakpoints =
-          (!isCacheDisabled && cache.breakpoints) || get(props.theme, "breakpoints", defaultBreakpoints);
+          (!isCacheDisabled && cache.breakpoints) ||
+          get(props.theme, 'breakpoints', defaultBreakpoints);
 
         if (Array.isArray(raw)) {
-          cache.media = (!isCacheDisabled && cache.media) || [null, ...(cache.breakpoints ?? []).map(createMediaQuery)];
+          cache.media = (!isCacheDisabled && cache.media) || [
+            null,
+            ...(cache.breakpoints ?? []).map(createMediaQuery),
+          ];
 
-          styles = merge(styles, parseResponsiveStyles(cache.media, sx, scale, raw, props));
+          styles = merge(
+            styles,
+            parseResponsiveStyles(cache.media, sx, scale, raw, props)
+          );
 
           return;
         }
 
         if (raw !== null) {
-          styles = merge(styles, parseResponsiveObject(cache.breakpoints ?? [], sx, scale, raw, props));
+          styles = merge(
+            styles,
+            parseResponsiveObject(
+              cache.breakpoints ?? [],
+              sx,
+              scale,
+              raw,
+              props
+            )
+          );
 
           shouldSort = true;
         }
@@ -113,10 +135,12 @@ export function createParser(config: any) {
   parser.propNames = Object.keys(config);
   parser.cache = cache;
 
-  const keys = Object.keys(config).filter((k) => !["config", "propNames", "cache"].includes(k));
+  const keys = Object.keys(config).filter(
+    k => !['config', 'propNames', 'cache'].includes(k)
+  );
 
   if (keys.length > 1) {
-    keys.forEach((key) => {
+    keys.forEach(key => {
       parser[key] = createParser({ [key]: config[key] });
     });
   }

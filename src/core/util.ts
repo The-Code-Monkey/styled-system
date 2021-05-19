@@ -1,5 +1,9 @@
-export function get<T = any>(obj: any, path: string | number, fallback?: any): T {
-  const key = typeof path === "string" ? path.split(".") : [path];
+export function get<T = any>(
+  obj: any,
+  path: string | number,
+  fallback?: any
+): T {
+  const key = typeof path === 'string' ? path.split('.') : [path];
 
   let result: any = obj;
 
@@ -17,8 +21,8 @@ export function get<T = any>(obj: any, path: string | number, fallback?: any): T
 export function merge(a: Record<string, unknown>, b: Record<string, unknown>) {
   const result = { ...a, ...b };
 
-  Object.keys(result).forEach((key) => {
-    if (!a[key] || typeof b[key] !== "object") {
+  Object.keys(result).forEach(key => {
+    if (!a[key] || typeof b[key] !== 'object') {
       return;
     }
 
@@ -32,8 +36,10 @@ export function sort(obj: Record<string, unknown>) {
   const result: any = {};
 
   Object.keys(obj)
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }))
-    .forEach((key) => {
+    .sort((a, b) =>
+      a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+    )
+    .forEach(key => {
       result[key] = obj[key];
     });
 

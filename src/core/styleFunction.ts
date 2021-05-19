@@ -1,21 +1,32 @@
-import * as CSS from "csstype";
-import { Scale } from "./types";
-import { get } from "./util";
+import { Properties } from 'csstype';
+
+import { Scale } from './types';
+import { get } from './util';
 
 export interface StyleFn {
   (value: any, scale: Scale | undefined, props: any): any;
   properties?: string[];
   property?: string;
   scale?: string;
-  transform?: (scale: Scale | undefined, path: string | number, fallback?: any, props?: any) => any;
+  transform?: (
+    scale: Scale | undefined,
+    path: string | number,
+    fallback?: any,
+    props?: any
+  ) => any;
   defaults?: Scale;
 }
 
 export interface CreateStyleFunctionArgs {
-  property?: keyof CSS.Properties;
-  properties?: Array<keyof CSS.Properties>;
+  property?: keyof Properties;
+  properties?: Array<keyof Properties>;
   scale?: string;
-  transform?: (scale: Scale | undefined, path: string | number, fallback?: any, props?: any) => any;
+  transform?: (
+    scale: Scale | undefined,
+    path: string | number,
+    fallback?: any,
+    props?: any
+  ) => any;
   defaultScale?: Scale;
 }
 
@@ -29,7 +40,7 @@ export function createStyleFunction({
   const p = properties || (property ? [property] : []);
 
   const styleFn: StyleFn = (_value, _scale, _props) => {
-    const result: { [key in keyof CSS.Properties]: any } = {};
+    const result: { [key in keyof Properties]: any } = {};
 
     const value = transform(_scale, _value, _value, _props);
 
@@ -37,7 +48,7 @@ export function createStyleFunction({
       return undefined;
     }
 
-    p.forEach((prop) => {
+    p.forEach(prop => {
       result[prop] = value;
     });
 
@@ -47,7 +58,7 @@ export function createStyleFunction({
   styleFn.properties = properties;
   styleFn.property = property;
   styleFn.scale = scale;
-  styleFn.transform = transform.name !== "get" ? transform : undefined;
+  styleFn.transform = transform.name !== 'get' ? transform : undefined;
   styleFn.defaults = defaultScale;
 
   return styleFn;

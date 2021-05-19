@@ -1,51 +1,75 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { Property } from 'csstype';
+
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
 
 export interface AnimationProps<ThemeType extends Theme = RequiredTheme> {
-  animation?: ResponsiveValue<CSS.Property.Animation<TLengthStyledSystem>, ThemeType>;
-  animationName?: ResponsiveValue<CSS.Property.AnimationName, ThemeType>;
-  animationDuration?: ResponsiveValue<CSS.Property.AnimationDuration<TLengthStyledSystem>, ThemeType>;
-  animationTimingFunction?: ResponsiveValue<CSS.Property.AnimationTimingFunction, ThemeType>;
-  animationDelay?: ResponsiveValue<CSS.Property.AnimationDelay<TLengthStyledSystem>, ThemeType>;
-  animationIterationCount?: ResponsiveValue<CSS.Property.AnimationIterationCount, ThemeType>;
-  animationDirection?: ResponsiveValue<CSS.Property.AnimationDuration<TLengthStyledSystem>, ThemeType>;
-  animationFillMode?: ResponsiveValue<CSS.Property.AnimationFillMode, ThemeType>;
-  animationPlayState?: ResponsiveValue<CSS.Property.AnimationPlayState, ThemeType>;
+  animation?: ResponsiveValue<
+    Property.Animation<TLengthStyledSystem>,
+    ThemeType
+  >;
+  animationName?: ResponsiveValue<Property.AnimationName, ThemeType>;
+  animationDuration?: ResponsiveValue<
+    Property.AnimationDuration<TLengthStyledSystem>,
+    ThemeType
+  >;
+  animationTimingFunction?: ResponsiveValue<
+    Property.AnimationTimingFunction,
+    ThemeType
+  >;
+  animationDelay?: ResponsiveValue<
+    Property.AnimationDelay<TLengthStyledSystem>,
+    ThemeType
+  >;
+  animationIterationCount?: ResponsiveValue<
+    Property.AnimationIterationCount,
+    ThemeType
+  >;
+  animationDirection?: ResponsiveValue<
+    Property.AnimationDuration<TLengthStyledSystem>,
+    ThemeType
+  >;
+  animationFillMode?: ResponsiveValue<Property.AnimationFillMode, ThemeType>;
+  animationPlayState?: ResponsiveValue<Property.AnimationPlayState, ThemeType>;
 }
 
 const config: SystemConfig = {
   animation: {
-    property: "animation",
-    scale: "animation.animation",
+    property: 'animation',
+    scale: 'animation.animation',
   },
   animationName: {
-    property: "animationName",
-    scale: "animation.name",
+    property: 'animationName',
+    scale: 'animation.name',
   },
   animationDuration: {
-    property: "animationDuration",
-    scale: "animation.duration",
+    property: 'animationDuration',
+    scale: 'animation.duration',
   },
   animationTimingFunction: {
-    property: "animationTimingFunction",
-    scale: "animation.timingFn",
+    property: 'animationTimingFunction',
+    scale: 'animation.timingFn',
   },
   animationDelay: {
-    property: "animationDelay",
-    scale: "animation.delay",
+    property: 'animationDelay',
+    scale: 'animation.delay',
   },
   animationIterationCount: {
-    property: "animationIterationCount",
+    property: 'animationIterationCount',
   },
   animationDirection: {
-    property: "animationDirection",
+    property: 'animationDirection',
   },
   animationFillMode: {
-    property: "animationFillMode",
+    property: 'animationFillMode',
   },
   animationPlayState: {
-    property: "animationPlayState",
+    property: 'animationPlayState',
   },
 };
 

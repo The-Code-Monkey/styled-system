@@ -1,6 +1,11 @@
-import * as CSS from "csstype";
-import { createParser, Parser } from "./parser";
-import { createStyleFunction, CreateStyleFunctionArgs, StyleFn } from "./styleFunction";
+import { Properties } from 'csstype';
+
+import { createParser, Parser } from './parser';
+import {
+  createStyleFunction,
+  CreateStyleFunctionArgs,
+  StyleFn,
+} from './styleFunction';
 
 export interface SystemConfig {
   [key: string]: boolean | CreateStyleFunctionArgs;
@@ -9,7 +14,7 @@ export interface SystemConfig {
 export function system(args: SystemConfig = {}): Parser {
   const config: { [key: string]: StyleFn } = {};
 
-  Object.keys(args).forEach((key) => {
+  Object.keys(args).forEach(key => {
     const argConfig = args[key];
 
     if (argConfig === false) {
@@ -19,14 +24,14 @@ export function system(args: SystemConfig = {}): Parser {
     // shorthand definition
     if (argConfig === true) {
       config[key] = createStyleFunction({
-        property: key as keyof CSS.Properties,
+        property: key as keyof Properties,
         scale: key,
       });
 
       return;
     }
 
-    if (typeof argConfig === "function") {
+    if (typeof argConfig === 'function') {
       config[key] = argConfig;
       return;
     }
