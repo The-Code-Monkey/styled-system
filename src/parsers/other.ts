@@ -1,81 +1,90 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, ThemeValue, TLengthStyledSystem } from "../types";
+import { Property } from 'csstype';
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  ThemeValue,
+  TLengthStyledSystem,
+} from '../types';
 
 export interface OtherProps<ThemeType extends Theme = RequiredTheme> {
-  appearance?: ResponsiveValue<CSS.Property.Appearance, ThemeType>;
-  transform?: ResponsiveValue<CSS.Property.Transform, ThemeType>;
-  transformOrigin?: ResponsiveValue<CSS.Property.TransformOrigin<TLengthStyledSystem>, ThemeType>;
-  visibility?: ResponsiveValue<CSS.Property.Visibility, ThemeType>;
-  userSelect?: ResponsiveValue<CSS.Property.UserSelect, ThemeType>;
-  pointerEvents?: ResponsiveValue<CSS.Property.PointerEvents, ThemeType>;
-  overflowWrap?: ResponsiveValue<CSS.Property.OverflowWrap, ThemeType>;
-  boxSizing?: ResponsiveValue<CSS.Property.BoxSizing, ThemeType>;
-  cursor?: ResponsiveValue<CSS.Property.Cursor, ThemeType>;
-  resize?: ResponsiveValue<CSS.Property.Resize, ThemeType>;
-  objectFit?: ResponsiveValue<CSS.Property.ObjectFit, ThemeType>;
-  objectPosition?: ResponsiveValue<CSS.Property.ObjectPosition, ThemeType>;
-  float?: ResponsiveValue<CSS.Property.Float, ThemeType>;
-  fill?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
-  stroke?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
-  outline?: ResponsiveValue<CSS.Property.Outline, ThemeType>;
-  outlineColor?: ResponsiveValue<ThemeValue<"colors", ThemeType>, ThemeType>;
+  appearance?: ResponsiveValue<Property.Appearance, ThemeType>;
+  transform?: ResponsiveValue<Property.Transform, ThemeType>;
+  transformOrigin?: ResponsiveValue<
+    Property.TransformOrigin<TLengthStyledSystem>,
+    ThemeType
+  >;
+  visibility?: ResponsiveValue<Property.Visibility, ThemeType>;
+  userSelect?: ResponsiveValue<Property.UserSelect, ThemeType>;
+  pointerEvents?: ResponsiveValue<Property.PointerEvents, ThemeType>;
+  overflowWrap?: ResponsiveValue<Property.OverflowWrap, ThemeType>;
+  boxSizing?: ResponsiveValue<Property.BoxSizing, ThemeType>;
+  cursor?: ResponsiveValue<Property.Cursor, ThemeType>;
+  resize?: ResponsiveValue<Property.Resize, ThemeType>;
+  objectFit?: ResponsiveValue<Property.ObjectFit, ThemeType>;
+  objectPosition?: ResponsiveValue<Property.ObjectPosition, ThemeType>;
+  float?: ResponsiveValue<Property.Float, ThemeType>;
+  fill?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
+  stroke?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
+  outline?: ResponsiveValue<Property.Outline, ThemeType>;
+  outlineColor?: ResponsiveValue<ThemeValue<'colors', ThemeType>, ThemeType>;
 }
 
 const config: SystemConfig = {
   appearance: {
-    property: "appearance",
+    property: 'appearance',
   },
   transform: {
-    property: "transform",
+    property: 'transform',
   },
   transformOrigin: {
-    property: "transformOrigin",
+    property: 'transformOrigin',
   },
   visibility: {
-    property: "visibility",
+    property: 'visibility',
   },
   userSelect: {
-    property: "userSelect",
+    property: 'userSelect',
   },
   pointerEvents: {
-    property: "pointerEvents",
+    property: 'pointerEvents',
   },
   overflowWrap: {
-    property: "overflowWrap",
+    property: 'overflowWrap',
   },
   boxSizing: {
-    property: "boxSizing",
+    property: 'boxSizing',
   },
   cursor: {
-    property: "cursor",
+    property: 'cursor',
   },
   resize: {
-    property: "resize",
+    property: 'resize',
   },
   objectFit: {
-    property: "objectFit",
+    property: 'objectFit',
   },
   objectPosition: {
-    property: "objectPosition",
+    property: 'objectPosition',
   },
   float: {
-    property: "float",
+    property: 'float',
   },
   fill: {
-    property: "fill",
-    scale: "colors",
+    property: 'fill',
+    scale: 'colors',
   },
   stroke: {
-    property: "stroke",
-    scale: "colors",
+    property: 'stroke',
+    scale: 'colors',
   },
   outline: {
-    property: "outline",
+    property: 'outline',
   },
   outlineColor: {
-    property: "outlineColor",
-    scale: "colors",
+    property: 'outlineColor',
+    scale: 'colors',
   },
 };
 

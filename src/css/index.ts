@@ -1,20 +1,21 @@
-/* eslint-disable no-continue */
-
-import { get } from "../core";
-import { pseudoSelectors } from "../pseudo/selectors";
-import { CSSObject, Theme } from "../types";
-import { defaultBreakpoints, defaultTheme, isFunction } from "../utils";
-import { getParserDicts } from "./util";
+import { get } from '../core';
+import { pseudoSelectors } from '../pseudo/selectors';
+import { CSSObject, Theme } from '../types';
+import { defaultBreakpoints, defaultTheme, isFunction } from '../utils';
+import { getParserDicts } from './util';
 
 const { aliases, multiples, scales, transforms } = getParserDicts();
 
 function responsive(styles: any = {}) {
   return (theme: any) => {
     const result: any = {};
-    const breakpoints = get(theme, "breakpoints", defaultBreakpoints);
-    const mediaQueries = [null, ...breakpoints.map((n: any) => `@media screen and (min-width: ${n})`)];
+    const breakpoints = get(theme, 'breakpoints', defaultBreakpoints);
+    const mediaQueries = [
+      null,
+      ...breakpoints.map((n: any) => `@media screen and (min-width: ${n})`),
+    ];
 
-    Object.keys(styles).forEach((key) => {
+    Object.keys(styles).forEach(key => {
       const value = isFunction(styles[key]) ? styles[key](theme) : styles[key];
 
       if (value === null) {
@@ -54,16 +55,18 @@ export function css(args?: any) {
 
     const result: any = {};
 
-    const obj = typeof args === "function" ? args(theme) : args;
+    const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
 
-    Object.keys(styles).forEach((key) => {
+    Object.keys(styles).forEach(key => {
       const x = styles[key];
       const val = isFunction(x) ? x(theme) : x;
 
-      if (val && typeof val === "object") {
+      if (val && typeof val === 'object') {
         if (Object.keys(pseudoSelectors).includes(key)) {
-          result[pseudoSelectors[key as keyof typeof pseudoSelectors]] = css(val)(theme);
+          result[pseudoSelectors[key as keyof typeof pseudoSelectors]] = css(
+            val
+          )(theme);
           return;
         }
 
@@ -80,10 +83,10 @@ export function css(args?: any) {
       // when the val is a number and less than 0, resolve it from the theme
       // using its absolute value and then make the result a negative.
       // otherwise, just resolve the value.
-      if (typeof val === "number" && val < 0) {
+      if (typeof val === 'number' && val < 0) {
         const abs = Math.abs(val);
         const n = transform(scale, abs, abs);
-        value = typeof n === "string" ? `-${n}` : n * -1;
+        value = typeof n === 'string' ? `-${n}` : n * -1;
       } else {
         value = transform(scale, val, val);
       }

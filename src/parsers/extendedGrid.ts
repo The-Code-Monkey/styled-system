@@ -1,46 +1,47 @@
-import { compose, system, SystemConfig } from "../core";
-import { RequiredTheme, Theme } from "../types";
-import { grid, GridProps } from "./grid";
+import { compose, system, SystemConfig } from '../core';
+import { RequiredTheme, Theme } from '../types';
+import { grid, GridProps } from './grid';
 
-export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme> extends GridProps<ThemeType> {
-  row?: GridProps["gridRow"];
-  column?: GridProps["gridColumn"];
-  autoFlow?: GridProps["gridAutoFlow"];
-  autoRows?: GridProps["gridAutoRows"];
-  autoColumns?: GridProps["gridAutoColumns"];
-  templateRows?: GridProps["gridTemplateRows"];
-  templateColumns?: GridProps["gridTemplateColumns"];
-  templateAreas?: GridProps["gridTemplateAreas"];
-  area?: GridProps["gridArea"];
+export interface ExtendedGridProps<ThemeType extends Theme = RequiredTheme>
+  extends GridProps<ThemeType> {
+  row?: GridProps['gridRow'];
+  column?: GridProps['gridColumn'];
+  autoFlow?: GridProps['gridAutoFlow'];
+  autoRows?: GridProps['gridAutoRows'];
+  autoColumns?: GridProps['gridAutoColumns'];
+  templateRows?: GridProps['gridTemplateRows'];
+  templateColumns?: GridProps['gridTemplateColumns'];
+  templateAreas?: GridProps['gridTemplateAreas'];
+  area?: GridProps['gridArea'];
 }
 
 const extendedConfig: SystemConfig = {
   row: {
-    property: "gridRow",
+    property: 'gridRow',
   },
   column: {
-    property: "gridColumn",
+    property: 'gridColumn',
   },
   autoFlow: {
-    property: "gridAutoFlow",
+    property: 'gridAutoFlow',
   },
   autoRows: {
-    property: "gridAutoRows",
+    property: 'gridAutoRows',
   },
   autoColumns: {
-    property: "gridAutoColumns",
+    property: 'gridAutoColumns',
   },
   templateRows: {
-    property: "gridTemplateRows",
+    property: 'gridTemplateRows',
   },
   templateColumns: {
-    property: "gridTemplateColumns",
+    property: 'gridTemplateColumns',
   },
   templateAreas: {
-    property: "gridTemplateAreas",
+    property: 'gridTemplateAreas',
   },
   area: {
-    property: "gridArea",
+    property: 'gridArea',
   },
 };
 

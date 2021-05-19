@@ -1,78 +1,92 @@
-import * as CSS from "csstype";
-import { get, Scale, system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
-import { isNumber } from "../utils";
+import { Property } from 'csstype';
+import { get, Scale, system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
+import { isNumber } from '../utils';
 
 function getWidth(scale?: Scale, n?: any) {
   return get(scale, n, !isNumber(n) || n > 1 ? n : `${n * 100}%`);
 }
 
 export interface LayoutProps<ThemeType extends Theme = RequiredTheme> {
-  width?: ResponsiveValue<CSS.Property.Width<TLengthStyledSystem>, ThemeType>;
-  w?: ResponsiveValue<CSS.Property.Width<TLengthStyledSystem>, ThemeType>;
-  height?: ResponsiveValue<CSS.Property.Height<TLengthStyledSystem>, ThemeType>;
-  h?: ResponsiveValue<CSS.Property.Height<TLengthStyledSystem>, ThemeType>;
-  minWidth?: ResponsiveValue<CSS.Property.MinWidth<TLengthStyledSystem>, ThemeType>;
-  minW?: ResponsiveValue<CSS.Property.MinWidth<TLengthStyledSystem>, ThemeType>;
-  maxWidth?: ResponsiveValue<CSS.Property.MaxWidth<TLengthStyledSystem>, ThemeType>;
-  maxW?: ResponsiveValue<CSS.Property.MaxWidth<TLengthStyledSystem>, ThemeType>;
-  minHeight?: ResponsiveValue<CSS.Property.MinHeight<TLengthStyledSystem>, ThemeType>;
-  minH?: ResponsiveValue<CSS.Property.MinHeight<TLengthStyledSystem>, ThemeType>;
-  maxHeight?: ResponsiveValue<CSS.Property.MaxHeight<TLengthStyledSystem>, ThemeType>;
-  maxH?: ResponsiveValue<CSS.Property.MaxHeight<TLengthStyledSystem>, ThemeType>;
-  display?: ResponsiveValue<CSS.Property.Display, ThemeType>;
-  d?: ResponsiveValue<CSS.Property.Display, ThemeType>;
-  size?: ResponsiveValue<CSS.Property.Height<TLengthStyledSystem>, ThemeType>;
-  verticalAlign?: ResponsiveValue<CSS.Property.VerticalAlign<TLengthStyledSystem>, ThemeType>;
-  overflow?: ResponsiveValue<CSS.Property.Overflow, ThemeType>;
-  overflowX?: ResponsiveValue<CSS.Property.OverflowX, ThemeType>;
-  overflowY?: ResponsiveValue<CSS.Property.OverflowY, ThemeType>;
+  width?: ResponsiveValue<Property.Width<TLengthStyledSystem>, ThemeType>;
+  w?: ResponsiveValue<Property.Width<TLengthStyledSystem>, ThemeType>;
+  height?: ResponsiveValue<Property.Height<TLengthStyledSystem>, ThemeType>;
+  h?: ResponsiveValue<Property.Height<TLengthStyledSystem>, ThemeType>;
+  minWidth?: ResponsiveValue<Property.MinWidth<TLengthStyledSystem>, ThemeType>;
+  minW?: ResponsiveValue<Property.MinWidth<TLengthStyledSystem>, ThemeType>;
+  maxWidth?: ResponsiveValue<Property.MaxWidth<TLengthStyledSystem>, ThemeType>;
+  maxW?: ResponsiveValue<Property.MaxWidth<TLengthStyledSystem>, ThemeType>;
+  minHeight?: ResponsiveValue<
+    Property.MinHeight<TLengthStyledSystem>,
+    ThemeType
+  >;
+  minH?: ResponsiveValue<Property.MinHeight<TLengthStyledSystem>, ThemeType>;
+  maxHeight?: ResponsiveValue<
+    Property.MaxHeight<TLengthStyledSystem>,
+    ThemeType
+  >;
+  maxH?: ResponsiveValue<Property.MaxHeight<TLengthStyledSystem>, ThemeType>;
+  display?: ResponsiveValue<Property.Display, ThemeType>;
+  d?: ResponsiveValue<Property.Display, ThemeType>;
+  size?: ResponsiveValue<Property.Height<TLengthStyledSystem>, ThemeType>;
+  verticalAlign?: ResponsiveValue<
+    Property.VerticalAlign<TLengthStyledSystem>,
+    ThemeType
+  >;
+  overflow?: ResponsiveValue<Property.Overflow, ThemeType>;
+  overflowX?: ResponsiveValue<Property.OverflowX, ThemeType>;
+  overflowY?: ResponsiveValue<Property.OverflowY, ThemeType>;
 }
 
 const config: SystemConfig = {
   width: {
-    property: "width",
-    scale: "sizes",
+    property: 'width',
+    scale: 'sizes',
     transform: getWidth,
   },
   height: {
-    property: "height",
-    scale: "sizes",
+    property: 'height',
+    scale: 'sizes',
   },
   minWidth: {
-    property: "minWidth",
-    scale: "sizes",
+    property: 'minWidth',
+    scale: 'sizes',
   },
   maxWidth: {
-    property: "maxWidth",
-    scale: "sizes",
+    property: 'maxWidth',
+    scale: 'sizes',
   },
   minHeight: {
-    property: "minHeight",
-    scale: "sizes",
+    property: 'minHeight',
+    scale: 'sizes',
   },
   maxHeight: {
-    property: "maxHeight",
-    scale: "sizes",
+    property: 'maxHeight',
+    scale: 'sizes',
   },
   display: {
-    property: "display",
+    property: 'display',
   },
   size: {
-    properties: ["width", "height"],
-    scale: "sizes",
+    properties: ['width', 'height'],
+    scale: 'sizes',
   },
   verticalAlign: {
-    property: "verticalAlign",
+    property: 'verticalAlign',
   },
   overflow: {
-    property: "overflow",
+    property: 'overflow',
   },
   overflowX: {
-    property: "overflowX",
+    property: 'overflowX',
   },
   overflowY: {
-    property: "overflowY",
+    property: 'overflowY',
   },
 };
 

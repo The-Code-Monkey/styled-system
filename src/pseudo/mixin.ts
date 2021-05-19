@@ -1,5 +1,5 @@
-import { css } from "../css";
-import { pseudoSelectors } from "./selectors";
+import { css } from '../css';
+import { pseudoSelectors } from './selectors';
 
 export type PseudoProps = Partial<Record<keyof typeof pseudoSelectors, any>>;
 
@@ -13,7 +13,7 @@ export const pseudoMixin = (props: any) => {
 
   const result: Record<string, any> = {};
 
-  Object.keys(props).forEach((key) => {
+  Object.keys(props).forEach(key => {
     if (pseudoKeys.includes(key)) {
       result[key] = props[key];
     }

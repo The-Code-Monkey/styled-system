@@ -1,80 +1,89 @@
-import * as CSS from "csstype";
-import { system, SystemConfig } from "../core";
-import { RequiredTheme, ResponsiveValue, Theme, TLengthStyledSystem } from "../types";
+import { Property } from 'csstype';
+
+import { system, SystemConfig } from '../core';
+import {
+  RequiredTheme,
+  ResponsiveValue,
+  Theme,
+  TLengthStyledSystem,
+} from '../types';
 
 export interface FlexboxProps<ThemeType extends Theme = RequiredTheme> {
-  alignItems?: ResponsiveValue<CSS.Property.AlignItems, ThemeType>;
-  alignContent?: ResponsiveValue<CSS.Property.AlignContent, ThemeType>;
-  justifyItems?: ResponsiveValue<CSS.Property.JustifyItems, ThemeType>;
-  justifyContent?: ResponsiveValue<CSS.Property.JustifyContent, ThemeType>;
-  flexWrap?: ResponsiveValue<CSS.Property.FlexWrap, ThemeType>;
-  flexDirection?: ResponsiveValue<CSS.Property.FlexDirection, ThemeType>;
-  flexDir?: ResponsiveValue<CSS.Property.FlexDirection, ThemeType>;
-  flex?: ResponsiveValue<CSS.Property.Flex<TLengthStyledSystem>, ThemeType>;
-  flexFlow?: ResponsiveValue<CSS.Property.FlexFlow, ThemeType>;
-  flexGrow?: ResponsiveValue<CSS.Property.FlexGrow, ThemeType>;
-  flexShrink?: ResponsiveValue<CSS.Property.FlexShrink, ThemeType>;
-  flexBasis?: ResponsiveValue<CSS.Property.FlexBasis<TLengthStyledSystem>, ThemeType>;
-  justifySelf?: ResponsiveValue<CSS.Property.JustifySelf, ThemeType>;
-  alignSelf?: ResponsiveValue<CSS.Property.AlignSelf, ThemeType>;
-  order?: ResponsiveValue<CSS.Property.Order, ThemeType>;
-  placeItems?: ResponsiveValue<CSS.Property.PlaceItems, ThemeType>;
-  placeContent?: ResponsiveValue<CSS.Property.PlaceContent, ThemeType>;
-  placeSelf?: ResponsiveValue<CSS.Property.PlaceSelf, ThemeType>;
+  alignItems?: ResponsiveValue<Property.AlignItems, ThemeType>;
+  alignContent?: ResponsiveValue<Property.AlignContent, ThemeType>;
+  justifyItems?: ResponsiveValue<Property.JustifyItems, ThemeType>;
+  justifyContent?: ResponsiveValue<Property.JustifyContent, ThemeType>;
+  flexWrap?: ResponsiveValue<Property.FlexWrap, ThemeType>;
+  flexDirection?: ResponsiveValue<Property.FlexDirection, ThemeType>;
+  flexDir?: ResponsiveValue<Property.FlexDirection, ThemeType>;
+  flex?: ResponsiveValue<Property.Flex<TLengthStyledSystem>, ThemeType>;
+  flexFlow?: ResponsiveValue<Property.FlexFlow, ThemeType>;
+  flexGrow?: ResponsiveValue<Property.FlexGrow, ThemeType>;
+  flexShrink?: ResponsiveValue<Property.FlexShrink, ThemeType>;
+  flexBasis?: ResponsiveValue<
+    Property.FlexBasis<TLengthStyledSystem>,
+    ThemeType
+  >;
+  justifySelf?: ResponsiveValue<Property.JustifySelf, ThemeType>;
+  alignSelf?: ResponsiveValue<Property.AlignSelf, ThemeType>;
+  order?: ResponsiveValue<Property.Order, ThemeType>;
+  placeItems?: ResponsiveValue<Property.PlaceItems, ThemeType>;
+  placeContent?: ResponsiveValue<Property.PlaceContent, ThemeType>;
+  placeSelf?: ResponsiveValue<Property.PlaceSelf, ThemeType>;
 }
 
 const config: SystemConfig = {
   alignItems: {
-    property: "alignItems",
+    property: 'alignItems',
   },
   alignContent: {
-    property: "alignContent",
+    property: 'alignContent',
   },
   justifyItems: {
-    property: "justifyItems",
+    property: 'justifyItems',
   },
   justifyContent: {
-    property: "justifyContent",
+    property: 'justifyContent',
   },
   flexWrap: {
-    property: "flexWrap",
+    property: 'flexWrap',
   },
   flexDirection: {
-    property: "flexDirection",
+    property: 'flexDirection',
   },
   flex: {
-    property: "flex",
+    property: 'flex',
   },
   flexFlow: {
-    property: "flexFlow",
+    property: 'flexFlow',
   },
   flexGrow: {
-    property: "flexGrow",
+    property: 'flexGrow',
   },
   flexShrink: {
-    property: "flexShrink",
+    property: 'flexShrink',
   },
   flexBasis: {
-    property: "flexBasis",
-    scale: "sizes",
+    property: 'flexBasis',
+    scale: 'sizes',
   },
   justifySelf: {
-    property: "justifySelf",
+    property: 'justifySelf',
   },
   alignSelf: {
-    property: "alignSelf",
+    property: 'alignSelf',
   },
   order: {
-    property: "order",
+    property: 'order',
   },
   placeItems: {
-    property: "placeItems",
+    property: 'placeItems',
   },
   placeContent: {
-    property: "placeContent",
+    property: 'placeContent',
   },
   placeSelf: {
-    property: "placeSelf",
+    property: 'placeSelf',
   },
 };
 

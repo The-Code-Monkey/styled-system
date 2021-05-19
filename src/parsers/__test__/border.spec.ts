@@ -1,66 +1,66 @@
-import { border } from "../border";
+import { border } from '../border';
 
-describe("border", () => {
-  it("should return border styles", () => {
-    const style = border({ border: "1px solid gold" });
+describe('border', () => {
+  it('should return border styles', () => {
+    const style = border({ border: '1px solid gold' });
 
-    expect(style).toEqual({ border: "1px solid gold" });
+    expect(style).toEqual({ border: '1px solid gold' });
   });
 
-  it("should return individual border styles", () => {
+  it('should return individual border styles', () => {
     const style = border({
       theme: {
         borderWidths: { thin: 1 },
-        colors: { primary: "red" },
-        borderStyles: { thick: "solid" },
+        colors: { primary: 'red' },
+        borderStyles: { thick: 'solid' },
         radii: { small: 5 },
       },
-      borderTopWidth: "thin",
-      borderTopColor: "primary",
-      borderTopStyle: "thick",
-      borderTopLeftRadius: "small",
-      borderTopRightRadius: "small",
-      borderBottomWidth: "thin",
-      borderBottomColor: "primary",
-      borderBottomStyle: "thick",
-      borderBottomLeftRadius: "small",
-      borderBottomRightRadius: "small",
-      borderRightWidth: "thin",
-      borderRightColor: "primary",
-      borderRightStyle: "thick",
-      borderLeftWidth: "thin",
-      borderLeftColor: "primary",
-      borderLeftStyle: "thick",
+      borderTopWidth: 'thin',
+      borderTopColor: 'primary',
+      borderTopStyle: 'thick',
+      borderTopLeftRadius: 'small',
+      borderTopRightRadius: 'small',
+      borderBottomWidth: 'thin',
+      borderBottomColor: 'primary',
+      borderBottomStyle: 'thick',
+      borderBottomLeftRadius: 'small',
+      borderBottomRightRadius: 'small',
+      borderRightWidth: 'thin',
+      borderRightColor: 'primary',
+      borderRightStyle: 'thick',
+      borderLeftWidth: 'thin',
+      borderLeftColor: 'primary',
+      borderLeftStyle: 'thick',
     });
 
     expect(style).toEqual({
-      borderTopColor: "red",
+      borderTopColor: 'red',
       borderTopWidth: 1,
-      borderTopStyle: "solid",
+      borderTopStyle: 'solid',
       borderTopLeftRadius: 5,
       borderTopRightRadius: 5,
-      borderBottomColor: "red",
+      borderBottomColor: 'red',
       borderBottomWidth: 1,
-      borderBottomStyle: "solid",
+      borderBottomStyle: 'solid',
       borderBottomLeftRadius: 5,
       borderBottomRightRadius: 5,
-      borderRightColor: "red",
+      borderRightColor: 'red',
       borderRightWidth: 1,
-      borderRightStyle: "solid",
-      borderLeftColor: "red",
+      borderRightStyle: 'solid',
+      borderLeftColor: 'red',
       borderLeftWidth: 1,
-      borderLeftStyle: "solid",
+      borderLeftStyle: 'solid',
     });
   });
 
-  it("should return border top and bottom radii", () => {
+  it('should return border top and bottom radii', () => {
     const style = border({
       theme: {
         radii: { small: 5 },
       },
-      borderTopLeftRadius: "small",
-      borderTopRightRadius: "small",
-      borderBottomRightRadius: "small",
+      borderTopLeftRadius: 'small',
+      borderTopRightRadius: 'small',
+      borderBottomRightRadius: 'small',
     });
 
     expect(style).toEqual({
