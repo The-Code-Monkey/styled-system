@@ -40,7 +40,10 @@ const all = compose(
 /**
  * All `@spicy-ui/styled-system` props.
  */
-export const allProps: string[] = [...all.propNames, ...Object.keys(pseudoSelectors)];
+export const allProps: string[] = [
+  ...all.propNames,
+  ...Object.keys(pseudoSelectors),
+];
 
 /**
  * Create a custom `shouldForwardProp` function.

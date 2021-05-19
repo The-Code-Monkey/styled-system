@@ -47,11 +47,7 @@ export {
 } from './shouldForwardProp';
 
 // styled-system variants
-export { 
-    variant,
-    buttonStyle,
-    textStyle
-} from "./variant";
+export { variant, buttonStyle, textStyle } from './variant';
 
 // shared types
 export * from './types';
