@@ -33,15 +33,15 @@
     "trailingComma": "es5"
   },
   "author": "The-Code-Monkey",
-  "module": "dist/tsdx.esm.js",
+  "module": "dist/styled-system.esm.js",
   "size-limit": [
     {
-      "path": "dist/tsdx.cjs.production.min.js",
-      "limit": "10 kB"
+      "path": "dist/styled-system.cjs.production.min.js",
+      "limit": "10 KB"
     },
     {
-      "path": "dist/tsdx.esm.js",
-      "limit": "10 kB"
+      "path": "dist/styled-system.esm.js",
+      "limit": "10 KB"
     }
   ],
   "devDependencies": {
