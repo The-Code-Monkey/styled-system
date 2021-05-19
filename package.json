@@ -1,6 +1,7 @@
 {
   "version": "0.0.2",
   "license": "MIT",
+  "name": "@aw-web-design/styled-system",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -31,17 +32,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tsdx",
   "author": "The-Code-Monkey",
   "module": "dist/tsdx.esm.js",
   "size-limit": [
     {
       "path": "dist/tsdx.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "10 kB"
     },
     {
       "path": "dist/tsdx.esm.js",
-      "limit": "10 KB"
+      "limit": "10 kB"
     }
   ],
   "devDependencies": {
