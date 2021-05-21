@@ -1,4 +1,4 @@
-import { variant, textStyle } from '../';
+import { variant, textVariant } from '../';
 import { system, compose } from '../../core';
 
 const fontSize = system({ fontSize: true });
@@ -64,16 +64,16 @@ describe('variant', () => {
   });
 
   it('textStyle prop returns theme.textStyles object', () => {
-    const a = textStyle({
+    const a = textVariant({
       theme: {
-        textStyles: {
+        text: {
           heading: {
             fontWeight: 'bold',
             lineHeight: 1.25,
           },
         },
       },
-      textStyle: 'heading',
+      text: 'heading',
     });
     expect(a).toEqual({
       fontWeight: 'bold',

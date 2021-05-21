@@ -34,5 +34,6 @@ export const variant = ({
   });
 };
 
-export const buttonStyle = variant({ key: 'buttons' });
-export const textStyle = variant({ key: 'textStyles', prop: 'textStyle' });
+export const buttonVariant = variant({ key: 'buttons' });
+export const textVariant = variant({ key: 'text' });
+export const intentVariant = variant({ key: 'intents', prop: 'intent' });
