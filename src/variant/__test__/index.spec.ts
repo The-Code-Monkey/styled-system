@@ -73,7 +73,7 @@ describe('variant', () => {
           },
         },
       },
-      text: 'heading',
+      variant: 'heading',
     });
     expect(a).toEqual({
       fontWeight: 'bold',
