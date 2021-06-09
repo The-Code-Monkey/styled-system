@@ -1,0 +1,2 @@
+- name: size-limit-action
+  uses: andresz1/size-limit-action@v1
