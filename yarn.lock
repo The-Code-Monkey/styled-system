@@ -1203,27 +1203,27 @@
   dependencies:
     type-detect "4.0.8"
 
-"@size-limit/file@4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.10.3.tgz#0d101a951a223e30efa43091ae32898dc5a88eaf"
-  integrity sha512-AB1Oz1g5U+QbxI8fJjhi58E/nOChG48QeyOFxoH2bJXh3pCBkYBTwFS22nOJObhfc/YAplu69E3vR2/ZaTr1lQ==
+"@size-limit/file@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.12.0.tgz#50166eca7b9b5aa15f51a72b3d9d31e2d8530e6f"
+  integrity sha512-csgGSAG3s2y9eOl/taahojXY91AXpNgqLs9HJ5c/Qmrs+6UHgXbwJ4vo475NfZmt1Y9simircb1ygqupauNUyA==
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-small-lib@^4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-4.10.3.tgz#3cb9581abd661f4789c99cd1e19d99af9a4725b9"
-  integrity sha512-BXdrzudai3UwKHA2xjmjnWhoMYAYbi7y8EAROpm7hAnmZAB25ezhWuxR+RFN/FOSbFTZIsq/b56ZISW++jCzsQ==
+"@size-limit/preset-small-lib@^4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-4.12.0.tgz#0f7eb6ca7b7e6acb87b17bf6f7d9000946423cfc"
+  integrity sha512-jqUT2PiPN4Bf9aeUcTHt78+mELwo1x3K+w4grfNkzV/46j1rK3eXarls4qc0/FHolE76cLgNTLNjrX/Zb9c65w==
   dependencies:
-    "@size-limit/file" "4.10.3"
-    "@size-limit/webpack" "4.10.3"
+    "@size-limit/file" "4.12.0"
+    "@size-limit/webpack" "4.12.0"
 
-"@size-limit/webpack@4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-4.10.3.tgz#e18d6264435cacc46b39ae3c06b3a462ca6ed3a3"
-  integrity sha512-QOe7qPGGt4kYyZE/8bTliz7uV0QY7OFgkZo5K/Gr6nEpZlhME53s8FrDMKpNmbkR+2YqUGHSoN5IyRJpIVDpyg==
+"@size-limit/webpack@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-4.12.0.tgz#65076310bbe4f043fad0a3af2bea0423573ff7ae"
+  integrity sha512-CtqSqxffexYmuAKeKAT2xcDmLwGChHXeq8Y9gjIe9vxfzUx1HU7Nmc0XyvsLGZG1qZO4TFuANlfQeavGY0jB6A==
   dependencies:
-    css-loader "^5.2.5"
+    css-loader "^5.2.6"
     escape-string-regexp "^4.0.0"
     file-loader "^6.2.0"
     mkdirp "^1.0.4"
@@ -2767,10 +2767,10 @@ css-declaration-sorter@^6.0.3:
   dependencies:
     timsort "^0.3.0"
 
-css-loader@^5.2.5:
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.2.5.tgz#cdd18d6fe42748990793b4a7ec32eb16f36ba9d7"
-  integrity sha512-bH6QQacvSRtLX0lycAOs43S173n+lfXxB5cx4FjVkTLw5tAEwk5bxNLbkt5K1iETd5KxazRx70GpqOxsuwKiFA==
+css-loader@^5.2.6:
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.2.6.tgz#c3c82ab77fea1f360e587d871a6811f4450cc8d1"
+  integrity sha512-0wyN5vXMQZu6BvjbrPdUJvkCzGEO24HC7IS7nW4llc6BBFC+zwR9CKtYGv63Puzsg10L/o12inMY5/2ByzfD6w==
   dependencies:
     icss-utils "^5.1.0"
     loader-utils "^2.0.0"
@@ -5234,10 +5234,10 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lilconfig@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.2.tgz#9f802752254697d22a5c33e88d97b7329008c060"
-  integrity sha512-4zUThttj8TQ4N7Pps92Z79jPf1OMcll4m61pivQSVk5MT78hVhNa2LrKTuNYD0AGLpmpf7zeIKOxSt6hHBfypw==
+lilconfig@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.0.3.tgz#68f3005e921dafbd2a2afb48379986aa6d2579fd"
+  integrity sha512-EHKqr/+ZvdKCifpNrJCKxBTgk5XupZA3y/aCPY9mxfgBzmgh93Mt/WqjjQ38oMxXuvDokaKiM3lAgvSH2sjtHg==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -5934,10 +5934,10 @@ ora@^4.0.3:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
-ora@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-5.4.0.tgz#42eda4855835b9cd14d33864c97a3c95a3f56bf4"
-  integrity sha512-1StwyXQGoU6gdjYkyVcqOLnVlbKj+6yPNNOxJVgpt9t4eksKjiriiHuxktLYkgllwk+D6MbC4ihH84L1udRXPg==
+ora@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-5.4.1.tgz#1b2678426af4ac4a509008e5e4ac9e9959db9e18"
+  integrity sha512-5b6Y85tPxZZ7QytO+BQzysW31HJku27cRIlkbAXaNx+BdcVi+LlRFmVXzeF6a7JCwJpyw5c4b+YSVImQIrBpuQ==
   dependencies:
     bl "^4.1.0"
     chalk "^4.1.0"
@@ -7273,18 +7273,18 @@ sisteransi@^1.0.5:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
-size-limit@^4.10.3:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/size-limit/-/size-limit-4.10.3.tgz#159612e4a40bb2371e4b38b3f24d7c1fd1ab75bf"
-  integrity sha512-XUYQvgsZDgr4OZKRRtx+Zyp5qcpIx3adgujLEYm+Hpqi2EHoHwxYco1XmEkXA4/0Br5CopowEwDnN7QYh+klOA==
+size-limit@^4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/size-limit/-/size-limit-4.12.0.tgz#ecc9c0448c049a40b10e76b5e1b4a20f99a54468"
+  integrity sha512-LwlUDPxFJbJDIJsBE5bKo8kFMuxmuewBMDjgfSoQwnO27V8DSK+j6881nsrX3GoM3bJMFIeEq56thqBEdYC8bw==
   dependencies:
     bytes-iec "^3.1.1"
     chokidar "^3.5.1"
     ci-job-number "^1.2.2"
     colorette "^1.2.2"
     globby "^11.0.3"
-    lilconfig "^2.0.2"
-    ora "^5.4.0"
+    lilconfig "^2.0.3"
+    ora "^5.4.1"
     read-pkg-up "^7.0.1"
 
 slash@^3.0.0:
@@ -8054,10 +8054,10 @@ typescript@^3.7.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
   integrity sha512-kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w==
 
-typescript@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
-  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
+typescript@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
+  integrity sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
 
 unbox-primitive@^1.0.0:
   version "1.0.1"

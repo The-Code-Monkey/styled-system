@@ -1,4 +1,4 @@
-import { variant, textVariant } from '../';
+import { variant, TextVariants } from '../';
 import { system, compose } from '../../core';
 
 const fontSize = system({ fontSize: true });
@@ -64,7 +64,7 @@ describe('variant', () => {
   });
 
   it('textStyle prop returns theme.textStyles object', () => {
-    const a = textVariant({
+    const a = TextVariants({
       theme: {
         text: {
           heading: {
