@@ -2,9 +2,9 @@
 
 🌶️ Responsive, theme-based style props for building design systems with React
 
-[![npm](https://img.shields.io/npm/v/@spicy-ui/styled-system.svg)](https://www.npmjs.com/package/@spicy-ui/styled-system)
-[![Dependencies](https://david-dm.org/spicy-ui/styled-system/status.svg)](https://david-dm.org/spicy-ui/styled-system)
-[![Dev Dependencies](https://david-dm.org/spicy-ui/styled-system/dev-status.svg)](https://david-dm.org/spicy-ui/styled-system?type=dev)
+[![npm](https://img.shields.io/npm/v/@aw-web-design/styled-system.svg)](https://www.npmjs.com/package/@aw-web-design/styled-system)
+[![Dependencies](https://david-dm.org/aw-web-design/styled-system/status.svg)](https://david-dm.org/aw-web-design/styled-system)
+[![Dev Dependencies](https://david-dm.org/aw-web-design/styled-system/dev-status.svg)](https://david-dm.org/aw-web-design/styled-system?type=dev)
 
 ## ⚠️ Caution
 
@@ -20,7 +20,7 @@ A major part that is incomplete in this package is the types (both exported and 
 
 ## Issues and Bugs
 
-If you happen to find any, please report them [here](https://github.com/spicy-ui/core/issues) so they can be squashed.
+If you happen to find any, please report them [here](https://github.com/aw-web-design/styled-system/issues) so they can be squashed.
 
 ## License
 
