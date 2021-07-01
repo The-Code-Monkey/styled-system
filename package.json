@@ -50,7 +50,7 @@
     "size-limit": "^4.12.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.1.0",
