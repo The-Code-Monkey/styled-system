@@ -38,7 +38,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](images/image.png)
 
 This is a continuation of the work done by jxnblk.
 
