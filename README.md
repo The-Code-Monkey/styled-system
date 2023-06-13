@@ -12,7 +12,7 @@
     Style props for rapid UI development
     <br/>
     <br/>
-    <a href="https://github.com/The-Code-Monkey/styled-system"><strong>Explore the docs »</strong></a>
+    <a href="https://styled-system.com/"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/The-Code-Monkey/styled-system/issues">Report Bug</a>
@@ -39,7 +39,6 @@
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
-* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -71,12 +70,6 @@ npm install @techstack/styled-system
 ```sh
 yarn add @techstack/styled-system
 ```
-
-## Usage
-
-I don't currently have my own version of the docs but the original ones should very closely match.
-
-https://styled-system.com/
 
 ## Roadmap
 
