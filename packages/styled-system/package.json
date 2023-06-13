@@ -35,10 +35,7 @@
     "test": "tcm test",
     "lint": "tcm lint",
     "size": "size-limit",
-    "analyze": "size-limit --why",
-    "lerna:changed": "lerna changed",
-    "lerna:version": "lerna version --conventional-commits --exact --yes",
-    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes"
+    "analyze": "size-limit --why"
   },
   "author": "The-Code-Monkey",
   "size-limit": [

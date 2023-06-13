@@ -11,7 +11,10 @@
     "lint:fix": "lerna run lint --stream -- --fix",
     "lint:cms": "cd platforms/react-cms && yarn lint",
     "size": "lerna run size --stream",
-    "build": "lerna run build --stream"
+    "build": "lerna run build --stream",
+    "lerna:changed": "lerna changed",
+    "lerna:version": "lerna version --conventional-commits --exact --yes",
+    "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes"
   },
   "dependencies": {},
   "devDependencies": {
