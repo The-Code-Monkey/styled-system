@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.cjs.base.json",
   "include": ["src", "types"],
   "exclude": [
     "src/**/*.spec.tsx",
@@ -10,6 +9,26 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "./dist/cjs",
-    "declarationDir": "dist/types"
+    "declarationDir": "dist/types",
+    "allowJs":true,
+    "allowSyntheticDefaultImports":true,
+    "baseUrl":"src",
+    "declaration":true,
+    "esModuleInterop":true,
+    "inlineSourceMap":false,
+    "lib":["esnext"],
+    "listEmittedFiles":false,
+    "listFiles":false,
+    "moduleResolution":"node",
+    "noFallthroughCasesInSwitch":true,
+    "noImplicitAny":false,
+    "pretty":true,
+    "resolveJsonModule":true,
+    "skipLibCheck":true,
+    "strict":false,
+    "traceResolution":false,
+    "types":["node","jest"],
+    "module": "commonjs",
+    "target": "es2015"
   }
 }
