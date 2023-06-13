@@ -3,6 +3,8 @@
   <a href="https://github.com/The-Code-Monkey/styled-system">
     <img src="image.png" alt="Logo" width="80" height="80">
   </a>
+  
+  <h1 align="center">Styled System</h1>
 
   <h3 align="center">Responsive, theme-based style props for building design systems with React</h3>
 
