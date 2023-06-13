@@ -23,7 +23,17 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/The-Code-Monkey/styled-system?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/The-Code-Monkey/styled-system?style=social) ![Issues](https://img.shields.io/github/issues/The-Code-Monkey/styled-system) ![License](https://img.shields.io/github/license/The-Code-Monkey/styled-system)
+<div display="flex" align="center">
+  <img src="https://img.shields.io/codefactor/grade/github/the-code-monkey/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/checks-status/the-code-monkey/styled-system/main?style=for-the-badge" />
+  <img src="https://img.shields.io/npm/dm/@techstack/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-raw/the-code-monkey/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues-pr/the-code-monkey/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/the-code-monkey/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/the-code-monkey/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/npm/v/@techstack/styled-system?style=for-the-badge" />
+  <img src="https://img.shields.io/github/commit-activity/m/the-code-monkey/styled-system?style=for-the-badge" />
+</div>
 
 ## Table Of Contents
 
