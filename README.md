@@ -47,8 +47,6 @@
 
 ## About The Project
 
-![Screen Shot](images/image.png)
-
 This is a continuation of the work done by jxnblk.
 
 The project is a set of addons for styling and live updating components based on a prop architecture rather than using pure styled-components or other styling format.
