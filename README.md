@@ -15,10 +15,8 @@
     <a href="https://github.com/The-Code-Monkey/styled-system"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/The-Code-Monkey/styled-system">View Demo</a>
-    .
     <a href="https://github.com/The-Code-Monkey/styled-system/issues">Report Bug</a>
-    .
+    -
     <a href="https://github.com/The-Code-Monkey/styled-system/issues">Request Feature</a>
   </p>
 </p>
