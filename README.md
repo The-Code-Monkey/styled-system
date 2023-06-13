@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/The-Code-Monkey/styled-system/total) ![Contributors](https://img.shields.io/github/contributors/The-Code-Monkey/styled-system?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/The-Code-Monkey/styled-system?style=social) ![Issues](https://img.shields.io/github/issues/The-Code-Monkey/styled-system) ![License](https://img.shields.io/github/license/The-Code-Monkey/styled-system) 
+![Contributors](https://img.shields.io/github/contributors/The-Code-Monkey/styled-system?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/The-Code-Monkey/styled-system?style=social) ![Issues](https://img.shields.io/github/issues/The-Code-Monkey/styled-system) ![License](https://img.shields.io/github/license/The-Code-Monkey/styled-system)
 
 ## Table Of Contents
 
