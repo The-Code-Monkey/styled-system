@@ -30,7 +30,7 @@ jobs:
 
       - name: Install deps
         uses: bahmutov/npm-install@v1
-        
+
       - name: Build
         run: yarn build
 
