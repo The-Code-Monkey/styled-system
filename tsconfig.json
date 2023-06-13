@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.esm.base.json",
+  "include": ["src", "types"],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist/esm",
+    "declarationDir": "dist/types"
+  }
+}
