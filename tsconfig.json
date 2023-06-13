@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.esm.base.json",
   "include": ["src", "types"],
   "exclude": [
     "src/**/*.spec.tsx",
@@ -10,6 +9,17 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "./dist/esm",
-    "declarationDir": "dist/types"
+    "declarationDir": "dist/types",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }
