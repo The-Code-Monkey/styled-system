@@ -48,7 +48,14 @@
 
 This is a continuation of the work done by jxnblk.
 
-The project is a set of addons for styling and live updating components based on a prop architecture rather than using pure styled-components or other styling format.
+The project is a set of addons for styling and live updating components based on a prop architecture rather than using 
+pure styled-components or other styling format.
+
+Currently, I can only confirm that anything pre V1 will work with styled-components v5.
+
+V1 and up will work with styled-components V6. 
+
+Hopefully on the V2 branch we can confirm that emotion works without errors.
 
 ## Built With
 

@@ -1,3 +1,5 @@
+import { StyledObject } from 'styled-components/native';
+
 import { AllProps } from '../css/util';
 import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
@@ -86,10 +88,10 @@ export type Parser = {
       string,
       Record<string, unknown> | string | number | Array<string | number>
     >
-  ): string;
+  ): StyledObject<object>;
 };
 
-export function createParser(config: object) {
+export const createParser = (config: object): Parser => {
   const cache: ParserCache = {};
 
   const parser = props => {
@@ -169,4 +171,4 @@ export function createParser(config: object) {
   }
 
   return parser;
-}
+};

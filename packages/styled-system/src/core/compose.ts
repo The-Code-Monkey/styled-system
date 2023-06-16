@@ -11,5 +11,5 @@ export const compose = (...parsers: Parser[]): Parser => {
     config = { ...config, ...(parser as { config: object }).config };
   });
 
-  return createParser(config);
+  return createParser(config) as Parser;
 };
