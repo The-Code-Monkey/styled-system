@@ -86,7 +86,7 @@ export type Parser = {
       string,
       Record<string, unknown> | string | number | Array<string | number>
     >
-  ): unknown;
+  ): string;
 };
 
 export function createParser(config: object) {
