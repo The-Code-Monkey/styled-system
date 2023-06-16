@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Styled System Documentation",
+  "author": "Andy Wilson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@techstack/components": "^0.7.245",
+    "next": "^13.4.5",
+    "nextra": "^2.7.1",
+    "nextra-theme-docs": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

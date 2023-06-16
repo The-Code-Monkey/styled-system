@@ -1,0 +1,22 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": false
+    }
+  },
+  "getting-started": {},
+  "responsive-styles": {},
+  "custom-props": {},
+  "variants": {},
+  "how-it-works": {},
+  "api-doc": "API",
+  "reference-table": {},
+  "ecosystem": {},
+  "theme-specification": {},
+  "guides": "Guides",
+  "github_link": {
+    "title": "GitHub",
+    "href": "https://github.com/The-Code-Monkey/styled-system",
+    "newWindow": true
+  }
+}
