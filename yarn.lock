@@ -1928,10 +1928,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.119.tgz#5edfa9e12042855ab5fcb1b6e065d539bd5d6f5b"
   integrity sha512-t/8RrB+wb8ab2HqW2Eozea66XnsQ6Lwk4hPmI9+u1MOh6DxLbZ3B8vYMO1YF8Krca91fPRNYgH/n3ssLFJM0sA==
 
-"@techstack/tcm-cli@0.4.199":
-  version "0.4.199"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.199.tgz#3328bde129407f7710db2afcd03ebd368816e6a8"
-  integrity sha512-S6njHJ1la5atOI0BmTL6NOJvPdHWIbZhHGNVCL/E803RRS54TWIwf2lEW4iPANughKbEKL7ybp8Xy5M442hfsA==
+"@techstack/tcm-cli@0.4.202":
+  version "0.4.202"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.202.tgz#10584bb205b8c23c4e7be476372314607acf4b13"
+  integrity sha512-2kvHUuPeRvKkAANhOX+xv+fBq4Gn5lWs+iYk+ePdU8yUqJ3Wg+huGPmPiCNlTjL7wgs8egV2puphfjFycWTQxw==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -1983,7 +1983,7 @@
     rollup-plugin-dts "^5.3.0"
     rollup-plugin-typescript2 "^0.34.1"
     sade "1.8.1"
-    semver "7.5.1"
+    semver "7.5.2"
     shelljs "0.8.5"
     sort-package-json "2.4.1"
     tiny-glob "0.2.9"
@@ -7646,7 +7646,14 @@ semver@7.3.8:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@7.5.1, semver@7.x, semver@^7.0.0, semver@^7.1.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8:
+semver@7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
+  integrity sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@7.x, semver@^7.0.0, semver@^7.1.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8:
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
   integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
