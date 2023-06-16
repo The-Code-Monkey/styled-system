@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.4.136...@techstack/styled-system@1.0.1) (2023-06-16)
+
+
+### Bug Fixes
+
+* add a little test to check parser in v6 styled-components ([c7e121e](https://github.com/The-Code-Monkey/TechStack/commit/c7e121e2d65e2f9fc380723fb29dc848b9306de4))
+* linting ([c933112](https://github.com/The-Code-Monkey/TechStack/commit/c933112ae4feda57d2c60097014a89cffe28013a))
+* update to V1 ([679aa68](https://github.com/The-Code-Monkey/TechStack/commit/679aa68629c7f55c2b5f1cd2410a6340edc5be2e))
+
+
+
+
+
 ## [0.4.136](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@0.4.135...@techstack/styled-system@0.4.136) (2023-06-16)
 
 **Note:** Version bump only for package @techstack/styled-system
