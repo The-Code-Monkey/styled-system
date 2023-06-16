@@ -23,7 +23,6 @@
 
 <div display="flex" align="center">
   <img src="https://img.shields.io/codefactor/grade/github/the-code-monkey/styled-system?style=for-the-badge" />
-  <img src="https://img.shields.io/github/checks-status/the-code-monkey/styled-system/main?style=for-the-badge" />
   <img src="https://img.shields.io/npm/dm/@techstack/styled-system?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues-raw/the-code-monkey/styled-system?style=for-the-badge" />
   <img src="https://img.shields.io/github/issues-pr/the-code-monkey/styled-system?style=for-the-badge" />
