@@ -12,7 +12,7 @@
     Style props for rapid UI development
     <br/>
     <br/>
-    <a href="https://styled-system.com/"><strong>Explore the docs »</strong></a>
+    <a href="https://styled-system-docs.vercel.app/getting-started"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/The-Code-Monkey/styled-system/issues">Report Bug</a>
