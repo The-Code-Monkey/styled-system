@@ -1,5 +1,3 @@
-import { StyledObject } from 'styled-components/native';
-
 import { AllProps } from '../css/util';
 import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
