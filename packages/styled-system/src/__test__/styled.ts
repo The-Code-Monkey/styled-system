@@ -7,5 +7,7 @@ import { layout } from '../parsers/layout';
 const TestCompose = compose(layout, color);
 
 export const StyledSpan = styled.span`
-  ${TestCompose}
+  * {
+    ${TestCompose}
+  }
 `;
