@@ -82,10 +82,7 @@ export type Parser = {
   propNames: string[];
   config: object;
   (
-    props: Record<
-      string,
-      Record<string, unknown> | string | number | Array<string | number>
-    >
+    props: any
   ): any;
 };
 
