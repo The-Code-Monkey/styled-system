@@ -81,9 +81,7 @@ export type Parser = {
   cache: ParserCache;
   propNames: string[];
   config: object;
-  (
-    props: any
-  ): any;
+  (props: any): any;
 };
 
 export const createParser = (config: object): Parser => {
