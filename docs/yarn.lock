@@ -1327,17 +1327,17 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/components@0.7.255":
-  version "0.7.255"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.255.tgz#ad01b30a0b594af54d1acdb6e62a3edaf747ef3e"
-  integrity sha512-hum7u76HIXh0tJLHK6ecsH1yMWhEv6JoIKRC8csFIytEUHk32rGn/TdFpxs7l8SIbJn9fqKUxwKo+BjC2h17rg==
+"@techstack/components@0.7.257":
+  version "0.7.257"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.257.tgz#2d3cf4b35da3adad9a170a7555f098b3c0d5082e"
+  integrity sha512-GlMovb34fciAougz/KvqMqYqQWrrVyTqiGK0qCImmDVJ/aaZpt+Bn3P3gfBKfj8T4BIXfNhOz/UQ7aVP1qk5uA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.2"
     "@techstack/memoize" "0.4.112"
     "@techstack/react-feather" "0.4.112"
     "@techstack/react-lazy-named" "0.4.112"
-    "@techstack/react-quill" "0.0.6"
+    "@techstack/react-quill" "1.0.1"
     "@techstack/react-textfit" "0.4.126"
     "@techstack/styled-system" "1.0.2"
     "@techstack/theme" "0.4.121"
@@ -1380,10 +1380,10 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
-"@techstack/react-quill@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-0.0.6.tgz#713279fbc2a9a6e5117a462b4a115983a5c6f29a"
-  integrity sha512-/bPMuT00At+I06K34oueyWx7pAxO0Vj9xyM9x42gih5HNlSKp4+i4+d9+fldxO2avIIug/zJtcrct7n79rKM4Q==
+"@techstack/react-quill@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.1.tgz#56ebd69897511eb09b63bad4e6444c66169916a1"
+  integrity sha512-MCmxYDm55KgQATGB32oo6cZsm8FN5NgSxXFWxua3rxQQWawA4wXhE72OHZUdkvTk2BRU+/6VruWfw7FOkc6OCA==
   dependencies:
     "@types/quill" "2.0.10"
     lodash "4.17.21"
