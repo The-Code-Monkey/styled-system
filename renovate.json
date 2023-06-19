@@ -10,5 +10,6 @@
     "group:monorepos",
     "group:recommended",
     "workarounds:all"
-  ]
+  ],
+  "baseBranches": ["main", "V1", "V2"]
 }
