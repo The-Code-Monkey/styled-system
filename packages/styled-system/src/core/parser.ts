@@ -1,9 +1,10 @@
+import { Interpolation } from 'styled-components/dist/types';
+
 import { AllProps } from '../css/util';
 import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
 
 import { get, merge, sort } from './util';
-import {Interpolation} from "styled-components/dist/types";
 
 export type SxType = (
   a: string | number | object,
