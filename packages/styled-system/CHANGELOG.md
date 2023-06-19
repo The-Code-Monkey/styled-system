@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.6...@techstack/styled-system@1.0.7) (2023-06-19)
+
+
+### Bug Fixes
+
+* update type to correct type for styled-components ([d582664](https://github.com/The-Code-Monkey/TechStack/commit/d5826640dceaa086ce1a8c884a63887a8926f081))
+
+
+
+
+
 ## [1.0.6](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.5...@techstack/styled-system@1.0.6) (2023-06-18)
 
 
