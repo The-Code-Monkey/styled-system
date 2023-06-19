@@ -3,6 +3,7 @@ import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
 
 import { get, merge, sort } from './util';
+import {Interpolation} from "styled-components/dist/types";
 
 export type SxType = (
   a: string | number | object,
@@ -81,7 +82,12 @@ export type Parser = {
   cache: ParserCache;
   propNames: string[];
   config: object;
-  (props: any): any;
+  (
+    props: Record<
+      string,
+      Record<string, unknown> | string | number | Array<string | number>
+    >
+  ): Interpolation<object>;
 };
 
 export const createParser = (config: object): Parser => {
