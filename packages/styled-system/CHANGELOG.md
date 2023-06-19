@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.7...@techstack/styled-system@1.0.8) (2023-06-19)
+
+
+### Bug Fixes
+
+* update to node 18+ ([7e6f26a](https://github.com/The-Code-Monkey/TechStack/commit/7e6f26a7db2bee43aab2d0dda9aa97d66d83eff0))
+
+
+
+
+
 ## [1.0.7](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.6...@techstack/styled-system@1.0.7) (2023-06-19)
 
 
