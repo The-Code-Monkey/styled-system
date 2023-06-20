@@ -73,7 +73,7 @@ describe('variant', () => {
     });
   });
 
-  it('textStyle prop returns theme.textStyles object', () => {
+  it('text prop returns theme.text object', () => {
     const a = TextVariants({
       theme: {
         variants: {
@@ -85,7 +85,7 @@ describe('variant', () => {
           },
         },
       },
-      variant: 'heading',
+      text: 'heading',
     });
     expect(a).toEqual({
       fontWeight: 'bold',
