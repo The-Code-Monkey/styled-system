@@ -1,5 +1,3 @@
-import { Interpolation } from 'styled-components/dist/types';
-
 import { AllProps } from '../css/util';
 import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
@@ -83,12 +81,7 @@ export type Parser = {
   cache: ParserCache;
   propNames: string[];
   config: object;
-  (
-    props: Record<
-      string,
-      Record<string, unknown> | string | number | Array<string | number>
-    >
-  ): Interpolation<object>;
+  (props: any): any;
 };
 
 export const createParser = (config: object): Parser => {
