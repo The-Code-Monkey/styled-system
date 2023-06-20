@@ -429,49 +429,33 @@ The function takes two arguments: `(value, scale)`, where `value` is the raw pro
 
 Creates a custom style utility to apply complex styles based on a single prop.
 
+Variants differ from the original styled-system to allow for the usage of pseudo selectors.
+
+Below is a button example with multiple variants being applied.
+
 ```js
 import styled from 'styled-components'
 import { variant } from '@techstack/styled-system'
 
-const Card = styled.div`
+const Button = styled.button`
   ${variant({
-    variants: {
-      normal: {
-        p: 2,
-        boxShadow: 'default',
-        borderRadius: 2,
-      },
-      large: {
-        p: 3,
-        boxShadow: 'large',
-        borderRadius: 4,
-      },
-    }
+    prop: 'typography',
+    key: 'typography.type',
+  })}
+  ${variant({
+    key: 'buttons.variants',
+  })}
+  ${variant({
+    key: 'buttons.size',
+    prop: 'size',
+  })}
+  ${variant({
+    prop: 'intent',
+    key: 'buttons.intents',
   })}
 `
-Card.defaultProps = {
-  variant: 'normal',
-}
-// <Card variant='large' />
-```
 
-## Legacy Variants
-
-The legacy variants require styles to be defined in the theme object and do *not* use `@styled-system/css` for transformation.
-
-```js
-import { textStyle, colorStyle, buttonStyle } from '@techstack/styled-system'
-```
-
-```jsx
-// textStyle
-<Text textStyle='caps' />
-
-// colorStyle
-<Box colors='warning' />
-
-// buttonStyle
-<Button variant='primary' />
+// <Button typeography="body" variant="primary" size="lg" intent="error" />
 ```
 
 ---
