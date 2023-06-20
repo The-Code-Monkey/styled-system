@@ -1,5 +1,3 @@
-import { Interpolation } from 'styled-components/dist/types';
-
 import { AllProps } from '../css/util';
 import { Scale } from '../types';
 import { defaultBreakpoints } from '../utils';
