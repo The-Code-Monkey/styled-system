@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.8...@techstack/styled-system@1.0.9) (2023-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @techstack/memoize to v0.4.122 ([bc829d9](https://github.com/The-Code-Monkey/TechStack/commit/bc829d9a68c0de1f380ce7acb3193245574829af))
+
+
+
+
+
 ## [1.0.8](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.7...@techstack/styled-system@1.0.8) (2023-06-19)
 
 
