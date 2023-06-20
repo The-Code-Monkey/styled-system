@@ -88,7 +88,7 @@ export type Parser = {
       string,
       Record<string, unknown> | string | number | Array<string | number>
     >
-  ): Interpolation<object>;
+  ): any;
 };
 
 export const createParser = (config: object): Parser => {
