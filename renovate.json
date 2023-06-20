@@ -10,5 +10,19 @@
     "group:monorepos",
     "group:recommended",
     "workarounds:all"
+  ],
+  "rangeStrategy": "pin",
+  "baseBranches": ["main", "V1", "V2"],
+  "packageRules": [
+    {
+	    "packageNames": ["node"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["@techstack/*"],
+      "groupName": "@techstack mono repo",
+      "enabled": true,
+      "rollback": false
+    }
   ]
 }
