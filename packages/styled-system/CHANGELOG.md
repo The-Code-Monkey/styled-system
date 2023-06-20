@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.9...@techstack/styled-system@1.0.10) (2023-06-20)
+
+
+### Reverts
+
+* change interpolation back to any ([8f21a8f](https://github.com/The-Code-Monkey/TechStack/commit/8f21a8f75da839c80d124c9ccdfcd364b4746b23))
+
+
+
+
+
 ## [1.0.9](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.8...@techstack/styled-system@1.0.9) (2023-06-20)
 
 
