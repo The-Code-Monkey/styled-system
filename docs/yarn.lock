@@ -1838,10 +1838,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/components@0.7.283":
-  version "0.7.283"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.283.tgz#55ea83b6153641bef9e072b82d5974ae2c2dbed2"
-  integrity sha512-1SZBc5apndRCm3aUPl7PH/Wy5FCprxap05y4Sw+Kog7Xu5p0tegTUd3Gu5Zdb33sgFuB/4ODLfAg0xNg02Sd1w==
+"@techstack/components@0.7.285":
+  version "0.7.285"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.285.tgz#b6626ee3485ad37661cab1a5582d1a9f782ba489"
+  integrity sha512-0Wc5e+q9U0P8yTor/23tJOfivDVKMfGF36iu1DyIsoc9UVtHcWxlPxP5XmBLr8+JGEkYUrrDP9zXdrxD2U784g==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.2"
@@ -1850,7 +1850,7 @@
     "@techstack/react-lazy-named" "0.4.120"
     "@techstack/react-quill" "1.0.11"
     "@techstack/react-textfit" "0.4.150"
-    "@techstack/styled-system" "1.0.13"
+    "@techstack/styled-system" "1.0.14"
     "@techstack/tcm-cli" "0.4.211"
     "@techstack/theme" "0.4.138"
     "@types/react-table" "7.7.14"
@@ -1905,10 +1905,10 @@
     process "0.11.10"
     prop-types "15.8.1"
 
-"@techstack/styled-system@1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.13.tgz#91f4fe06ecc047f33ce2abf1e58c2078302ea341"
-  integrity sha512-jRurpjiC0SXDfd4o67imziPWjs5rs+CRAnAXT9H3FAmZxFLBPjdm+wrA9LIlt9y5L1PXj0EEaWdYPi4aBLGcoQ==
+"@techstack/styled-system@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.14.tgz#d8786c4fa71d6f2914ca24e11c9e913ab84f9b74"
+  integrity sha512-oYyoY136mp+Qizr6pOhGkvSOpd2TnK+iqOx08YdyonopVrl5kxlLM6uVGNZGvEnn2MQWiPZSjUacZNsctZpMEw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@techstack/memoize" "0.4.124"
