@@ -11,6 +11,8 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "automergeStrategy": "squash",
+  "automerge": true,
   "rangeStrategy": "pin",
   "baseBranches": ["main", "V1", "V2"],
   "packageRules": [
