@@ -1972,10 +1972,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.126.tgz#2e9b13b4b12d9b76c083848ef1ce9e153124a336"
   integrity sha512-vB8+CebzXl4hJ2x9q0f6AFTrMiz19uyvZPJEUqI+ja5OJL5jPXmmMjIeHpk0CxmHy5f3zIgum8KC4ZvE5HshJg==
 
-"@techstack/tcm-cli@0.4.213":
-  version "0.4.213"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.213.tgz#5df2559cef8aed7766af01ae10547f10e71d3136"
-  integrity sha512-JY65NG/FV/CLLqbAix5QVB5Yy5E8m3GpmmoLnQnVSzurq/lGm2O6XFbZH61tZ9d/eKrBtdX1R/HqXzpSZI7Qxw==
+"@techstack/tcm-cli@0.4.215":
+  version "0.4.215"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.215.tgz#a53d0e3f62212c91484c65d32a87d3d9df70d46a"
+  integrity sha512-vSx/7RpslwC4pPITi0i+e97KG6JkGNo5/960HcLIlU3B/HnG1FQ5Y88ZOnYPLPCZnz+kAKzGbPP044f8wLR4aA==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -2025,9 +2025,9 @@
     rollup "3.25.1"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "5.3.0"
-    rollup-plugin-typescript2 "0.34.1"
+    rollup-plugin-typescript2 "0.35.0"
     sade "1.8.1"
-    semver "7.5.2"
+    semver "7.5.3"
     shelljs "0.8.5"
     sort-package-json "2.4.1"
     tiny-glob "0.2.9"
@@ -7714,10 +7714,10 @@ rollup-plugin-dts@5.3.0:
   optionalDependencies:
     "@babel/code-frame" "^7.18.6"
 
-rollup-plugin-typescript2@0.34.1:
-  version "0.34.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.34.1.tgz#c457f155a71d133c142689213fce78694e30d0be"
-  integrity sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==
+rollup-plugin-typescript2@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.35.0.tgz#a84fb4e802b919613f31552c69c3415101b547c1"
+  integrity sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==
   dependencies:
     "@rollup/pluginutils" "^4.1.2"
     find-cache-dir "^3.3.2"
@@ -7808,10 +7808,10 @@ semver@7.3.8:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@7.5.2:
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
-  integrity sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==
+semver@7.5.3:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.3.tgz#161ce8c2c6b4b3bdca6caadc9fa3317a4c4fe88e"
+  integrity sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==
   dependencies:
     lru-cache "^6.0.0"
 
