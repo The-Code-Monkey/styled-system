@@ -1972,10 +1972,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.128.tgz#c5373368f39e771cdb5a6e88269a30c21ee7d2b7"
   integrity sha512-VtERqF34pzXv4ZQMGF8HFv3wJbAnO9OUPm8l0+pnTKz4POkMz1xkX0fzjljFb0jauBvc1MaT2TWEqQuGL56Www==
 
-"@techstack/tcm-cli@0.4.215":
-  version "0.4.215"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.215.tgz#a53d0e3f62212c91484c65d32a87d3d9df70d46a"
-  integrity sha512-vSx/7RpslwC4pPITi0i+e97KG6JkGNo5/960HcLIlU3B/HnG1FQ5Y88ZOnYPLPCZnz+kAKzGbPP044f8wLR4aA==
+"@techstack/tcm-cli@0.4.217":
+  version "0.4.217"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.217.tgz#acfe223c7519752556b09c3bf85ae6c41489c557"
+  integrity sha512-xJlFESMZdFANg0xjILBIcbSVd/7W2XBcfPqeHrJh9OWWy9iV1VxFwKGRfdRZ4N9zg3Jxqc/0cbqdCMAuOsiN4Q==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
