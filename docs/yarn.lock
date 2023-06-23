@@ -1838,15 +1838,15 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.2.tgz#0402364a2a9692edf04e05ee6f385dfa27271da5"
   integrity sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA==
 
-"@techstack/components@0.7.291":
-  version "0.7.291"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.291.tgz#f84d298def5aa926a9e933ac331c7863fca697c3"
-  integrity sha512-ZglSsqAfzaLUBeOorxfgM7/KX5BRhPNw4I1tzwY5Lcru1IZAXXxDP6KbY/k1z5emOuG+V7MS3GKK0P3xj21wOg==
+"@techstack/components@0.7.293":
+  version "0.7.293"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.293.tgz#bcac00eeafd7b82829e1f4c7170b7d4bc3bd983a"
+  integrity sha512-2JhlN4ZwhzcFlV52VHEuRPIDOUh/Bnj7lWrNQvp0YBmcLdGBit3sD64C9cjM3Fa9dDKq/gE79VJgQ1mcJT5TSA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.2"
     "@techstack/memoize" "0.4.126"
-    "@techstack/react-feather" "0.4.128"
+    "@techstack/react-feather" "0.4.130"
     "@techstack/react-lazy-named" "0.4.122"
     "@techstack/react-quill" "1.0.13"
     "@techstack/react-textfit" "0.4.152"
@@ -1877,20 +1877,12 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.126.tgz#2e9b13b4b12d9b76c083848ef1ce9e153124a336"
   integrity sha512-vB8+CebzXl4hJ2x9q0f6AFTrMiz19uyvZPJEUqI+ja5OJL5jPXmmMjIeHpk0CxmHy5f3zIgum8KC4ZvE5HshJg==
 
-"@techstack/react-feather@0.4.128":
-  version "0.4.128"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.128.tgz#6a8a6c1008cca72c4757c71e91ddb5ca9e3beea8"
-  integrity sha512-e9nzvb52+dJksLDfEtn5MSHunE6WKE0nDKeIChY7IQLdbWTq3ADfxwHO+VGy1ejXWbXJIEUtyr4/pXFiXmcVFw==
+"@techstack/react-feather@0.4.130":
+  version "0.4.130"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.130.tgz#7a9505f90841bd1efe954d687b9b642b29702397"
+  integrity sha512-Svhh9mbFW0daCvIw8tUhuh8r/xwAglEI0DfJSL2Z6oyAC5FQu50viEjpicKySva+6E8b3buQy0Jh2z94YSfpKQ==
   dependencies:
-    "@techstack/react-lazy-named" "0.4.120"
-
-"@techstack/react-lazy-named@0.4.120":
-  version "0.4.120"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.120.tgz#5e843d9e0912788716381a2ae62ec6b93d2795e3"
-  integrity sha512-hZggQVCKPFCmIXy7N2NyTDvC0qwZtvlj6GzdinZiRT+NTtsPexbziMTYL8+NMXm4zLtAzuPjrVP4q9NCT2N/3w==
-  dependencies:
-    lodash "4.17.21"
-    lodash-es "4.17.21"
+    "@techstack/react-lazy-named" "0.4.122"
 
 "@techstack/react-lazy-named@0.4.122":
   version "0.4.122"
