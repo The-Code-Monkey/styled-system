@@ -1838,21 +1838,21 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@0.7.299":
-  version "0.7.299"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.299.tgz#3102b84e1a6b07d128791c2697a6225d1be92960"
-  integrity sha512-NwW1J6yoOweMql/P+dSjb2XKkfzJsVD+il9u0tY0b/1a1Jmv3sWKsHuSIVTu2PqlYQQt/gehPRMaMTmBFgw2pw==
+"@techstack/components@0.7.301":
+  version "0.7.301"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-0.7.301.tgz#e126ada51b8dc4d95b2aca182e836612f06f0886"
+  integrity sha512-rSGJEF7FuDNWRgHeF1D7dNfSOsv+cZKexcV42nWNMZVaqkJIUMJTNpDzRfofia+dk8RR3PiruToumgC4pL9zDw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
-    "@techstack/memoize" "0.4.128"
-    "@techstack/react-feather" "0.4.134"
-    "@techstack/react-lazy-named" "0.4.124"
-    "@techstack/react-quill" "1.0.17"
-    "@techstack/react-textfit" "0.4.154"
-    "@techstack/styled-system" "1.0.18"
+    "@techstack/memoize" "0.4.130"
+    "@techstack/react-feather" "0.4.136"
+    "@techstack/react-lazy-named" "0.4.126"
+    "@techstack/react-quill" "1.0.19"
+    "@techstack/react-textfit" "0.4.156"
+    "@techstack/styled-system" "1.0.19"
     "@techstack/tcm-cli" "0.4.217"
-    "@techstack/theme" "0.4.142"
+    "@techstack/theme" "0.4.144"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -1872,10 +1872,15 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.128.tgz#c5373368f39e771cdb5a6e88269a30c21ee7d2b7"
   integrity sha512-VtERqF34pzXv4ZQMGF8HFv3wJbAnO9OUPm8l0+pnTKz4POkMz1xkX0fzjljFb0jauBvc1MaT2TWEqQuGL56Www==
 
-"@techstack/react-feather@0.4.134":
-  version "0.4.134"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.134.tgz#cfd29f2c382fc3c54e03595d23df45870d7b3af9"
-  integrity sha512-okp7ILUseKZHjjpu73JrtalaAXWGg60uZ2FRuZGsaGi/1Mpq/ItzWG1DlShG3kPeFg5PmliGvxvYyTNZJwH/Fw==
+"@techstack/memoize@0.4.130":
+  version "0.4.130"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.130.tgz#1d57a1392073c86381c0fd95695ef03a45d9e3be"
+  integrity sha512-0uPEOXEj8OQHOE5o99ej5/p5JdNhs3hKG+RYQW2yQ/Kdhq64bYzpA7YvMjENENyx8xqJ2ceVzv/edctRPfSLwg==
+
+"@techstack/react-feather@0.4.136":
+  version "0.4.136"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-0.4.136.tgz#ef67ab2c6c3dac6dfd0918844e38fe23b422b67f"
+  integrity sha512-9R5jDIV0+qddJurrQvp09rVlHSD8lDpgYe8lHXetFXuvU+YQXT1+6YnbiZSD+t96jBI8ZhvZbgizq2TscygF5A==
   dependencies:
     "@techstack/react-lazy-named" "0.4.124"
 
@@ -1887,28 +1892,36 @@
     lodash "4.17.21"
     lodash-es "4.17.21"
 
-"@techstack/react-quill@1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.17.tgz#00363352169d0583eaad73547e8eeb6c024c910f"
-  integrity sha512-mouvPOHt45ATH0xUYv1hDUPNw7F+tfJSNT+pYINuKGtrlZrLIZdYMOCGOQ+Z9rcCePbUdOGamcRucfSpaVdwgQ==
+"@techstack/react-lazy-named@0.4.126":
+  version "0.4.126"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-0.4.126.tgz#86bcfa83157cb13c1162625eca8e64882202836e"
+  integrity sha512-WKIWiWYDBGnhn9+N+9gNn47hgOZFPxsnMbp6gcdGGmq4FxEEKVCp+IzVlFX9C4lk7CoOlgrUdZC5sw/bRx8Cfw==
+  dependencies:
+    lodash "4.17.21"
+    lodash-es "4.17.21"
+
+"@techstack/react-quill@1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@techstack/react-quill/-/react-quill-1.0.19.tgz#323c2b467f150e678687c83ba7fcedc1281ee154"
+  integrity sha512-atJOIa9oO5qj8jNiQXzZAVu4lx7rbVObfDuzi+krbPURY2x34e/q7zlUvpWXTVHVp688SyHP6f33hbNu2yCH8Q==
   dependencies:
     "@types/quill" "2.0.10"
     lodash "4.17.21"
     quill "2.0.0-dev.4"
     quill-better-table "1.2.10"
 
-"@techstack/react-textfit@0.4.154":
-  version "0.4.154"
-  resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.154.tgz#56150615576585367991910b69c634db7713b304"
-  integrity sha512-8oL0I0Ab7ZYtv3wePzbfRfTPPCiKzEC9Go88qbJDuRZoWDJzldIwEVxmUSXf3GCIZnM+JZPnq20Th1Hzuc52NA==
+"@techstack/react-textfit@0.4.156":
+  version "0.4.156"
+  resolved "https://registry.yarnpkg.com/@techstack/react-textfit/-/react-textfit-0.4.156.tgz#9a7eeed7ee362f009480970f7224950edd436c7a"
+  integrity sha512-DF6mwh20V9rwR1Ai2PVmdZaykT2b6rdeZf26mQZCk6/iUufIiMGCqKHUX3uPBHSrI5k/SKtCbPfpBzxbGlZiyA==
   dependencies:
     process "0.11.10"
     prop-types "15.8.1"
 
-"@techstack/styled-system@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.18.tgz#46e84fb7b66994802e3d3d301c8725ea30a702ab"
-  integrity sha512-ZQUW75gX59tCcf9zN4QV461ONbVCfGIztdDf07/fxA0uvWHIZXHsP6OIBT9ZC+n0QvYdBprZQGN3rVTfT2iT2g==
+"@techstack/styled-system@1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.19.tgz#fc7d3601aa4a6142708f7d7a76c45998e17e9d8c"
+  integrity sha512-41ZSky19TVbxKHqBf3dd/N3XqzTE0Dm0aibusQXKu9czzoNR0vn4tosyhawJMIEVKaqNwnh+43tgGnXoehsjlQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@techstack/memoize" "0.4.128"
@@ -1980,10 +1993,10 @@
     type-fest "3.12.0"
     typescript "5.1.3"
 
-"@techstack/theme@0.4.142":
-  version "0.4.142"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.4.142.tgz#e334df39cdfbd070b9139664c83aeb9b8606df7c"
-  integrity sha512-/W2WnOJUyxWKVk3RSZEIx8VU8uzaSMZLSghsvf6D3eGvGpgHI8T4lY6dtrKHF8BtmGGHAAg+5EwbKFw8kAKtwQ==
+"@techstack/theme@0.4.144":
+  version "0.4.144"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-0.4.144.tgz#524c3abc6ef2e1b760f66276050feb7792cdb57d"
+  integrity sha512-boyRuMTcwxQAu8yyYirOy2zHerejjtY2baj3g+wHuPiAIVoaKGIlhrIoWwS4b1drgzpIXjky+jWgmOmhkg5QeQ==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
