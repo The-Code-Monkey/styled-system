@@ -1972,10 +1972,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.132.tgz#ff96d7f730562144d236ab32314a8b0a6f375d09"
   integrity sha512-f20OxdVctto6RKe9dBq5D/J8mxwd0pXf2uyvYZb/Aw1S/mIb9gth7tsLBdDGd1NR3oN99tDKHgGcVt5cT1Wxvw==
 
-"@techstack/tcm-cli@0.4.219":
-  version "0.4.219"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.219.tgz#4317c44aa4df5307ff195d8e0c760ce609e28765"
-  integrity sha512-lAh2XZJdmZmkVnEj+ofkuMdCAli5lwKwQ7F7yWE1Gj96Ai/9LnT9Nmu4jGdeMAgj8FRjO7RlaGfx9xsYreRShA==
+"@techstack/tcm-cli@0.4.221":
+  version "0.4.221"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.221.tgz#d9854443d0aad754343a67a314581ab269e18849"
+  integrity sha512-4NsdCJ/yDi5JtgwPbi6f/PI+aACKwDQLSRhTHTl6gFYUtlQj5UQpf1d4Ou8pW7c8CP1+O70jCmGrJ4LNNW4M4Q==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -2022,7 +2022,7 @@
     prettier "2.8.8"
     progress-estimator "0.3.1"
     regenerator-runtime "0.13.11"
-    rollup "3.25.1"
+    rollup "3.25.2"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "5.3.0"
     rollup-plugin-typescript2 "0.35.0"
@@ -7730,10 +7730,10 @@ rollup-plugin-typescript2@0.35.0:
     semver "^7.3.7"
     tslib "^2.4.0"
 
-rollup@3.25.1:
-  version "3.25.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.25.1.tgz#9fff79d22ff1a904b2b595a2fb9bc3793cb987d8"
-  integrity sha512-tywOR+rwIt5m2ZAWSe5AIJcTat8vGlnPFAv15ycCrw33t6iFsXZ6mzHVFh2psSjxQPmI+xgzMZZizUAukBI4aQ==
+rollup@3.25.2:
+  version "3.25.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.25.2.tgz#3479d72955a83da9019f926d4ba285d630b7656b"
+  integrity sha512-VLnkxZMDr3jpxgtmS8pQZ0UvhslmF4ADq/9w4erkctbgjCqLW9oa89fJuXEs4ZmgyoF7Dm8rMDKSS5b5u2hHUg==
   optionalDependencies:
     fsevents "~2.3.2"
 
