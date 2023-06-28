@@ -19,6 +19,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "lerna": "7.1.0"
+    "lerna": "7.1.1"
   }
 }
