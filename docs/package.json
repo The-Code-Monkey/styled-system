@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@techstack/components": "0.7.327",
-    "next": "13.4.8",
+    "next": "13.4.9",
     "nextra": "2.8.0",
     "nextra-theme-docs": "2.8.0",
     "react": "18.2.0",
