@@ -50,7 +50,7 @@
   ],
   "devDependencies": {
     "@size-limit/file": "8.2.6",
-    "@techstack/tcm-cli": "0.4.239",
+    "@techstack/tcm-cli": "0.4.243",
     "@types/jest": "29.5.2",
     "jest": "29.6.1",
     "size-limit": "8.2.6",

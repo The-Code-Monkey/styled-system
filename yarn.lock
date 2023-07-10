@@ -2206,10 +2206,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.142.tgz#d983b1fff2096c12f3d8a7ff4a4225dfca8913e6"
   integrity sha512-CZi2vQ1Yz2DwREcwJxObUCyKIOd0L/GFTieXG8HFd9+hBF02Pm6KLyLs5+Int0VzBb+fs/lOgkqKtCRs6v3DFg==
 
-"@techstack/tcm-cli@0.4.239":
-  version "0.4.239"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.239.tgz#432b2a8d5114488a6267234c9735cfae526a58d2"
-  integrity sha512-WioCDE0PzkOYHeAGidb0HuzdgmlXJzfAtyd32wBXx8a8HTuj3MGCsqsc/iuOaIha8f4iO6RRBWJ3tmCGdcstrg==
+"@techstack/tcm-cli@0.4.243":
+  version "0.4.243"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-0.4.243.tgz#800e74eff1378b7924bb83903b340f0d03dc12dd"
+  integrity sha512-8V+aX0l7MJVCig2Hg7Pwos/qmiHO1+Mtyf1Ynf5YLTEZlaMrpYABLuYjL2aBlIpQmZEK4AdqkxgL/bFfCOV2Wg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -2261,9 +2261,9 @@
     rollup-plugin-dts "5.3.0"
     rollup-plugin-typescript2 "0.35.0"
     sade "1.8.1"
-    semver "7.5.3"
+    semver "7.5.4"
     shelljs "0.8.5"
-    sort-package-json "2.5.0"
+    sort-package-json "2.5.1"
     tiny-glob "0.2.9"
     ts-jest "29.1.1"
     ts-node "10.9.1"
@@ -8456,6 +8456,13 @@ semver@7.5.3, semver@^7.5.3:
   dependencies:
     lru-cache "^6.0.0"
 
+semver@7.5.4:
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
+  dependencies:
+    lru-cache "^6.0.0"
+
 semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
@@ -8618,10 +8625,10 @@ sort-object-keys@^1.1.3:
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
   integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
 
-sort-package-json@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.5.0.tgz#6e249a8d3b4a637b491676019524533e23208bb8"
-  integrity sha512-KIsqEi/ameVyhhatpzwialQVSMP1mFzRLJgTBKJDz0duQmhnBDjf8MFyFoIoVnW69SqjH3/bziCSlgiuz2KbHg==
+sort-package-json@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.5.1.tgz#5c0f2ce8cc8851988e5039f76b8978439439039d"
+  integrity sha512-vx/KoZxm8YNMUqdlw7SGTfqR5pqZ/sUfgOuRtDILiOy/3AvzhAibyUe2cY3OpLs3oRSow9up4yLVtQaM24rbDQ==
   dependencies:
     detect-indent "^7.0.1"
     detect-newline "^4.0.0"
