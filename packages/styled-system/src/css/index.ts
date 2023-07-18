@@ -60,7 +60,7 @@ function responsive(styles: object = {}) {
 }
 
 export function css(args?: ((a: Theme) => object) | object) {
-  return (props?: Theme | { theme: Theme }): CSSObject => {
+  return (props?: Theme | { theme: Theme }): object => {
     // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
     let theme: Theme = { ...defaultTheme };
 
@@ -70,7 +70,7 @@ export function css(args?: ((a: Theme) => object) | object) {
       theme = { ...theme, ...props };
     }
 
-    const result: CSSObject = {};
+    const result: object = {};
 
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
