@@ -1,4 +1,4 @@
-import { Property, StandardProperties, SvgProperties, Pseudos } from 'csstype';
+import { Property, SvgProperties, Pseudos } from 'csstype';
 
 import { ObjectOrArray } from './core';
 
@@ -48,10 +48,6 @@ export type ThemeValue<K extends keyof ThemeType, ThemeType> =
   | keyof ThemeType[K]
   | number
   | string;
-
-interface CSSProperties
-  extends StandardProperties<number | string>,
-    SvgProperties<number | string> {}
 
 /**
  * CSS as POJO that is compatible with CSS-in-JS libaries.
