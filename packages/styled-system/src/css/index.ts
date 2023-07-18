@@ -1,5 +1,5 @@
 import { get } from '../core';
-import { CSSObject, Theme } from '../types';
+import { Theme } from '../types';
 import {
   defaultBreakpoints,
   defaultTheme,
