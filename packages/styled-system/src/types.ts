@@ -1,4 +1,4 @@
-import { Property, SvgProperties, Pseudos } from 'csstype';
+import { Property } from 'csstype';
 
 import { ObjectOrArray } from './core';
 
