@@ -59,7 +59,7 @@ function responsive(styles: object = {}) {
   };
 }
 
-export function css(args?: ((a: Theme) => object) | object) {
+export function css(args?: ((a: Theme) => object) | object): (props?: Theme | { theme: Theme }): object {
   return (props?: Theme | { theme: Theme }): object => {
     // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
     let theme: Theme = { ...defaultTheme };
