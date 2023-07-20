@@ -51,7 +51,7 @@ export type ThemeValue<K extends keyof ThemeType, ThemeType> =
   | string;
 
   export interface StyleFunction<Props extends object> {
-      (executionContext: ExecutionContext & Props): Interpolation<object>;
+      (executionContext: { theme: object } & Props): Interpolation<object>;
   }
 
   export type RuleSet<Props extends object = {}> = Interpolation<Props>[];
@@ -71,6 +71,12 @@ export type ThemeValue<K extends keyof ThemeType, ThemeType> =
         name: string;
           rules: string;
   }
+
+type FastOmit<T extends object, U extends string | number | symbol> = {
+  [K in keyof T as K extends U ? never : K]: T[K];
+};
+
+export type Substitute<A extends object, B extends object> = FastOmit<A, keyof B> & B;
 
 export type Interpolation<Props extends object> =
   | StyleFunction<Props>
