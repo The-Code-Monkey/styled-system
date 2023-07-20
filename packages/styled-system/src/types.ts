@@ -81,7 +81,6 @@ export type Substitute<A extends object, B extends object> = FastOmit<A, keyof B
 export type Interpolation<Props extends object> =
   | StyleFunction<Props>
     | StyledObject<Props>
-      | TemplateStringsArray
         | string
           | number
             | false
