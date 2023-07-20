@@ -50,27 +50,27 @@ export type ThemeValue<K extends keyof ThemeType, ThemeType> =
   | number
   | string;
 
-  export interface StyleFunction<Props extends object> {
-      (executionContext: { theme: object } & Props): Interpolation<object>;
-  }
+export interface StyleFunction<Props extends object> {
+    (executionContext: { theme: object } & Props): Interpolation<object>;
+}
 
-  export type RuleSet<Props extends object = {}> = Interpolation<Props>[];
+export type RuleSet<Props extends object = {}> = Interpolation<Props>[];
 
-  export type StyledObject<Props extends object> = Substitute<Props, CSS.Properties> & {
-      [key: string]:
-          | string
-              | number
-                  | StyleFunction<Props>
-                      | StyledObject<Props>
-                          | RuleSet<any>
-                              | undefined;
-                              };
+export type StyledObject<Props extends object> = Substitute<Props, CSS.Properties> & {
+    [key: string]:
+        | string
+        | number
+        | StyleFunction<Props>
+        | StyledObject<Props>
+        | RuleSet<any>
+        | undefined;
+};
 
-  export interface Keyframes {
-      id: string;
-        name: string;
-          rules: string;
-  }
+export interface Keyframes {
+    id: string;
+    name: string;
+    rules: string;
+}
 
 type FastOmit<T extends object, U extends string | number | symbol> = {
   [K in keyof T as K extends U ? never : K]: T[K];
@@ -80,15 +80,15 @@ export type Substitute<A extends object, B extends object> = FastOmit<A, keyof B
 
 export type Interpolation<Props extends object> =
   | StyleFunction<Props>
-    | StyledObject<Props>
-        | string
-          | number
-            | false
-              | undefined
-                | null
-                  | Keyframes
-                      | RuleSet<object>
-                        | Interpolation<Props>[];
+  | StyledObject<Props>
+  | string
+  | number
+  | false
+  | undefined
+  | null
+  | Keyframes
+  | RuleSet<object>
+  | Interpolation<Props>[];
 
 /**
  * CSS as POJO that is compatible with CSS-in-JS libaries.
