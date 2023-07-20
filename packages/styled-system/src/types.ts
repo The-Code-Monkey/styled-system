@@ -51,25 +51,25 @@ export type ThemeValue<K extends keyof ThemeType, ThemeType> =
   | string;
 
 export interface StyleFunction<Props extends object> {
-    (executionContext: { theme: object } & Props): Interpolation<object>;
+  (executionContext: { theme: object } & Props): Interpolation<object>;
 }
 
 export type RuleSet<Props extends object = {}> = Interpolation<Props>[];
 
 export type StyledObject<Props extends object> = Substitute<Props, CSS.Properties> & {
-    [key: string]:
-        | string
-        | number
-        | StyleFunction<Props>
-        | StyledObject<Props>
-        | RuleSet<any>
-        | undefined;
+  [key: string]:
+    | string
+    | number
+    | StyleFunction<Props>
+    | StyledObject<Props>
+    | RuleSet<any>
+    | undefined;
 };
 
 export interface Keyframes {
-    id: string;
-    name: string;
-    rules: string;
+  id: string;
+  name: string;
+  rules: string;
 }
 
 type FastOmit<T extends object, U extends string | number | symbol> = {
