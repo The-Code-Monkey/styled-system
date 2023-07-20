@@ -59,10 +59,10 @@ function responsive(styles: object = {}) {
   };
 }
 
-type cssReturn =  (props?: Theme | { theme: Theme }) => Interpolation;
+type cssReturn =  (props?: Theme | { theme: Theme }) => Interpolation<object>;
 
 export const css = (args?: ((a: Theme) => object) | object): cssReturn => {
-  return (props?: Theme | { theme: Theme }): Interpolation => {
+  return (props?: Theme | { theme: Theme }): Interpolation<object> => {
     // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
     let theme: Theme = { ...defaultTheme };
 
@@ -72,7 +72,7 @@ export const css = (args?: ((a: Theme) => object) | object): cssReturn => {
       theme = { ...theme, ...props };
     }
 
-    const result: Interpolation = {};
+    const result: Interpolation<object> = {};
 
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
@@ -128,6 +128,6 @@ export const css = (args?: ((a: Theme) => object) | object): cssReturn => {
       }
     });
 
-    return result as Interpolation;
+    return result as Interpolation<object>;
   };
 }
