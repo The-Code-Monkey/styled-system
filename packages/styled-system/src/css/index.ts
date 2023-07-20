@@ -1,5 +1,5 @@
 import { get } from '../core';
-import { CSSObject, Theme } from '../types';
+import { Interpolation, Theme } from '../types';
 import {
   defaultBreakpoints,
   defaultTheme,
@@ -59,8 +59,10 @@ function responsive(styles: object = {}) {
   };
 }
 
-export function css(args?: ((a: Theme) => object) | object) {
-  return (props?: Theme | { theme: Theme }): CSSObject => {
+type cssReturn =  (props?: Theme | { theme: Theme }) => Interpolation;
+
+export const css = (args?: ((a: Theme) => object) | object): cssReturn => {
+  return (props?: Theme | { theme: Theme }): Interpolation => {
     // const propsTheme = ((props ?? { theme: props }) as { theme: Theme }).theme;
     let theme: Theme = { ...defaultTheme };
 
@@ -70,7 +72,7 @@ export function css(args?: ((a: Theme) => object) | object) {
       theme = { ...theme, ...props };
     }
 
-    const result: CSSObject = {};
+    const result: Interpolation = {};
 
     const obj = typeof args === 'function' ? args(theme) : args;
     const styles = responsive(obj)(theme);
@@ -126,6 +128,6 @@ export function css(args?: ((a: Theme) => object) | object) {
       }
     });
 
-    return result;
+    return result as Interpolation;
   };
 }
