@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@techstack/components": "0.7.401",
+    "@techstack/components": "0.7.403",
     "next": "13.4.12",
     "nextra": "2.10.0",
     "nextra-theme-docs": "2.10.0",
