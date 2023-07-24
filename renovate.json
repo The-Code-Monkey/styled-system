@@ -17,14 +17,8 @@
   "baseBranches": ["main", "V1", "V2"],
   "packageRules": [
     {
-	    "packageNames": ["node"],
+      "packageNames": ["node"],
       "enabled": false
-    },
-    {
-      "matchPackagePatterns": ["@techstack/*"],
-      "groupName": "techstack mono repo",
-      "enabled": true,
-      "rollback": false
     }
   ]
 }
