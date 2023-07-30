@@ -2221,10 +2221,10 @@
   dependencies:
     semver "7.5.3"
 
-"@techstack/memoize@0.4.162":
-  version "0.4.162"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-0.4.162.tgz#ebe690c3d426d27d150736738a083be529db265e"
-  integrity sha512-QNJ6NJ1e+Q0pthn7AUtwsyPIgk2gTBvjPV3vAZHg7lLMmWa6WMqMd9ewXMXyOfPTeo4Rs9EWG9HrUQ7D1UUzJg==
+"@techstack/memoize@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.1.6.tgz#a495b1282a6be144f19c42996f030e3e5b75758a"
+  integrity sha512-97sJnbgpfAYY0JKX6Kdk52MjuXNqhkgc84KI2U+CEcky3xXZxTXqrbSbeQK7yH9SvVrLGfrGuTUhS/uvJu/eVw==
 
 "@techstack/tcm-cli@0.4.251":
   version "0.4.251"
