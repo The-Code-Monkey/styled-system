@@ -6,7 +6,7 @@ import { RequiredTheme, ResponsiveValue, Theme, ThemeValue } from '../types';
 
 export interface ColorProps<
   ThemeType extends Theme = RequiredTheme,
-  TVal = ThemeValue<'colors', ThemeType>
+  TVal = ThemeValue<'colors', ThemeType>,
 > {
   backgroundColor?: ResponsiveValue<TVal, ThemeType>;
   bg?: ResponsiveValue<TVal, ThemeType>;
