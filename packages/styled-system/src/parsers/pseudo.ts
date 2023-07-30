@@ -4,7 +4,7 @@ import { pseudoSelectors } from '../utils';
 
 export interface PseudoProps<
   ThemeType extends Theme = RequiredTheme,
-  TVal = ThemeValue<keyof ThemeType, ThemeType>
+  TVal = ThemeValue<keyof ThemeType, ThemeType>,
 > {
   _hover?: ObjectOrArray<ResponsiveValue<TVal, ThemeType>>;
   _active?: ObjectOrArray<ResponsiveValue<TVal, ThemeType>>;
