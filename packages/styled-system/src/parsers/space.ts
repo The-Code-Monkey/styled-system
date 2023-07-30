@@ -26,7 +26,7 @@ export function getMargin(scale?: Scale, n?: number) {
 
 export interface MarginProps<
   ThemeType extends Theme = RequiredTheme,
-  TVal = ThemeValue<'space', ThemeType>
+  TVal = ThemeValue<'space', ThemeType>,
 > {
   /** Margin on top, left, bottom and right */
   m?: ResponsiveValue<TVal, ThemeType>;
@@ -159,7 +159,7 @@ export const margin = system(marginConfig);
 
 export interface PaddingProps<
   ThemeType extends Theme = RequiredTheme,
-  TVal = ThemeValue<'space', ThemeType>
+  TVal = ThemeValue<'space', ThemeType>,
 > {
   /** Padding on top, left, bottom and right */
   p?: ResponsiveValue<TVal, ThemeType>;
@@ -281,7 +281,7 @@ export const padding = system(paddingConfig);
 
 export interface SpaceProps<
   ThemeType extends Theme = RequiredTheme,
-  TVal = ThemeValue<'space', ThemeType>
+  TVal = ThemeValue<'space', ThemeType>,
 > extends MarginProps<ThemeType, TVal>,
     PaddingProps<ThemeType, TVal> {}
 
