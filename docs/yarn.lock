@@ -1327,10 +1327,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.1.9":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.1.9.tgz#fbcc40e575dfda60c46b14bfc842786cca7167fd"
-  integrity sha512-9yE8nX5ngy5W55HvQSSPSnFBVDH8aev7jlOE3FMuydTWlP4RCJxnlzMEMYZmQ7uoYJyQt3K4ZK11fSuceQotIw==
+"@techstack/components@1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.1.10.tgz#d1d7d2231841bff7f273ca8c5929b9de3efb7516"
+  integrity sha512-ql2Oy6EBQIyHhn6z3zMVWO2LUW3lbRx3kDZK7WWvbQttamTMVOoENWuOc0LoGmanPNwJWvg/0aYOkwyOLNXSvg==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
@@ -1343,7 +1343,7 @@
     deepmerge "4.3.1"
     i18next "23.4.1"
     react-date-picker "10.5.0"
-    react-datetime-picker "5.5.0"
+    react-datetime-picker "5.5.1"
     react-i18next "13.0.2"
     react-lazy-named "1.2.2"
     react-responsive-carousel "3.2.23"
@@ -3936,10 +3936,10 @@ react-date-picker@10.5.0, react-date-picker@^10.5.0:
     react-fit "^1.7.0"
     update-input-width "^1.4.0"
 
-react-datetime-picker@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.5.0.tgz#3d9ad67b5409d9d8c4041fd1a2acd6965bd5681d"
-  integrity sha512-+hX82KT2//uq27ybxI+2TQd8haoX6r+ubE93O6KPkgbLhpkMvek32EShLP/IXX8zw/6QpHLvJH3Eh2GxG8roLQ==
+react-datetime-picker@5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.5.1.tgz#71955526c17e6484c86386c702a871a7ea1c9c13"
+  integrity sha512-lYWTh5b1EbBCocM8JGOUTd72mWEDRRbkOv1Owni6fUDhlI1Gq9KhRiQ5HuLv72EL6gq9JHLE4GbczOQj4EM57g==
   dependencies:
     "@wojtekmaj/date-utils" "^1.1.3"
     clsx "^2.0.0"
