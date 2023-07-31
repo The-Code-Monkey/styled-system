@@ -14,7 +14,7 @@
   "automergeStrategy": "squash",
   "automerge": true,
   "rangeStrategy": "pin",
-  "baseBranches": ["main", "V1", "V2"],
+  "baseBranches": ["main"],
   "packageRules": [
     {
       "packageNames": ["node"],
