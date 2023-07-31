@@ -2079,10 +2079,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.1.7.tgz#984edf3372da47f494b1137839e0b5c1e39fa794"
   integrity sha512-GurM8oXDF7ufZkMAjbeIGPvMEAY2J5KdJKkOLZO1osOqAAUn8DdFB9V0ks83hy6xDwEyAIIgR3HgfW3N/aMZhQ==
 
-"@techstack/tcm-cli@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.1.7.tgz#18afbf286925c00972d068b683f8486ced70f6eb"
-  integrity sha512-MbxJkqsChYMzLnIE562Wz0vhl01nYs+4bB5ULFCqfRvxUwUTo/E6NSW5q4BaLhanRqmZSE6M+V16CUsK/P+f0Q==
+"@techstack/tcm-cli@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.1.8.tgz#7ff7a350d5c48799a8ce0ddb6d51cb2277cea220"
+  integrity sha512-Zv8WdXWXJhg7iU3ouKPbGuixOP5CLfb4eYwd+9GohhktzI/x4gkU9SoE20M0wUbqYitmAofAqVweQFhNTY/JSQ==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -2141,7 +2141,7 @@
     ts-jest "29.1.1"
     ts-node "10.9.1"
     tslib "2.6.1"
-    type-fest "4.0.0"
+    type-fest "4.1.0"
     typescript "5.1.6"
 
 "@tootallnate/once@2":
@@ -9067,10 +9067,10 @@ type-detect@4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.0.0.tgz#1c87b05c3f0304a2f911b5a47bb45fa4d62031db"
-  integrity sha512-d/oYtUnPM9zar2fqqGLYPzgcY0qUlYK0evgNVti93xpzfjGkMgZHu9Lvgrkn0rqGXTgsFRxFamzjGoD9Uo+dgw==
+type-fest@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.1.0.tgz#7e214aa81b843478396f832164ae8f058be95f9e"
+  integrity sha512-VJGJVepayd8OWavP+rgXt4i3bfLk+tSomTV7r4mca2XD/oTCWnkJlNkpXavkxdmtU2aKdAmFGeHvoQutOVHCZg==
 
 type-fest@^0.18.0:
   version "0.18.1"
