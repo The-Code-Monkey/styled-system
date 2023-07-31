@@ -1327,16 +1327,16 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.1.11.tgz#7c63f01079eaf63297c6f39d9ac7945c96668dd0"
-  integrity sha512-Q9De8TqSmmlmXqW5y4aUmIVNVW3gXwvEbAVfRQc2YPtQc31V3zlJhZDHzQJhxVkNpWGzXaFecv7QEf8NCYLzKA==
+"@techstack/components@1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.1.13.tgz#def1e55f6e47822751da03fa6a0ed3cd7790c33f"
+  integrity sha512-uO+qAm8KZN2btcOzlNwMMeAhbD6oN7Ncuwb/8wCR2ABHZxKTm7FRP9fRjqHIsEm2pN6oD1isFZYoQl/u2tfieQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
-    "@techstack/memoize" "1.1.8"
+    "@techstack/memoize" "1.1.9"
     "@techstack/styled-system" "1.0.61"
-    "@techstack/theme" "1.1.8"
+    "@techstack/theme" "1.1.9"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -1344,7 +1344,7 @@
     i18next "23.4.1"
     react-date-picker "10.5.0"
     react-datetime-picker "5.5.1"
-    react-i18next "13.0.2"
+    react-i18next "13.0.3"
     react-lazy-named "1.2.2"
     react-responsive-carousel "3.2.23"
     react-table "7.8.0"
@@ -1356,6 +1356,11 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.1.8.tgz#54b463a277ac933db0659d6e7d9d72efdc014611"
   integrity sha512-E7q4sy6bVawCWSdygMKGBUF0xdLxyDAqU6uzYfI4z/EiCxPaV+jF0dGh2/ay/6T6/lAGFDH8v1f4nZm209WbSw==
 
+"@techstack/memoize@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.1.9.tgz#9cc15fa187519f469cb0acd92aacfccbf19ac184"
+  integrity sha512-FbhoP9uNxx+hZpWc0n9KjiL+0E+aEwgHHRYMJEeQ4qRRS6pXCdiUvGOMgFAhHLKwYRG8CnRkBeMM6tgt1s2+DQ==
+
 "@techstack/styled-system@1.0.61":
   version "1.0.61"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.61.tgz#af84a3ab90c799cda725318aa9e4c582e3111a34"
@@ -1366,10 +1371,10 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.1.8.tgz#7da6ce332ef789a48026f7b071cfa8bd449a63b9"
-  integrity sha512-bIRiZyDXsNFFiy49TlveZkMkCjMEym9KWofbwHc89fu5h+tataKXZBCh/S4F4BBeUnlSpLtaSWed9s/KdLmbgA==
+"@techstack/theme@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.1.9.tgz#3c71257e3c725e9adb91fbc3efe0a886b54763b3"
+  integrity sha512-szn7/Vz9u5dOR41A36HdWeh1Pc7+XW7H+dv1nXpPwVlY/xmd7WHKxUZhWT5J15F1s/0uQ01/1U+Ch5eUqm+ANQ==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
@@ -3971,10 +3976,10 @@ react-fit@^1.7.0:
     prop-types "^15.6.0"
     tiny-warning "^1.0.0"
 
-react-i18next@13.0.2:
-  version "13.0.2"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.0.2.tgz#1708a9bdabc1fe1dd4a8534f4c3a80ab784b01e9"
-  integrity sha512-NEVxC32v0oR4egwYM0QM0WE93AiJG5r0NTXTL8mhQfAhsMfDS2fSO6jpluyfsfypP988KzUQrAXncspcJ7+GHA==
+react-i18next@13.0.3:
+  version "13.0.3"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.0.3.tgz#8eedc5c2ab57f4641540778cc7373c8ed891523c"
+  integrity sha512-/t4kt4Y2o+21hbvx+o9zpVnmoiud7KLDncyZFGN0U6TGAWYaXdTsp/ytAHFcKKSAODg4noIMaOO3X7bMgCqLHw==
   dependencies:
     "@babel/runtime" "^7.22.5"
     html-parse-stringify "^3.0.1"
