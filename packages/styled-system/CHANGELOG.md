@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.63](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.62...@techstack/styled-system@1.0.63) (2023-08-01)
+
+
+### Bug Fixes
+
+* css now works with styled components v6 ([25e0735](https://github.com/The-Code-Monkey/TechStack/commit/25e07352e6090f566fbee341da52e7bb7b42af6b))
+
+
+
+
+
 ## [1.0.62](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.61...@techstack/styled-system@1.0.62) (2023-07-31)
 
 
