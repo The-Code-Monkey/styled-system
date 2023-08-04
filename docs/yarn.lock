@@ -1327,16 +1327,16 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.3.tgz#8ed0174259d8f82eabce04c2e50add8fd9ab8707"
-  integrity sha512-VKlL1rUoM8WH93gMff0bIhz5sEtAYuuOpeYmo/R4BVOY0BHdeYwkP/w/n5ZPfY181JirL5rNGmz6vS53Tmgipg==
+"@techstack/components@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.4.tgz#5d43642e350905191e525c1129c52b9521ff99bb"
+  integrity sha512-n+KIlyYOWKzQcOmDdcgBymtoNJEEBTRbNcbcC0C9k4BgXLBHGChWJenPYEqaDWO4FuTiK+HUjICN28j0EbJvPw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
-    "@techstack/memoize" "1.2.3"
+    "@techstack/memoize" "1.2.4"
     "@techstack/styled-system" "1.0.66"
-    "@techstack/theme" "1.2.3"
+    "@techstack/theme" "1.2.4"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -1356,10 +1356,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.1.11.tgz#ee7ec26cb17573d233c09fa521cc36e17cc7107d"
   integrity sha512-rWtBS3dK4QOnps9Z4fu8zLb/RVgBQIC3zAkuk0auvQvxKja7jHCYhkVyEbb1U9JBMaiYCUH7zUxp3Wr+a4S+iw==
 
-"@techstack/memoize@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.3.tgz#6acdc822d9efce3b01f5c42aeadcd55ef7d66bbc"
-  integrity sha512-G869QNpfapv9PPD4wWrbthCfovV/Zd5BEJC5fiCV2BHKHxjAoJQstXlP8HpW8Y7xBqiKc575FbjZzlb+EiCkcA==
+"@techstack/memoize@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.4.tgz#b3d3a44fde69f196b917253c18edf1f370e571ce"
+  integrity sha512-9laDYHEQ1sO4tUXXNqi+jo+5oprkgNUpoec1gWZR6/uzCChSkDH6R/7IGHJcNu18yFOSX33fMhhsHqmJx4L3tQ==
 
 "@techstack/styled-system@1.0.66":
   version "1.0.66"
@@ -1371,10 +1371,10 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.3.tgz#96ea217e95651ab55578f67e227f1e3c2ababcf0"
-  integrity sha512-8JBoQy+sci2+iMabRmBzsP90cM7ocPFgMWruymv3vS9RyI85Tme1yJy7eCcD3NwwncZegSLwbQhNCFZKP4KRyQ==
+"@techstack/theme@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.4.tgz#4981bef7f3a365ffe785b50c8d44c907b123104b"
+  integrity sha512-jNBlFOZqPqaNvrgTI6Lmvn8JTcg7kbKotqutRkOTsWs9UUHzf3bwC/85bf5xYVOkAo3zm0sxDWroCzKhaYJKqA==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
