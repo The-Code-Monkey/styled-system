@@ -1327,21 +1327,21 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.2.10":
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.10.tgz#6e71851f3a051136188ef6bacb9cea8f17981405"
-  integrity sha512-RQk4h/guvUA++6WhWT3Fi3BoacQX0mLTqKmB7suHCBwmf7UsCiGiVCRpMQWNwnbCV1+UQPjkxAtK6lkoquOp6Q==
+"@techstack/components@1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.13.tgz#3a7b254db6c84aeda780d5642337c515df25442a"
+  integrity sha512-3wxkjOtwnf23mAH5dUgo6NT4cDtNVYFqKVTw1dzsQ7YJ6jDW4pW277QHtS+PYUbu8IevYvVHvwyXu59YvZZQnQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
-    "@techstack/memoize" "1.2.9"
-    "@techstack/styled-system" "1.0.71"
-    "@techstack/theme" "1.2.9"
+    "@techstack/memoize" "1.2.11"
+    "@techstack/styled-system" "1.0.73"
+    "@techstack/theme" "1.2.11"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
     csstype "3.1.2"
     deepmerge "4.3.1"
-    i18next "23.4.1"
+    i18next "23.4.4"
     react-date-picker "10.5.0"
     react-datetime-picker "5.5.1"
     react-i18next "13.0.3"
@@ -1351,30 +1351,30 @@
     react-virtual "2.10.4"
     styled-components "6.0.0-rc.5"
 
-"@techstack/memoize@1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.6.tgz#2593bc97ca11cd2cf0cd1bf8cd540c3ada741443"
-  integrity sha512-rNaa3ZTvAKqWsRomBK0ldEe9WfH5m+IXeoj0lrSyMhzwYhXq7CimXBsSR3WWNWMdxUtLyVS8sx/S94CgaSh/vA==
+"@techstack/memoize@1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.11.tgz#544e3340e43035930396840993303ee075688151"
+  integrity sha512-bqYsB5rN0Rmc5KupsuqQxvLpez3gLqVGC/KmGP2UIr2n+G3NSN6/nmHJsxLZdcYXQYiS82svFdon2THfQHBmPQ==
 
 "@techstack/memoize@1.2.9":
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.9.tgz#373387979b96a2aa2cf53d06b440c37d0f62b673"
   integrity sha512-/+sMk0ocwEJZfWsJlznUtKTfAjS0NqV4VkuEM/m7U2pkEiDcwkJFZmN76xf5Oc5kkbC61TxMyxifnyn8VV3tEA==
 
-"@techstack/styled-system@1.0.71":
-  version "1.0.71"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.71.tgz#e021a05803342a3f91e2fd7f9665392fe08612fe"
-  integrity sha512-USG8F+0482l0JnmqAKCYO+5ik8gwoTNZq4D+ZY6BxwB+Nnzeo8aieih/Op0wlt8VTTCJxkTqYYBQEuVwbFrRVA==
+"@techstack/styled-system@1.0.73":
+  version "1.0.73"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.73.tgz#df1dbdf188a9cde0de557f528c8775b99689c506"
+  integrity sha512-UfWc0EmrT0z4wSuu+55z6bx/5wgEVO/8UAJ7kTngUcQkZnv3OQs/j09Jja8rKB53VW/jvEC0IAfa9kt5uuStGQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@techstack/memoize" "1.2.6"
+    "@techstack/memoize" "1.2.9"
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.9.tgz#06e4e43696e51fcc1e0c655034e71bbef5e93239"
-  integrity sha512-FP2T8h7WrKQRn2aOx8gn/7enHeRCzMala8inBTSG/0VvCZ9OD5lhYWZ2K1aeCi77loex7t5TUQMqm7rCEtR2aQ==
+"@techstack/theme@1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.11.tgz#03c3bb4c2800a8c52536030d3cc9d080868b4c17"
+  integrity sha512-F4InvexIcyJAAZwEj6yTqKVCuslpgVzp913PD0zT9KRtHUqSSk97jB5c1ToMKpNa1KOxjrauXwuHYEBOAcUR6w==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
@@ -2660,10 +2660,10 @@ html-parse-stringify@^3.0.1:
   dependencies:
     void-elements "3.1.0"
 
-i18next@23.4.1:
-  version "23.4.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.1.tgz#11fe0db92ac8a4125934960ebccf6a5f8ed6b9fc"
-  integrity sha512-07ekE7hbUrbxTYj97VnBzyhKcGURTJC9p4iWTwCVC8t63T+YrgqQmb/n1LBQMivZYwR61pqS+PC0G2rtENycyQ==
+i18next@23.4.4:
+  version "23.4.4"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.4.tgz#ec8fb2b5f3c5d8e3bf3f8ab1b19e743be91300e0"
+  integrity sha512-+c9B0txp/x1m5zn+QlwHaCS9vyFtmIAEXbVSFzwCX7vupm5V7va8F9cJGNJZ46X9ZtoGzhIiRC7eTIIh93TxPA==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
