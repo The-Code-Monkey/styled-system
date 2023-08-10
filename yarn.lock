@@ -2125,15 +2125,15 @@
   dependencies:
     semver "7.5.3"
 
-"@techstack/memoize@1.2.14":
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.14.tgz#7404bc2cfd843b49cff9bacc8df23179516a24a1"
-  integrity sha512-l++xedw/L36nN30CspZvWqPR2t80Z9ZYmi/gD+MzvW4kktNeB2gaAGIQLrDscqfYA2HMI5Zeq7O8VAGKuR7shQ==
+"@techstack/memoize@1.2.19":
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.19.tgz#0c925a58d62484b0b2d789a7c82a7fd7d4a1a787"
+  integrity sha512-x5+BN4fcj4pBmcBe/1o1S4gsakp2k8pKRP4D0YP4CAQgDX2XcKZwe8jK1zMdzdOzzxB4gtnu/mPlE21R5pAw5w==
 
-"@techstack/tcm-cli@1.2.14":
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.14.tgz#d836357cc925b42c5c8ca5b612c31fb1e8a3cc73"
-  integrity sha512-pd4CQlLuYCgDsfHm7tHaerRsvs1Qc78zG7V4ti7vFzgOxmgtT86zXitsUbzMytTsa4V+iDvWCjgpg5ireyIRdw==
+"@techstack/tcm-cli@1.2.19":
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.19.tgz#06fa1da68bc1b80524dac1e224fb3986f16b2c71"
+  integrity sha512-oQXmI+n0C+OFB8W+5cV4FF+XMw6BuVOI0IZhh5A2cb20+CEac546NbIAv2cuWtkMhfkBdei82Q2XNnQ65v0o9A==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.18.6"
     "@rollup/plugin-babel" "6.0.3"
@@ -2150,7 +2150,7 @@
     babel-plugin-macros "3.1.0"
     babel-plugin-polyfill-regenerator "0.5.2"
     babel-plugin-transform-rename-import "2.3.0"
-    camelcase "7.0.1"
+    camelcase "8.0.0"
     colorette "2.0.20"
     confusing-browser-globals "1.0.11"
     enquirer "2.4.1"
@@ -2179,8 +2179,8 @@
     postcss "8.4.27"
     prettier "3.0.1"
     progress-estimator "0.3.1"
-    regenerator-runtime "0.13.11"
-    rollup "3.27.2"
+    regenerator-runtime "0.14.0"
+    rollup "3.28.0"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "5.3.1"
     rollup-plugin-typescript2 "0.35.0"
@@ -2192,7 +2192,7 @@
     ts-jest "29.1.1"
     ts-node "10.9.1"
     tslib "2.6.1"
-    type-fest "4.1.0"
+    type-fest "4.2.0"
     typescript "5.1.6"
 
 "@tootallnate/once@2":
@@ -3274,10 +3274,10 @@ camelcase-keys@^6.2.2:
     map-obj "^4.0.0"
     quick-lru "^4.0.1"
 
-camelcase@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-7.0.1.tgz#f02e50af9fd7782bc8b88a3558c32fd3a388f048"
-  integrity sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==
+camelcase@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
+  integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
 camelcase@^5.3.1:
   version "5.3.1"
@@ -8085,7 +8085,12 @@ regenerate@^1.4.2:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
-regenerator-runtime@0.13.11, regenerator-runtime@^0.13.11:
+regenerator-runtime@0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
+
+regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
@@ -8264,10 +8269,10 @@ rollup-plugin-typescript2@0.35.0:
     semver "^7.3.7"
     tslib "^2.4.0"
 
-rollup@3.27.2:
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.27.2.tgz#59adc973504408289be89e5978e938ce852c9520"
-  integrity sha512-YGwmHf7h2oUHkVBT248x0yt6vZkYQ3/rvE5iQuVBh3WO8GcJ6BNeOkpoX1yMHIiBm18EMLjBPIoUDkhgnyxGOQ==
+rollup@3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.28.0.tgz#a3c70004b01934760c0cb8df717c7a1d932389a2"
+  integrity sha512-d7zhvo1OUY2SXSM6pfNjgD5+d0Nz87CUp4mt8l/GgVP3oBsPwzNvSzyu1me6BSG9JIgWNTVcafIXBIyM8yQ3yw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -9140,10 +9145,10 @@ type-detect@4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.1.0.tgz#7e214aa81b843478396f832164ae8f058be95f9e"
-  integrity sha512-VJGJVepayd8OWavP+rgXt4i3bfLk+tSomTV7r4mca2XD/oTCWnkJlNkpXavkxdmtU2aKdAmFGeHvoQutOVHCZg==
+type-fest@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.2.0.tgz#e259430307710e77721ecf6f545840acad72195f"
+  integrity sha512-5zknd7Dss75pMSED270A1RQS3KloqRJA9XbXLe0eCxyw7xXFb3rd+9B0UQ/0E+LQT6lnrLviEolYORlRWamn4w==
 
 type-fest@^0.18.0:
   version "0.18.1"
