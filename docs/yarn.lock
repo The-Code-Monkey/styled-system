@@ -1327,15 +1327,15 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.2.20":
-  version "1.2.20"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.20.tgz#b0b615981a93d8561f6f65b47f6c85ac67771ea4"
-  integrity sha512-NnNtzNJnWn46QOUZxOQ4PMpNYbPGxfBmXjYaSWTFrMqYER4a2wq2C8otsTp/cycS314HPEiuPXN4WYrzIQjBMg==
+"@techstack/components@1.2.21":
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.21.tgz#aff68f6d920d88c0e8e892d11a6cf99096e5baa3"
+  integrity sha512-vRL6rpOVh9sHUVS2+yPs8XqIRboPyuzrGY9ir8im/FQkoiYvGkdBZy5KZ6/u258mQzZZntWvwMW6jPgjL7EbNA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
     "@techstack/memoize" "1.2.19"
-    "@techstack/styled-system" "1.0.75"
+    "@techstack/styled-system" "1.0.76"
     "@techstack/theme" "1.2.19"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
@@ -1351,23 +1351,18 @@
     react-virtual "2.10.4"
     styled-components "6.0.0-rc.5"
 
-"@techstack/memoize@1.2.14":
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.14.tgz#7404bc2cfd843b49cff9bacc8df23179516a24a1"
-  integrity sha512-l++xedw/L36nN30CspZvWqPR2t80Z9ZYmi/gD+MzvW4kktNeB2gaAGIQLrDscqfYA2HMI5Zeq7O8VAGKuR7shQ==
-
 "@techstack/memoize@1.2.19":
   version "1.2.19"
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.19.tgz#0c925a58d62484b0b2d789a7c82a7fd7d4a1a787"
   integrity sha512-x5+BN4fcj4pBmcBe/1o1S4gsakp2k8pKRP4D0YP4CAQgDX2XcKZwe8jK1zMdzdOzzxB4gtnu/mPlE21R5pAw5w==
 
-"@techstack/styled-system@1.0.75":
-  version "1.0.75"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.75.tgz#79c489f7e86e280e4bcdea05057daff723a0428a"
-  integrity sha512-lZlDu+pq3YtIQYWqAzenSKXMtWRj4jmW9aIme2ZWBGhtdbizlLw0gXSQ1KN6sM/PNNNTvj6WE8kW60M5tE4J4Q==
+"@techstack/styled-system@1.0.76":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.76.tgz#99942138636beb2c0e68148e92b779bd9654eac7"
+  integrity sha512-qcS/j6Ajb0jIr9vBzPE1TCJ/9wxXu6q4iOY3kbj4dkubDDTwY/PdbD6tcvpo2PQ14HpFwrEn8fPikrRAPpuHpA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@techstack/memoize" "1.2.14"
+    "@techstack/memoize" "1.2.19"
     csstype "3.1.2"
     react "18.2.0"
 
