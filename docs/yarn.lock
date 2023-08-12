@@ -1327,16 +1327,16 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
   integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
 
-"@techstack/components@1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.22.tgz#7e76481f6a19ea6e6f03734363e36a18e341b4e7"
-  integrity sha512-GrQ3Xj+b41e7/i2UBbxDMJUYg3srMILZnZg9CF9oFrwyO2UAHkNZdqOcBj2XYVEoAIrd49i7IfSWcjwhdKkq/w==
+"@techstack/components@1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.23.tgz#b1f904632cc4cb6ffefd666d124702d7e63ee7ed"
+  integrity sha512-8cHnDdNs24c3P9r3oMDYC0TnBFFtZlwK5qdo4HDI8Ml0f95ZaC9D/bZtizODB+6Z1v1wc93nhYAS1zvA8fAdCg==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.9.3"
-    "@techstack/memoize" "1.2.19"
+    "@techstack/memoize" "1.2.23"
     "@techstack/styled-system" "1.0.76"
-    "@techstack/theme" "1.2.19"
+    "@techstack/theme" "1.2.23"
     "@types/react-table" "7.7.14"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -1356,6 +1356,11 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.19.tgz#0c925a58d62484b0b2d789a7c82a7fd7d4a1a787"
   integrity sha512-x5+BN4fcj4pBmcBe/1o1S4gsakp2k8pKRP4D0YP4CAQgDX2XcKZwe8jK1zMdzdOzzxB4gtnu/mPlE21R5pAw5w==
 
+"@techstack/memoize@1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.23.tgz#36cb3169f5936c2490ebba0f85ebaeff10e26b32"
+  integrity sha512-EixuJa36xA1TqyLGqJd/FcRroBrX1EgEWxPGwavuXQRvCV3qSG+2yhiYEFP0h5f9+XDy1rCOv02yzwAqv01DDg==
+
 "@techstack/styled-system@1.0.76":
   version "1.0.76"
   resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.76.tgz#99942138636beb2c0e68148e92b779bd9654eac7"
@@ -1366,10 +1371,10 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.2.19":
-  version "1.2.19"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.19.tgz#9b49939aa750c639ab4b882e3c6111df2b915540"
-  integrity sha512-XIj7/l+95OwJ7YpZhUZiSgpX+XoZ1dBaMK4mv4WnbBXkQIfDjcbD1sFsyYKpo27B/9AawujIguk8Phv3mEewag==
+"@techstack/theme@1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.23.tgz#a8d9993dc1515d741bc6dd86a7b641031c846266"
+  integrity sha512-rrwx5KlomBTPsKJRxV3vwEVfOVmNRkJK/czzuxlOHTBbJ/I+GUUt0krA/OCEenAJLY9i+acVltsxHLO7YTrTTQ==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
