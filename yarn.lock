@@ -2428,15 +2428,15 @@
   dependencies:
     semver "7.5.3"
 
-"@techstack/memoize@1.2.50":
-  version "1.2.50"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.50.tgz#a81d00d6c2985cd8f1cbdd1e60099eaa1e00e664"
-  integrity sha512-PTGM9NzpVbtWeOtH9n9x0/pww/cIxl+6eYpR6hvkc5YyNUhId1MGPxbeEXlzwsfZOWzqTuYfDhTxYf5+YBJChA==
+"@techstack/memoize@1.2.52":
+  version "1.2.52"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.52.tgz#bc903a20b0725d2d5f76a7f81d7a736552d6329e"
+  integrity sha512-oyWtZxxHQ/3D0IT5ac8Ytnx6lT9kjRcgGlkMRRHvHbPCmeTqVX6KS3re2UGKwYtE2eawGHD79ty+s0FkEPlcDA==
 
-"@techstack/tcm-cli@1.2.50":
-  version "1.2.50"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.50.tgz#562ec27a12c15ae01b3d85cd5b925ca4bb75017d"
-  integrity sha512-m41smWN6gOXkRFGv++k7EZPcOR8MrOmmFc8AxWWSZXuqs1DVxQjR/UHbafYlvypRNUc0OPXtb1HKnt+MWLBR0w==
+"@techstack/tcm-cli@1.2.52":
+  version "1.2.52"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.52.tgz#bcc63ba85631deff63656775e88f5a99486d4b69"
+  integrity sha512-rAu/HFsLikZZJNBOGv1KmShxE5kq8J0bbV8KkF92y4OuoGzKFGTR4jXHg9TKYHo36Vob9Lf/vwaidZcvG6an5A==
   dependencies:
     "@babel/core" "7.22.11"
     "@babel/parser" "7.22.13"
@@ -2485,7 +2485,7 @@
     ora "7.0.1"
     pascal-case "3.1.2"
     postcss "8.4.28"
-    prettier "3.0.2"
+    prettier "3.0.3"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.0"
     rollup "3.28.1"
@@ -8317,10 +8317,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
-  integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==
+prettier@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
+  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
 
 pretty-format@^29.0.0, pretty-format@^29.5.0:
   version "29.5.0"
