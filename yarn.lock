@@ -2428,15 +2428,15 @@
   dependencies:
     semver "7.5.3"
 
-"@techstack/memoize@1.2.52":
-  version "1.2.52"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.52.tgz#bc903a20b0725d2d5f76a7f81d7a736552d6329e"
-  integrity sha512-oyWtZxxHQ/3D0IT5ac8Ytnx6lT9kjRcgGlkMRRHvHbPCmeTqVX6KS3re2UGKwYtE2eawGHD79ty+s0FkEPlcDA==
+"@techstack/memoize@1.2.54":
+  version "1.2.54"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.54.tgz#9a5620d37ecb067c8e4cd34538d0afb3a514af50"
+  integrity sha512-PG+KhKTzTv9T3XS+1CbnQDPZlOJa5eVFW7r1EXy0DmfR2YsTQM4C+AM21ZeazvN/NHCJn5/ghHS2yZ0HizCNtg==
 
-"@techstack/tcm-cli@1.2.52":
-  version "1.2.52"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.52.tgz#bcc63ba85631deff63656775e88f5a99486d4b69"
-  integrity sha512-rAu/HFsLikZZJNBOGv1KmShxE5kq8J0bbV8KkF92y4OuoGzKFGTR4jXHg9TKYHo36Vob9Lf/vwaidZcvG6an5A==
+"@techstack/tcm-cli@1.2.54":
+  version "1.2.54"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.54.tgz#896bbe8fee4cece6af0a53e1a9cbe8995a9bc3d2"
+  integrity sha512-iVHlYyqzLk45YmGuls30RZF0BRnCwd1UsZSUdZ1E5x3phP3Mih1nbvhTjsiZLm+n+ZAQD+y6pTy4Dl0N2YyLxg==
   dependencies:
     "@babel/core" "7.22.11"
     "@babel/parser" "7.22.13"
@@ -2484,7 +2484,7 @@
     lodash.merge "4.6.2"
     ora "7.0.1"
     pascal-case "3.1.2"
-    postcss "8.4.28"
+    postcss "8.4.29"
     prettier "3.0.3"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.0"
@@ -8282,10 +8282,10 @@ postcss-value-parser@^4.0.2:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.28:
-  version "8.4.28"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.28.tgz#c6cc681ed00109072816e1557f889ef51cf950a5"
-  integrity sha512-Z7V5j0cq8oEKyejIKfpD8b4eBy9cwW2JWPk0+fB1HOAMsfHbnAXLLS+PfVWlzMSLQaWttKDt607I0XHmpE67Vw==
+postcss@8.4.29:
+  version "8.4.29"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.29.tgz#33bc121cf3b3688d4ddef50be869b2a54185a1dd"
+  integrity sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
