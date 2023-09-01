@@ -2557,15 +2557,15 @@
   dependencies:
     semver "7.5.3"
 
-"@techstack/memoize@1.2.58":
-  version "1.2.58"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.58.tgz#1b941e3e53109baccb0586f6996e2e1c1b8890e2"
-  integrity sha512-nIYQoyc35qPVn7VpMcGXKKkthEZe2ufsFhGJE58N1kFUlarwTPrKfUj3E0vcSVlsXnzhP2uhJn9w5F4hdJrLwQ==
+"@techstack/memoize@1.2.62":
+  version "1.2.62"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.62.tgz#57e70e8233dcb32abee45ff6c18b51c9ed7e32d8"
+  integrity sha512-tr57exXKHLv95efZiuRZb0hT9hWKp8jssnJQdYz0qvSuxWa9J7aIs687gHYkYaC2f+S5ThQK/aJNZlQ96sUsEw==
 
-"@techstack/tcm-cli@1.2.58":
-  version "1.2.58"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.58.tgz#ac25a21281a0524b802da3723e7ef4f6c1e5fc39"
-  integrity sha512-RsUMwqAPWcLLTH3iFnCh9TlLBrJGr9tg0b2/DR5nKUdj/AfW73l8b+jGQI/pZFetOeOwjWdzXNAuAqSBxPupKg==
+"@techstack/tcm-cli@1.2.62":
+  version "1.2.62"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.62.tgz#2a75664aeef92e4c44acea113231f1e04ebb4f16"
+  integrity sha512-AJrHQ/1+ow6m6btzLx2eZWU6ELWpzZqMH3U7tgEtTQ7XvpCcygCnuHnI2+LXV1KuXlkMh83c/MPFisxWywyNeQ==
   dependencies:
     "@babel/core" "7.22.11"
     "@babel/parser" "7.22.14"
@@ -2619,7 +2619,7 @@
     regenerator-runtime "0.14.0"
     rollup "3.28.1"
     rollup-plugin-delete "2.0.0"
-    rollup-plugin-dts "6.0.0"
+    rollup-plugin-dts "6.0.1"
     rollup-plugin-typescript2 "0.35.0"
     sade "1.8.1"
     semver "7.5.4"
@@ -7340,10 +7340,10 @@ magic-string@^0.27.0:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
-magic-string@^0.30.2:
-  version "0.30.2"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.2.tgz#dcf04aad3d0d1314bc743d076c50feb29b3c7aca"
-  integrity sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==
+magic-string@^0.30.3:
+  version "0.30.3"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.3.tgz#403755dfd9d6b398dfa40635d52e96c5ac095b85"
+  integrity sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
 
@@ -8886,12 +8886,12 @@ rollup-plugin-delete@2.0.0:
   dependencies:
     del "^5.1.0"
 
-rollup-plugin-dts@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-dts/-/rollup-plugin-dts-6.0.0.tgz#c916072c20261c079344351bb5184f41e486a7b6"
-  integrity sha512-A996xSZDAqnx/KfFttzC8mDEuyMjsRpiLCrlGc8effhK8KhE3AG0g1woQiITgFc5HSE8HWU7ccR9CiQ3vXgUlQ==
+rollup-plugin-dts@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-dts/-/rollup-plugin-dts-6.0.1.tgz#ca81c638322077db64989985fa2943eb40f211be"
+  integrity sha512-XJbCldVrp4TLc2Hg4DfrRiJgzJ73uhZB0sPSDizgdlrhSJ1bsIkkRMkwRKNQYgkbfMz4CHLdbnFKVivHE0vsPA==
   dependencies:
-    magic-string "^0.30.2"
+    magic-string "^0.30.3"
   optionalDependencies:
     "@babel/code-frame" "^7.22.10"
 
