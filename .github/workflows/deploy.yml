@@ -42,14 +42,14 @@ jobs:
 
       - name: Authenticate with Registry
         run: |
-          yarn logout
-          echo "registry=http://registry.npmjs.org/" >> .npmrc
+          npm logout
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release package
-        run: yarn publish
+        run: bun run publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

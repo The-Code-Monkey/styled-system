@@ -1,5 +1,5 @@
 {
-  "version": "1.0.102",
+  "version": "1.0.125",
   "license": "MIT",
   "name": "@techstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -13,7 +13,7 @@
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "exports": {
-    ".": "./dist/esm.index.js",
+    "import": "./dist/esm.index.js",
     "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
@@ -64,7 +64,7 @@
     "csstype": "3.1.2",
     "react": "18.2.0"
   },
-  "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a",
+  "gitHead": "ab9d2fe77834a101f8c744df53be2e4166f881cb",
   "prettier": {
     "printWidth": 80,
     "semi": true,
