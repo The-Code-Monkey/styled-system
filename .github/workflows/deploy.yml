@@ -15,33 +15,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install deps
-        uses: bahmutov/npm-install@v1
+        run: bun install
 
       - name: Build
-        run: yarn build
+        run: bun run build
 
       - name: Lint
-        run: yarn lint
+        run: bun run lint
 
       - name: Test
-        run: yarn test
+        run: bun test
 
       - name: Size
-        run: yarn size
+        run: bun run size
 
       - name: git config
         run: |
@@ -59,7 +49,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release package
-        run: yarn lerna:publish
+        run: bun run publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

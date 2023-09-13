@@ -10,12 +10,11 @@
   "bugs": {
     "url": "https://github.com/The-Code-Monkey/TechStack/issues"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/styled-system.esm.js",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/styled-system.esm.js",
-    "require": "./dist/index.js",
-    "default": "./dist/styled-system.esm.js"
+    ".": "./dist/esm.index.js",
+    "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
   "type": "module",
@@ -40,12 +39,12 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/styled-system.esm.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/index.js",
-      "limit": "10 KB"
+      "path": "./src",
+      "limit": "30 KB"
     }
   ],
   "devDependencies": {
@@ -91,6 +90,7 @@
     },
     "rules": {
       "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/no-explicit-any": "warn",
       "import/no-unresolved": "off",
       "import/no-named-as-default": "off",
       "import/no-anonymous-default-export": "off",
