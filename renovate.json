@@ -12,7 +12,7 @@
     "workarounds:all"
   ],
   "automergeStrategy": "squash",
-  "automerge": true,
+  "automerge": false,
   "rangeStrategy": "pin",
   "baseBranches": ["main"],
   "packageRules": [
