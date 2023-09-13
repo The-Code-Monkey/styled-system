@@ -39,12 +39,12 @@
   "author": "The-Code-Monkey",
   "size-limit": [
     {
-      "path": "dist/styled-system.esm.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/index.js",
-      "limit": "10 KB"
+      "path": "./src",
+      "limit": "30 KB"
     }
   ],
   "devDependencies": {
