@@ -13,7 +13,7 @@
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/esm.index.js",
+    "import": "./dist/esm/index.js",
     "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
