@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "build": "bun run build.tsx",
+    "lint": "lerna run lint --stream",
+    "size": "lerna run size --stream",
     "changed": "lerna changed",
     "version": "lerna version --conventional-commits --exact --yes",
     "publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes"
