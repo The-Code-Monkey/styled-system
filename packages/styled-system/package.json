@@ -1,5 +1,5 @@
 {
-  "version": "1.0.105",
+  "version": "1.0.106",
   "license": "MIT",
   "name": "@techstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
@@ -64,7 +64,7 @@
     "csstype": "3.1.2",
     "react": "18.2.0"
   },
-  "gitHead": "af32631710163a45efc78c7abd8d3f463e9e58bf",
+  "gitHead": "0c39c36052de377da15601a2ab978f83312a66bc",
   "prettier": {
     "printWidth": 80,
     "semi": true,
