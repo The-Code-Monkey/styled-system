@@ -15,23 +15,33 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install deps
-        run: bun install
+        uses: bahmutov/npm-install@v1
 
       - name: Build
-        run: bun run build
+        run: yarn build
 
       - name: Lint
-        run: bun run lint
+        run: yarn lint
 
       - name: Test
-        run: bun test
+        run: yarn test
 
       - name: Size
-        run: bun run size
+        run: yarn size
 
       - name: git config
         run: |
@@ -42,16 +52,15 @@ jobs:
 
       - name: Authenticate with Registry
         run: |
-          echo "registry=https://registry.npmjs.org/" >> .npmrc
+          yarn logout
+          echo "registry=http://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release package
-        run: bun run publish
+        run: yarn lerna:publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Logout
-        run: npm logout
