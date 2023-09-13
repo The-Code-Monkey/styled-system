@@ -90,6 +90,7 @@
     },
     "rules": {
       "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/no-explicit-any": "warn",
       "import/no-unresolved": "off",
       "import/no-named-as-default": "off",
       "import/no-anonymous-default-export": "off",
