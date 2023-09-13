@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.104](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.101...@techstack/styled-system@1.0.104) (2023-09-13)
+
+
+### Bug Fixes
+
+* size limit changes ([43a6d65](https://github.com/The-Code-Monkey/TechStack/commit/43a6d6562f74651af9d1e49fb6d3dde70b958de1))
+* warn on lint ([ed9e4bb](https://github.com/The-Code-Monkey/TechStack/commit/ed9e4bb37536e66bbb0b80426f0f9f54ecf16990))
+
+
+
+
+
 ## [1.0.102](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.101...@techstack/styled-system@1.0.102) (2023-09-13)
 
 
