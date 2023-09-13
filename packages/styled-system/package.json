@@ -13,7 +13,7 @@
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "exports": {
-    ".": "./dist/esm.index.js",
+    "import": "./dist/esm.index.js",
     "bun": "./src/index.ts"
   },
   "typings": "dist/types/index.d.ts",
@@ -64,7 +64,7 @@
     "csstype": "3.1.2",
     "react": "18.2.0"
   },
-  "gitHead": "d6b3be798c31bc299ffe81bd1a37feca19ecb1b0",
+  "gitHead": "a741e51b797c99905bb80888749f796af34b5089",
   "prettier": {
     "printWidth": 80,
     "semi": true,
