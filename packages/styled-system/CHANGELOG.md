@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.127](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.126...@techstack/styled-system@1.0.127) (2023-09-13)
+
+
+### Bug Fixes
+
+* remove bun export ([e4ddacd](https://github.com/The-Code-Monkey/TechStack/commit/e4ddacd5ec4572aca62ba9fd12baa329a9ffa244))
+
+
+
+
+
 ## [1.0.126](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.123...@techstack/styled-system@1.0.126) (2023-09-13)
 
 
