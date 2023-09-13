@@ -11,7 +11,7 @@
     "size": "lerna run size --stream",
     "changed": "lerna changed",
     "version": "lerna version --conventional-commits --exact --yes",
-    "publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes"
+    "publish": "bun run changed && bun run version && lerna publish from-git --no-verify-access --yes"
   },
   "devDependencies": {
     "bun-types": "1.0.1",
