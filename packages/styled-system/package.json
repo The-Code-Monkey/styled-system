@@ -17,6 +17,7 @@
     "require": "./dist/esm/index.js",
     "default": "./dist/esm/index.js"
   },
+  "typings": "dist/types/index.d.ts",
   "type": "module",
   "files": [
     "dist",
