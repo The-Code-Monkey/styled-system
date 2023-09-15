@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/The-Code-Monkey/TechStack/compare/@bunstack/styled-system@1.1.1...@bunstack/styled-system@1.1.2) (2023-09-15)
+
+
+### Bug Fixes
+
+* update package json ([e1c0a69](https://github.com/The-Code-Monkey/TechStack/commit/e1c0a69248dc3707573b7484fb824196af94a0e4))
+
+
+
+
+
 ## 1.1.1 (2023-09-15)
 
 
