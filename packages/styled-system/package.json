@@ -1,7 +1,7 @@
 {
-  "version": "1.0.136",
+  "version": "1.1.0",
   "license": "MIT",
-  "name": "@techstack/styled-system",
+  "name": "@bunstack/styled-system",
   "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "require": "./dist/esm/index.js",
     "default": "./dist/esm/index.js"
   },
+  "types": "./dist/types/index.d.ts",
   "type": "module",
   "files": [
     "dist",
