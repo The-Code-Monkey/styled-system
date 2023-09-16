@@ -2669,15 +2669,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.85.tgz#48931df7ecec19d97cfc968f4450cc4ee9416659"
-  integrity sha512-ZJoXp3s/oNAYXqdMLtdNNEeDSXobwaLm4JxNAq8TvCuxg8vBbnneMxVEqJo35GE4K/RJVQZb0tTNvlgFZ29BuQ==
+"@techstack/memoize@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.96.tgz#ddf60ad2016ecbd670f1c78ebf8de5424ed98761"
+  integrity sha512-8MskztfPWbTeRrUiOuEYrFippgwByezmATi3/0hdYd5narCfJeb1H0HqejcQpnF31mHoR/vUWXbeJJYOpFlNQg==
 
-"@techstack/tcm-cli@1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.85.tgz#84f7b5c45197d4b4ab8c16b12140cda92bb51c0c"
-  integrity sha512-aJw6+NTiiY/ozqSTJc9mT7L+obLoz5RsYMmC63UVkUhkAnMLBTwgn1o6grEJH7UZM8qbninI0ahoXbCZdYZS+w==
+"@techstack/tcm-cli@1.2.96":
+  version "1.2.96"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.96.tgz#e16c6c27810aec23d3465765eef003e888251d9b"
+  integrity sha512-LPWSTbEXSdNu89906cv692whX2Sug3GfleG3L3lVlKxj8GSGtMbcF+ISZ0k5Mp2HHOS0tB2Pp4s64hqhl89w/w==
   dependencies:
     "@babel/core" "7.22.17"
     "@babel/parser" "7.22.16"
@@ -2708,7 +2708,7 @@
     eslint-config-react-app "7.0.1"
     eslint-plugin-flowtype "8.0.3"
     eslint-plugin-import "2.28.1"
-    eslint-plugin-jest "27.2.3"
+    eslint-plugin-jest "27.4.0"
     eslint-plugin-jsx-a11y "6.7.1"
     eslint-plugin-no-restricted-imports "0.0.0"
     eslint-plugin-prettier "5.0.0"
@@ -2729,7 +2729,7 @@
     prettier "3.0.3"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.0"
-    rollup "3.29.1"
+    rollup "3.29.2"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "6.0.2"
     rollup-plugin-typescript2 "0.35.0"
@@ -4945,10 +4945,10 @@ eslint-plugin-import@^2.25.3:
     semver "^6.3.0"
     tsconfig-paths "^3.14.1"
 
-eslint-plugin-jest@27.2.3:
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.2.3.tgz#6f8a4bb2ca82c0c5d481d1b3be256ab001f5a3ec"
-  integrity sha512-sRLlSCpICzWuje66Gl9zvdF6mwD5X86I4u55hJyFBsxYOsBCmT5+kSUjf+fkFWVMMgpzNEupjW8WzUqi83hJAQ==
+eslint-plugin-jest@27.4.0:
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.4.0.tgz#3926cca723c40c3d7a3fe0e1fd911eff5e681f50"
+  integrity sha512-ukVeKmMPAUA5SWjHenvyyXnirKfHKMdOsTZdn5tZx5EW05HGVQwBohigjFZGGj3zuv1cV6hc82FvWv6LdIbkgg==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -9037,10 +9037,10 @@ rollup-plugin-typescript2@0.35.0:
     semver "^7.3.7"
     tslib "^2.4.0"
 
-rollup@3.29.1:
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.1.tgz#ba53a179d46ac3cd79e162dca6ab70d93cd26f78"
-  integrity sha512-c+ebvQz0VIH4KhhCpDsI+Bik0eT8ZFEVZEYw0cGMVqIP8zc+gnwl7iXCamTw7vzv2MeuZFZfdx5JJIq+ehzDlg==
+rollup@3.29.2:
+  version "3.29.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.2.tgz#cbc76cd5b03b9f9e93be991d23a1dff9c6d5b740"
+  integrity sha512-CJouHoZ27v6siztc21eEQGo0kIcE5D1gVPA571ez0mMYb25LGYGKnVNXpEj5MGlepmDWGXNjDB5q7uNiPHC11A==
   optionalDependencies:
     fsevents "~2.3.2"
 
