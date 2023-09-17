@@ -1315,25 +1315,25 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tanstack/react-table@8.9.8":
-  version "8.9.8"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.9.8.tgz#5dd2dcc65bb569779d61e14ffa09aaf01e58f4f4"
-  integrity sha512-ZUd+ZydvUP8+XLI+oQ3IcG6Pqq3vw94na3fViD/v0dsIVwgQaWanizeh+si/Pn/8eU0XgbSVU9VpejOJEbp/lg==
+"@tanstack/react-table@8.10.0":
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.10.0.tgz#6ff84dfccdf6e567b87053f727f4b758a1a9aa01"
+  integrity sha512-FNhKE3525hryvuWw90xRbP16qNiq7OLJkDZopOKcwyktErLi1ibJzAN9DFwA/gR1br9SK4StXZh9JPvp9izrrQ==
   dependencies:
-    "@tanstack/table-core" "8.9.8"
+    "@tanstack/table-core" "8.10.0"
 
-"@tanstack/table-core@8.9.8":
-  version "8.9.8"
-  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.8.tgz#26e7e085fdc71030da643a3e0ac454f0e1088f3d"
-  integrity sha512-f2Y/BcJy3IBkdDxWEk6WX6zJSmCDBI5iS0icr5DyeSbWsbnfaBtOIaeBjfnTEedt9Kk3xPmfciA6uSNOQ1BEXA==
+"@tanstack/table-core@8.10.0":
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.0.tgz#d6e88157f536f7f29009670b207e60462c84be7f"
+  integrity sha512-e701yAJ18aGDP6mzVworlFAmQ+gi3Wtqx5mGZUe2BUv4W4D80dJxUfkHdtEGJ6GryAnlCCNTej7eaJiYmPhyYg==
 
-"@techstack/components@1.2.101":
-  version "1.2.101"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.101.tgz#1befbec24b8d00b92b3134e40e7b1013b75d4f7e"
-  integrity sha512-lpndpqCu8FfhRUETKhQ9DOgsjrCDCC9+Oi4fy/iP2xSEaHyMcFolNS9UCiS4xn29pDILYA2HlQf2S5Gm0jSEjg==
+"@techstack/components@1.2.102":
+  version "1.2.102"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.102.tgz#4a8be73f0f488831dd1a56e81fa8a98626364df6"
+  integrity sha512-zUQQhrzeCCevSMt9QaAxsYiGeTl0EuAZ1bJE9843jcOOi7Tfqow1Q5qqOXce9jCCJpHKxG0zvRBbW+pHu8v6Kg==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@tanstack/react-table" "8.9.8"
+    "@tanstack/react-table" "8.10.0"
     "@techstack/memoize" "1.2.101"
     "@techstack/react-feather" "1.2.101"
     "@techstack/react-lazy-named" "1.2.101"
