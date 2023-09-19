@@ -1327,15 +1327,15 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.0.tgz#d6e88157f536f7f29009670b207e60462c84be7f"
   integrity sha512-e701yAJ18aGDP6mzVworlFAmQ+gi3Wtqx5mGZUe2BUv4W4D80dJxUfkHdtEGJ6GryAnlCCNTej7eaJiYmPhyYg==
 
-"@techstack/components@1.2.102":
-  version "1.2.102"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.102.tgz#4a8be73f0f488831dd1a56e81fa8a98626364df6"
-  integrity sha512-zUQQhrzeCCevSMt9QaAxsYiGeTl0EuAZ1bJE9843jcOOi7Tfqow1Q5qqOXce9jCCJpHKxG0zvRBbW+pHu8v6Kg==
+"@techstack/components@1.2.104":
+  version "1.2.104"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.104.tgz#75c67f76cf52070b11e3030e5275e932182af34f"
+  integrity sha512-oenmutMAhB9A3PNRzAL0ZjvOrqLRlRnH1rTyLrO3SPmMSpd3SUFpXWYHtCazH5sREqzqKYoJCTGPUqbtxVHruA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.0"
     "@techstack/memoize" "1.2.101"
-    "@techstack/react-feather" "1.2.101"
+    "@techstack/react-feather" "1.2.104"
     "@techstack/react-lazy-named" "1.2.101"
     "@techstack/styled-system" "1.0.204"
     "@techstack/theme" "1.2.101"
@@ -1363,10 +1363,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.96.tgz#ddf60ad2016ecbd670f1c78ebf8de5424ed98761"
   integrity sha512-8MskztfPWbTeRrUiOuEYrFippgwByezmATi3/0hdYd5narCfJeb1H0HqejcQpnF31mHoR/vUWXbeJJYOpFlNQg==
 
-"@techstack/react-feather@1.2.101":
-  version "1.2.101"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.2.101.tgz#eca1dd17fb2278c37c398ffc97c292b93c3502de"
-  integrity sha512-GYvlYtRUaMSXECp4Yw8pRW/cDcSJoRrblWEgB1L2upFTTP5WbgV7OnveW4+TldWgIdjIDGII+8taGlAhuGxsgQ==
+"@techstack/react-feather@1.2.104":
+  version "1.2.104"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.2.104.tgz#179b5a3e699592348aec0d1edd6a978cde612665"
+  integrity sha512-kMVY9THm8xe/89ZoB3zrwU/zApJ1fTad81L4iFEvMeUHQyxeB5ILVNK+U8IFuNhIa2i6ykYIWhIPbc/MQfIBAw==
   dependencies:
     react "18.2.0"
 
