@@ -17,8 +17,8 @@
     "lerna:publish": "yarn lerna:changed && yarn lerna:version && lerna publish from-git --no-verify-access --yes",
     "docs": "cd docs && yarn dev"
   },
-  "dependencies": {},
   "devDependencies": {
     "lerna": "7.3.0"
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
