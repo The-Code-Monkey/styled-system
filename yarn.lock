@@ -2684,15 +2684,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.119":
-  version "1.2.119"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.119.tgz#b741e2305715c8a75467d0cf65ef6332ec8260bd"
-  integrity sha512-vgnIqv6Pj966km2Waxmp55bIkjq4JAFXvd8Aywzy72NklZOTt7MPfbZ6u7GmoZuBZqtgStuug6RizdZKaJPMuQ==
+"@techstack/memoize@1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.121.tgz#663358a935cbaa1e4354a4148c84f7847b8191f9"
+  integrity sha512-BTvTb9umJBwieXmdFL/4xuwypMIhYxVRV9GXOpXp7EbaJuhcFXr+Jqs+Y/DSHJ6QyXb8W1mmB8t/qFIATpuDuw==
 
-"@techstack/tcm-cli@1.2.119":
-  version "1.2.119"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.119.tgz#0048b38d9543c19bf3b0f4825c6a2632ca424c01"
-  integrity sha512-XFp0seIQMW2ar0ehiRhBAYd2w4bM5U7yKMT2cY6cI0JYw1pA53/LZq1ZhmZLLstrpo7WHCXrmKXL/OpyHBK1KQ==
+"@techstack/tcm-cli@1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.121.tgz#734bdb6485dddf932364a5d0e2c92732a1dafd1e"
+  integrity sha512-chmhsRuzo3W4tKaMgObKWp7PY3vc1GU4caMLeWHOuQ4RBnI0JMAZ0Rl8HZsErukH8N2m1dOH1hI5TXstJyt9Cw==
   dependencies:
     "@babel/core" "7.22.20"
     "@babel/parser" "7.22.16"
@@ -2744,7 +2744,7 @@
     prettier "3.0.3"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.0"
-    rollup "3.29.2"
+    rollup "3.29.3"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "6.0.2"
     rollup-plugin-typescript2 "0.35.0"
@@ -9052,10 +9052,10 @@ rollup-plugin-typescript2@0.35.0:
     semver "^7.3.7"
     tslib "^2.4.0"
 
-rollup@3.29.2:
-  version "3.29.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.2.tgz#cbc76cd5b03b9f9e93be991d23a1dff9c6d5b740"
-  integrity sha512-CJouHoZ27v6siztc21eEQGo0kIcE5D1gVPA571ez0mMYb25LGYGKnVNXpEj5MGlepmDWGXNjDB5q7uNiPHC11A==
+rollup@3.29.3:
+  version "3.29.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.3.tgz#97769774ccaa6a3059083d4680fcabd8ead01289"
+  integrity sha512-T7du6Hum8jOkSWetjRgbwpM6Sy0nECYrYRSmZjayFcOddtKJWU4d17AC3HNUk7HRuqy4p+G7aEZclSHytqUmEg==
   optionalDependencies:
     fsevents "~2.3.2"
 
