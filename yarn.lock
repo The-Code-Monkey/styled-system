@@ -2684,15 +2684,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.116":
-  version "1.2.116"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.116.tgz#fb88b60052ccf041284a0fdcb4fb8f8696f50006"
-  integrity sha512-ZS5XaAZcrNHTjg4fTLDHGXS0dqeP5UtPhAt+Ov+Ug0eopaIZyrM5iVCndSFr5on0KapGPEmjt206fZsrk5EPAQ==
+"@techstack/memoize@1.2.119":
+  version "1.2.119"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.119.tgz#b741e2305715c8a75467d0cf65ef6332ec8260bd"
+  integrity sha512-vgnIqv6Pj966km2Waxmp55bIkjq4JAFXvd8Aywzy72NklZOTt7MPfbZ6u7GmoZuBZqtgStuug6RizdZKaJPMuQ==
 
-"@techstack/tcm-cli@1.2.116":
-  version "1.2.116"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.116.tgz#56e37413c0f986204234b47bdf57d55df9d30efb"
-  integrity sha512-JwQeC+7cws2/nXrvVQO/X8zc0Akx4EYCgamiU9OZHoL0RcwzMelWukMzbcE3FUDJHnTGH7Ll5pSReUbVXi64eA==
+"@techstack/tcm-cli@1.2.119":
+  version "1.2.119"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.119.tgz#0048b38d9543c19bf3b0f4825c6a2632ca424c01"
+  integrity sha512-XFp0seIQMW2ar0ehiRhBAYd2w4bM5U7yKMT2cY6cI0JYw1pA53/LZq1ZhmZLLstrpo7WHCXrmKXL/OpyHBK1KQ==
   dependencies:
     "@babel/core" "7.22.20"
     "@babel/parser" "7.22.16"
@@ -2729,7 +2729,7 @@
     eslint-plugin-prettier "5.0.0"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
-    eslint-plugin-testing-library "6.0.1"
+    eslint-plugin-testing-library "6.0.2"
     execa "8.0.1"
     figlet "1.6.0"
     fs-extra "11.1.1"
@@ -5059,10 +5059,10 @@ eslint-plugin-react@^7.27.1:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
 
-eslint-plugin-testing-library@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.0.1.tgz#c92325341f01fb2f76a3ab1c70d3c0c968c70b11"
-  integrity sha512-CEYtjpcF3hAaQtYsTZqciR7s5z+T0LCMTwJeW+pz6kBnGtc866wAKmhaiK2Gsjc2jWNP7Gt6zhNr2DE1ZW4e+g==
+eslint-plugin-testing-library@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.0.2.tgz#a0884f603d8744695919413e7cf2adfb42223e2c"
+  integrity sha512-3BV6FWtLbpKFb4Y1obSdt8PC9xSqz6T+7EHB/6pSCXqVjKPoS67ck903feKMKQphd5VhrX+N51yHuVaPa7elsw==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
