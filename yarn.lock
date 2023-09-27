@@ -2685,15 +2685,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.131":
-  version "1.2.131"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.131.tgz#2e2b565d238295e087f5c9f1b7b7d6625c31edb7"
-  integrity sha512-TX8On3He891p0U6tl2E8X7VXDQgZXfnES9lu+gZfQXbzXG7n8q1HwAV9iIwQntEHTuyLBlSC5/sEB0wyMf1ehA==
+"@techstack/memoize@1.2.133":
+  version "1.2.133"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.133.tgz#ae6b54669ee8c3e08cce3cb887a2f8bd76de9468"
+  integrity sha512-zV0tTJj3Yt1LSjXXfvOXzoV9sW3LJmUFKM2kLWiYajYSardu5lNc0a3/Z6gYzMmfi2EaKlfUojA4cozcXn428Q==
 
-"@techstack/tcm-cli@1.2.131":
-  version "1.2.131"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.131.tgz#70e0621e06d95ee4c55ecd367f0a78ed71c3b6b1"
-  integrity sha512-rUQrbdQYNFV4h5oLsYQzshQdi9X4DMbWcg9jWafDuSNm9mwYQfsixoFU80gzNNWblMU2snuLAU34Z0Wyhe271A==
+"@techstack/tcm-cli@1.2.133":
+  version "1.2.133"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.133.tgz#20c064bac645923e730ff71829bd8717ca9ddf4d"
+  integrity sha512-opffyWsunJITdvHtuMe2C3S2NpqIm7UwEnLMgO/Z3GwvVxE+GAdwjbL/q2ERZvrgg2qpjHo9LE0a/YumdSUS6Q==
   dependencies:
     "@babel/core" "7.23.0"
     "@babel/parser" "7.23.0"
@@ -2757,7 +2757,7 @@
     ts-jest "29.1.1"
     ts-node "10.9.1"
     tslib "2.6.2"
-    type-fest "4.3.1"
+    type-fest "4.3.2"
     typescript "5.2.2"
 
 "@tootallnate/once@2":
@@ -9944,10 +9944,10 @@ type-detect@4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.3.1.tgz#5cb58cdab5120f7ab0b40cfdc35073fb9adb651d"
-  integrity sha512-pphNW/msgOUSkJbH58x8sqpq8uQj6b0ZKGxEsLKMUnGorRcDjrUaLS+39+/ub41JNTwrrMyJcUB8+YZs3mbwqw==
+type-fest@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.3.2.tgz#bb7948127bb644364994dc1b44b8a797da8aadcd"
+  integrity sha512-VpwuOgnTsQUUWi0id8Hl4/xiQ+OoaeJGe8dnFjzubJYe/lOc2/d1Qx/d3FqWR0FlpOG/cvukAXfB12A49Y4iiA==
 
 type-fest@^0.18.0:
   version "0.18.1"
