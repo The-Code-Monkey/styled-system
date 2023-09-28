@@ -2685,15 +2685,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.133":
-  version "1.2.133"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.133.tgz#ae6b54669ee8c3e08cce3cb887a2f8bd76de9468"
-  integrity sha512-zV0tTJj3Yt1LSjXXfvOXzoV9sW3LJmUFKM2kLWiYajYSardu5lNc0a3/Z6gYzMmfi2EaKlfUojA4cozcXn428Q==
+"@techstack/memoize@1.2.139":
+  version "1.2.139"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.139.tgz#65375f8f0c3852359ebae6a90594acf551d4d72b"
+  integrity sha512-pzYcqoJo1hKWhjZ0gj7jzpLaoXs7bgUOz8m8hycLhqttkBCTPrUUcDAi7xCFsJw6Kzgt1hf8tLZvgJ/ocNQ11A==
 
-"@techstack/tcm-cli@1.2.133":
-  version "1.2.133"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.133.tgz#20c064bac645923e730ff71829bd8717ca9ddf4d"
-  integrity sha512-opffyWsunJITdvHtuMe2C3S2NpqIm7UwEnLMgO/Z3GwvVxE+GAdwjbL/q2ERZvrgg2qpjHo9LE0a/YumdSUS6Q==
+"@techstack/tcm-cli@1.2.139":
+  version "1.2.139"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.139.tgz#1a9e125b46220973af44dd8a60d5805144782e46"
+  integrity sha512-wqUzdoHr8eoexkHc4hh3OKEPy2FWQmVjNzxTGqKIcSS7DAad3UZCjqkkbXahoCOGkHNJxv6yTY/xfZk0B3YW+A==
   dependencies:
     "@babel/core" "7.23.0"
     "@babel/parser" "7.23.0"
@@ -2748,11 +2748,11 @@
     rollup "3.29.3"
     rollup-plugin-delete "2.0.0"
     rollup-plugin-dts "6.0.2"
-    rollup-plugin-typescript2 "0.35.0"
+    rollup-plugin-typescript2 "0.36.0"
     sade "1.8.1"
     semver "7.5.4"
     shelljs "0.8.5"
-    sort-package-json "2.5.1"
+    sort-package-json "2.6.0"
     tiny-glob "0.2.9"
     ts-jest "29.1.1"
     ts-node "10.9.1"
@@ -9042,16 +9042,16 @@ rollup-plugin-dts@6.0.2:
   optionalDependencies:
     "@babel/code-frame" "^7.22.13"
 
-rollup-plugin-typescript2@0.35.0:
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.35.0.tgz#a84fb4e802b919613f31552c69c3415101b547c1"
-  integrity sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==
+rollup-plugin-typescript2@0.36.0:
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.36.0.tgz#309564eb70d710412f5901344ca92045e180ed53"
+  integrity sha512-NB2CSQDxSe9+Oe2ahZbf+B4bh7pHwjV5L+RSYpCu7Q5ROuN94F9b6ioWwKfz3ueL3KTtmX4o2MUH2cgHDIEUsw==
   dependencies:
     "@rollup/pluginutils" "^4.1.2"
     find-cache-dir "^3.3.2"
     fs-extra "^10.0.0"
-    semver "^7.3.7"
-    tslib "^2.4.0"
+    semver "^7.5.4"
+    tslib "^2.6.2"
 
 rollup@3.29.3:
   version "3.29.3"
@@ -9325,10 +9325,10 @@ sort-object-keys@^1.1.3:
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
   integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
 
-sort-package-json@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.5.1.tgz#5c0f2ce8cc8851988e5039f76b8978439439039d"
-  integrity sha512-vx/KoZxm8YNMUqdlw7SGTfqR5pqZ/sUfgOuRtDILiOy/3AvzhAibyUe2cY3OpLs3oRSow9up4yLVtQaM24rbDQ==
+sort-package-json@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.6.0.tgz#68337dbbd267971add856308a9b454a7d6cbfc0a"
+  integrity sha512-XSQ+lY9bAYA8ZsoChcEoPlgcSMaheziEp1beox1JVxy1SV4F2jSq9+h2rJ+3mC/Dhu9Ius1DLnInD5AWcsDXZw==
   dependencies:
     detect-indent "^7.0.1"
     detect-newline "^4.0.0"
@@ -9889,7 +9889,7 @@ tsconfig-paths@^4.1.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@2.6.2:
+tslib@2.6.2, tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
