@@ -2685,15 +2685,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.145":
-  version "1.2.145"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.145.tgz#a47c6c67b439dddae21341c8ff778035eb68cf06"
-  integrity sha512-3jA6Ja9F0YGHcgTMd+F7Kce0JU4/tHMLKVfe31o03j/vdOSSOsQIGkZgzHn3Y+Xxi1/h3iCnK83zYgc0vOGQHQ==
+"@techstack/memoize@1.2.147":
+  version "1.2.147"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.147.tgz#bcdd3d8a22de0d44e2736d1b572e31b79b1d0a72"
+  integrity sha512-u2nA+LBgG9taLF24CIrSKJLVWph1SOTYlTO95f/4wwu1QLHBN3SKhh51Yw+t+zcae7nZt/FQ1WX0tb5gwJRPJw==
 
-"@techstack/tcm-cli@1.2.145":
-  version "1.2.145"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.145.tgz#d8c1f9812e5ef0a310ca38bcbf05fa95939a6c37"
-  integrity sha512-q4cQ2MxwWYbu9jkNJvey3A+p/PWWF+T+db9u6myOY7iOBrVcDMttzW7N6iD/al3aLbDfbmxyUKneRzUZN9LZ1g==
+"@techstack/tcm-cli@1.2.147":
+  version "1.2.147"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.147.tgz#60f8ad798a7f8d9012733b81ed1415672dfd5f11"
+  integrity sha512-UvI27+T3+agOxcRtonW+DX+OOnpHGFZ3U5uZ601fGOkS2nvemhkMRTkZrtClMm2I7cRGgW07fC7n6QllMPi/Mw==
   dependencies:
     "@babel/core" "7.23.0"
     "@babel/parser" "7.23.0"
@@ -2724,7 +2724,7 @@
     eslint-config-react-app "7.0.1"
     eslint-plugin-flowtype "8.0.3"
     eslint-plugin-import "2.28.1"
-    eslint-plugin-jest "27.4.0"
+    eslint-plugin-jest "27.4.2"
     eslint-plugin-jsx-a11y "6.7.1"
     eslint-plugin-no-restricted-imports "0.0.0"
     eslint-plugin-prettier "5.0.0"
@@ -4961,10 +4961,10 @@ eslint-plugin-import@^2.25.3:
     semver "^6.3.0"
     tsconfig-paths "^3.14.1"
 
-eslint-plugin-jest@27.4.0:
-  version "27.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.4.0.tgz#3926cca723c40c3d7a3fe0e1fd911eff5e681f50"
-  integrity sha512-ukVeKmMPAUA5SWjHenvyyXnirKfHKMdOsTZdn5tZx5EW05HGVQwBohigjFZGGj3zuv1cV6hc82FvWv6LdIbkgg==
+eslint-plugin-jest@27.4.2:
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.4.2.tgz#181d999ac67a9b6040db1d27935887cf5a2882ed"
+  integrity sha512-3Nfvv3wbq2+PZlRTf2oaAWXWwbdBejFRBR2O8tAO67o+P8zno+QGbcDYaAXODlreXVg+9gvWhKKmG2rgfb8GEg==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
