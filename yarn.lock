@@ -2685,10 +2685,10 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.155":
-  version "1.2.155"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.155.tgz#e3df36ae8747a351efade37417e353d2e94114ab"
-  integrity sha512-4BoM+wU+zSdQyr6w/+42VNl6gTeZUav4nNaRWD3ykUT+xrt0jDnbwlwNfuZda1DyQ9Y9wvz5uxIaKSCWHs2+2A==
+"@techstack/memoize@1.2.157":
+  version "1.2.157"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.157.tgz#871c2e7b4ed7de55ee7fdf2178fb10cff31219b7"
+  integrity sha512-peB+rawmkXfQBQVuAt6HUNgD/2Z1pnkJGfp6Sar2w+n4HxFrQVeg+3BtygxgX86MYPR3zaiHEapvi/WTdymxIQ==
 
 "@techstack/tcm-cli@1.2.154":
   version "1.2.154"
