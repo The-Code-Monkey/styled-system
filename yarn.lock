@@ -2609,10 +2609,10 @@
     "@rollup/pluginutils" "^5.0.1"
     magic-string "^0.27.0"
 
-"@rollup/plugin-terser@0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-terser/-/plugin-terser-0.4.3.tgz#c2bde2fe3a85e45fa68a454d48f4e73e57f98b30"
-  integrity sha512-EF0oejTMtkyhrkwCdg0HJ0IpkcaVg1MMSf2olHb2Jp+1mnLM04OhjpJWGma4HobiDTF0WCyViWuvadyE9ch2XA==
+"@rollup/plugin-terser@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-terser/-/plugin-terser-0.4.4.tgz#15dffdb3f73f121aa4fbb37e7ca6be9aeea91962"
+  integrity sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==
   dependencies:
     serialize-javascript "^6.0.1"
     smob "^1.0.0"
@@ -2685,15 +2685,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.168":
-  version "1.2.168"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.168.tgz#b0995d7c76c87e13c8c43414f098db69a6a8f7cb"
-  integrity sha512-Fau8xtGqk+/SwTnCnL60w2578W5yAkel4+VtoOvo+w/fyJlnglo5pGb+Fm9QpNnyKx+vb8GxJt51kUHct25k7A==
+"@techstack/memoize@1.2.169":
+  version "1.2.169"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.169.tgz#8e862dfc72f6a2d368625b418880ce3c6dcb01da"
+  integrity sha512-ulLOawEOYsnGvmaP2I75lGtWaiAIBydhPq0Yn6sQST8Aa+swmzsz+LCY62GCzot0Zaq/20jd+FxWnFwd1syL5Q==
 
-"@techstack/tcm-cli@1.2.168":
-  version "1.2.168"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.168.tgz#a0a08abda427d0a4fe7ea8f1f139eb6139d47a97"
-  integrity sha512-Dr81M94LqNI50jRz0bP/g/GCB1inIn1sSa8vGD8XJMluKyacF0+iImcLt94Yka+gJTkNylSN2A6GjazjGqbb5w==
+"@techstack/tcm-cli@1.2.169":
+  version "1.2.169"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.169.tgz#c6f7d549dca4affe34d8571e0dbb5f97f954d59f"
+  integrity sha512-ZokzUctHi2FaddVTpkbnYufoCR9yqcpaWmEuZ6+RcoSCRc1UCsC2oeLVR0zXRkw3JMryTfn12aLD9rCDWpmGYw==
   dependencies:
     "@babel/core" "7.23.0"
     "@babel/parser" "7.23.0"
@@ -2705,7 +2705,7 @@
     "@rollup/plugin-json" "6.0.1"
     "@rollup/plugin-node-resolve" "15.1.0"
     "@rollup/plugin-replace" "5.0.3"
-    "@rollup/plugin-terser" "0.4.3"
+    "@rollup/plugin-terser" "0.4.4"
     "@typescript-eslint/eslint-plugin" "6.7.4"
     "@typescript-eslint/parser" "6.7.4"
     asyncro "3.0.0"
