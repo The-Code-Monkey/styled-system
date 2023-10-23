@@ -2676,15 +2676,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.248":
-  version "1.2.248"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.248.tgz#e215bcd64c7536dad737b59aa8de80f1dd663806"
-  integrity sha512-RoY76+TqyDxbpE0qS/Z2m1xSBcxSGJcG/6xfgQEmmiwwnybjus0eRAiA3XWIP0+/Ll0Oonc/9+K5rKYutfBTSw==
+"@techstack/memoize@1.2.250":
+  version "1.2.250"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.250.tgz#90f9788ea4d12fb7334de343857e5e989fd6dd23"
+  integrity sha512-u2LTfJz1dMx7Tv9Pv2ryFRI2Xws4i6soCwOozxY52nX3wdWBlpgi6RX+0ZNUDJC9LAo4kHXsHAeuzRIvcjFClw==
 
-"@techstack/tcm-cli@1.2.248":
-  version "1.2.248"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.248.tgz#d36a4682790ba7bc7b733bea92c83c7c79978d16"
-  integrity sha512-nt8Gm7PEhmRnfXw4Ww7cJwadtK4BOiQpwaaSihHfSqXN1KAZsrBRgyzauTTvSyzYTnXu2UOQP0etXTQ4iU3NXw==
+"@techstack/tcm-cli@1.2.250":
+  version "1.2.250"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.250.tgz#47fa160bc4d8140e323d37c56393ae493c6dd034"
+  integrity sha512-eXFZ3Q13DYekcb+CQem20KdYkwGRJBpNLA976pKRzp7SAIsWTSGV19EQSWjrvZhsQtFDgoE9K7APxD4pwDBHaA==
   dependencies:
     "@babel/core" "7.23.2"
     "@babel/parser" "7.23.0"
@@ -2723,7 +2723,7 @@
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-testing-library "6.1.0"
     execa "8.0.1"
-    figlet "1.6.0"
+    figlet "1.7.0"
     fs-extra "11.1.1"
     jest "29.7.0"
     jest-environment-jsdom "29.7.0"
@@ -5397,10 +5397,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-figlet@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/figlet/-/figlet-1.6.0.tgz#812050fa9f01043b4d44ddeb11f20fb268fa4b93"
-  integrity sha512-31EQGhCEITv6+hi2ORRPyn3bulaV9Fl4xOdR169cBzH/n1UqcxsiSB/noo6SJdD7Kfb1Ljit+IgR1USvF/XbdA==
+figlet@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/figlet/-/figlet-1.7.0.tgz#46903a04603fd19c3e380358418bb2703587a72e"
+  integrity sha512-gO8l3wvqo0V7wEFLXPbkX83b7MVjRrk1oRLfYlZXol8nEpb/ON9pcKLI4qpBv5YtOTfrINtqb7b40iYY2FTWFg==
 
 figures@3.2.0, figures@^3.0.0:
   version "3.2.0"
