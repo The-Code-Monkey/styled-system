@@ -220,18 +220,18 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.7.tgz#577e8a635048875de4c9d6d6a3c21d26ff9f9d08"
   integrity sha512-KQk5OMg5OH6rmbHZxuNROvdI+hKDIUxANaHlV+dPlNN7ED3qYQ/WkpY2qlXww1SIdeMlkIhpN/2L00rof0fXFw==
 
-"@techstack/components@1.2.258":
-  version "1.2.258"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.258.tgz#d836bd9974f2fef2e4277c6c129034a279302022"
-  integrity sha512-5V8oyvivWTcelnGgrfeVJMFFqatMp354TZme+h1v+ji2wHrNv6WMfrXLf/5+sJc9h0JlTV6A1WsZwbCIOF+8bQ==
+"@techstack/components@1.2.259":
+  version "1.2.259"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.2.259.tgz#101b21d97b1ba24341c182c8a182042b41c443d9"
+  integrity sha512-roBnQVqWlnhjoE5rNaVWLy6bYT5mysbkZLVqeok6jL9d2s15T4XYePRbLB+sAjrVfMwNUNRjcNWwaJPP2LEV5w==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.7"
-    "@techstack/memoize" "1.2.256"
-    "@techstack/react-feather" "1.2.256"
-    "@techstack/react-lazy-named" "1.2.256"
+    "@techstack/memoize" "1.2.259"
+    "@techstack/react-feather" "1.2.259"
+    "@techstack/react-lazy-named" "1.2.259"
     "@techstack/styled-system" "1.0.254"
-    "@techstack/theme" "1.2.257"
+    "@techstack/theme" "1.2.259"
     "@types/react-table" "7.7.17"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -251,17 +251,22 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.256.tgz#0ec2726b92a13845ba2cc9a363ca0a14c07fc2f3"
   integrity sha512-3zOWVY7IgMFsoraeBo1zjuQytZJBqDGrDAnXEx6iD0Ta0ENg968qtCraW3uFcTPxiktpo/BTIQtqva9RRdZRDA==
 
-"@techstack/react-feather@1.2.256":
-  version "1.2.256"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.2.256.tgz#dcd6755d9dc81dc3d08f37f9cdfa86a6fa0da4c0"
-  integrity sha512-ShljlSTX/6P8dWzKuhdazgPmGUmiqCW5jmX+dLpPS2hmkkXLqQIctJP4tICnEFY9eYbxx1cv+74RGIDWyR+7ZQ==
+"@techstack/memoize@1.2.259":
+  version "1.2.259"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.259.tgz#a2f81dee19640383d4a2263737905788e3a04cef"
+  integrity sha512-e62Kb4m8Hys2PXA93BgDyntj3AddgOEOpVL8g1kRpPh9e7JS3JFLsRCpup2pmdmru7XE6ayr2vXqQzlKCt5nYA==
+
+"@techstack/react-feather@1.2.259":
+  version "1.2.259"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.2.259.tgz#1be1969b7a044d6e57fa5c06578d26902b7d5ada"
+  integrity sha512-MCGTXdnLA+GwEreTo5Phl+Zo8sG4jZR1PuMLoKvKQ9lx2t9v9/sJ9Q6TKfo8cW2nZiqddai02j+tz2mYX7AtlQ==
   dependencies:
     react "18.2.0"
 
-"@techstack/react-lazy-named@1.2.256":
-  version "1.2.256"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.2.256.tgz#c8bfcb0cf65c910a85452114008af8b867ba3d16"
-  integrity sha512-TKnU8QAmsOA+6VrF/XvoI0R7JIvLeAYJHzo3TeMsNHBI20M/7HYdYCVtDG0MYMKCg40WgWFr9pdO3ktldh+W+w==
+"@techstack/react-lazy-named@1.2.259":
+  version "1.2.259"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.2.259.tgz#49489288c672d5f8e4cba1862bb29ef01850560b"
+  integrity sha512-fq3JRd4LW6KzPh0fu4UeMEguVjLj1fg1mcMneEzUSoE1+ltXbMpV/xVHleE1NqtB1QaAt8pml0PYlPVUCgvmBA==
   dependencies:
     lodash "4.17.21"
     lodash-es "4.17.21"
@@ -277,10 +282,10 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.2.257":
-  version "1.2.257"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.257.tgz#c1414f10ae913ba36ff414da6d1485f34791f91b"
-  integrity sha512-tCIIatItkoARSSYidb+jKFSyLZ68saaz9a3GIugfsUT4SHqW+PjXryIF2eiAoN0YMr5oQjLffUJEcf4jeVzwZQ==
+"@techstack/theme@1.2.259":
+  version "1.2.259"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.2.259.tgz#6260647a85c89c0d2d507b545ca9ac8a12973547"
+  integrity sha512-JIsAOWioPgVsaDUaxnjL91yiROm6vio42BXgGWV6F0wetHK8UOpcXn84vbtrnzak6aX98mk0BrmPDdtJ7+/OKA==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
