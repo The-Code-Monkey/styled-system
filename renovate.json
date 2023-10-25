@@ -25,6 +25,11 @@
       "groupName": "techstack mono repo",
       "enabled": true,
       "rollback": false
+    },
+    {
+      "matchPackagePatterns": ["size-limit", "@size-limit/*"],
+      "groupName": "size limit",
+      "enabled": true
     }
   ]
 }
