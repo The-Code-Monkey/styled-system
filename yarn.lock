@@ -2676,15 +2676,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.2.262":
-  version "1.2.262"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.262.tgz#fa3e8afca5342e1660f75146c3685824a3909c26"
-  integrity sha512-W5k41oyeRTIoDzZmMw/vkEM1PSRTxxcJLk2MVHUqZakiRmqwAlzK4f+BbKv8kSedt0nddyYFlBtzYq3mXQ2MDQ==
+"@techstack/memoize@1.2.267":
+  version "1.2.267"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.2.267.tgz#fbd50201198a5928fde3553f266178331944567c"
+  integrity sha512-/+RrLqZDyPO1ghs6TyQ1KOqGkw5WNj3fF8k6F1cHVzRswgx00KZ39zqhIVKRPn4yuats6yh184Pu7LQeOxLFkA==
 
-"@techstack/tcm-cli@1.2.262":
-  version "1.2.262"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.262.tgz#a58a6f5a45dc72dc6feca3b98d577770f40dd392"
-  integrity sha512-1Wi/kS548SK1dgl+bz6lZrZtZbn2fyVhjB80M8xmeoeUBKO5CAxfGjEgq6yM5ggnV5C3pUDr1l4Czk2N219eGQ==
+"@techstack/tcm-cli@1.2.267":
+  version "1.2.267"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.2.267.tgz#b972805d58190e497423e9a156fe55c0075ffba6"
+  integrity sha512-Voll1GyxowghrB2rcqYNqyH6edykCiichrUDqyF+5WIqSSJoBp1GQ05at/BVBvVVWTXlFnNWAZ/+wIt0kQH9HQ==
   dependencies:
     "@babel/core" "7.23.2"
     "@babel/parser" "7.23.0"
