@@ -2958,15 +2958,15 @@
   dependencies:
     semver "7.5.4"
 
-"@techstack/memoize@1.3.46":
-  version "1.3.46"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.46.tgz#81e480808ab388c8494e35df9ab5f5daa4f7de55"
-  integrity sha512-8QZedJEZpmX54yz5B97dTkixFYyp7N3zvIlY9NAIjrs9Rmqk5mK776Lv4098GZEjVg4VqA2OfFZoEhrpywmUSA==
+"@techstack/memoize@1.3.48":
+  version "1.3.48"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.48.tgz#6cda07106200800d7562cb53bc19ed0a4a50ad34"
+  integrity sha512-YdnrHj0ZpJHzgU7nLvwfBB70T7TA5rV0TeRWLnF2iuXmtkKx7YBBsVjJbovmDGPLPW5FPXQh4x6iU9ZvP2TgCA==
 
-"@techstack/tcm-cli@1.3.46":
-  version "1.3.46"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.46.tgz#29dba1a7a38de3efdf8754861278bed414dd85c2"
-  integrity sha512-dnzlU2wNdDoU+uEZp1UgR4ZzQBRu16GHsQ8fZCVBcM2Mzt0mldQ8sQZ7Ah0xZSLFuGAKth7DfA9FaTxrzbDvEw==
+"@techstack/tcm-cli@1.3.48":
+  version "1.3.48"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.48.tgz#ea55de049f065c4113d68025cd4df1e59c3bb0a8"
+  integrity sha512-UtaiZfO9Ao/gbLYQ5jttXSoKFT7xYtaddgsaVneWPu0Ap5/c75mq0+IJXJhJ9kaIynuDayXfEb+5Q9i60ovQcw==
   dependencies:
     "@babel/core" "7.23.3"
     "@babel/parser" "7.23.3"
@@ -3003,7 +3003,7 @@
     eslint-plugin-prettier "5.0.1"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
-    eslint-plugin-testing-library "6.1.0"
+    eslint-plugin-testing-library "6.1.2"
     execa "8.0.1"
     figlet "1.7.0"
     fs-extra "11.1.1"
@@ -5544,10 +5544,10 @@ eslint-plugin-react@^7.27.1:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
 
-eslint-plugin-testing-library@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.1.0.tgz#6f4fbc50dfbac100b0c6083b1e6b06cea9a86feb"
-  integrity sha512-r7kE+az3tbp8vyRwfyAGZ6V/xw+XvdWFPicIo6jbOPZoossOFDeHizARqPGV6gEkyF8hyCFhhH3mlQOGS3N5Sg==
+eslint-plugin-testing-library@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.1.2.tgz#3e71e5cd5b09f5c443b7136cec97a6fb13ecbf66"
+  integrity sha512-Ra16FeBlonfbScOIdZEta9o+OxtwDqiUt+4UCpIM42TuatyLdtfU/SbwnIzPcAszrbl58PGwyZ9YGU9dwIo/tA==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
