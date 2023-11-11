@@ -227,10 +227,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.7.tgz#577e8a635048875de4c9d6d6a3c21d26ff9f9d08"
   integrity sha512-KQk5OMg5OH6rmbHZxuNROvdI+hKDIUxANaHlV+dPlNN7ED3qYQ/WkpY2qlXww1SIdeMlkIhpN/2L00rof0fXFw==
 
-"@techstack/components@1.3.58":
-  version "1.3.58"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.58.tgz#fd3a6a04b24ab4be50a7fdbb2cb8b23acb3355ea"
-  integrity sha512-6qXjFmKdX3/sAMupQ9r8C3GdZJ/AE7FWviXraXqAXGVGjfyzmGSSCbQFO+wxTLvTs8AgfnLTHKYmxOmUpsnVNQ==
+"@techstack/components@1.3.60":
+  version "1.3.60"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.60.tgz#8d049615e10369d8c90ef5fc9bef52c8adac7b76"
+  integrity sha512-OgYn3q4e9dvrHMQWENIXCV2+t7QJq5zCC6W2qKFpQzmSmK9R0ggimLH8Sh+ZGr39UFviIMqcccG87A+lKElDjw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.7"
@@ -238,7 +238,7 @@
     "@techstack/react-feather" "1.3.54"
     "@techstack/react-lazy-named" "1.3.54"
     "@techstack/styled-system" "1.0.279"
-    "@techstack/theme" "1.3.54"
+    "@techstack/theme" "1.3.60"
     "@types/react-table" "7.7.18"
     classnames "2.3.2"
     csstype "3.1.2"
@@ -284,10 +284,10 @@
     csstype "3.1.2"
     react "18.2.0"
 
-"@techstack/theme@1.3.54":
-  version "1.3.54"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.54.tgz#b61939ef052cbe3372f24e9c641113687764e13a"
-  integrity sha512-7sSrUuRVfK+p2CB/ZEyRICNN/tyIJy4KRspbkz/Eg0zLgiWI44oQMrYXvr1wPUQMkmb3yAnYheOpHE8X7FxSjQ==
+"@techstack/theme@1.3.60":
+  version "1.3.60"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.60.tgz#5ca97d657debed4d1153efe1fce151a9579e90fb"
+  integrity sha512-/jCxe1jrCaJh5j1dKIxUw62yNizHK5jnvOaycNUKV//UAftzNO6xJOBju5/blfg066RgIdFV/4sBaXt0VR2aEg==
   dependencies:
     fs-extra "11.1.1"
     lodash "4.17.21"
