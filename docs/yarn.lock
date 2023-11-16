@@ -227,10 +227,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.7.tgz#577e8a635048875de4c9d6d6a3c21d26ff9f9d08"
   integrity sha512-KQk5OMg5OH6rmbHZxuNROvdI+hKDIUxANaHlV+dPlNN7ED3qYQ/WkpY2qlXww1SIdeMlkIhpN/2L00rof0fXFw==
 
-"@techstack/components@1.3.79":
-  version "1.3.79"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.79.tgz#e285d800d555509441d53c2110a52ed1087f7591"
-  integrity sha512-X0RKRucvke9RZAcrxv8vgv571VazfQYKR8Poo0BAodLDs9hY3zogKL0DnDknVeQC6HueFHP8iDXdUtxC8HrqzA==
+"@techstack/components@1.3.80":
+  version "1.3.80"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.80.tgz#5917ea0a1affb34a99b9e92cb40c96fdb5465788"
+  integrity sha512-th4Z1nbDpzfhOX3+NwrsDDzC/c7tkf7xN7IVSQyoZu8rBUwLVBmaCEq61UThy5kl7eVAke7tf3Fgptz3ZuIxng==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.7"
@@ -247,7 +247,7 @@
     react "18.2.0"
     react-date-picker "10.5.2"
     react-datetime-picker "5.5.3"
-    react-i18next "13.4.1"
+    react-i18next "13.5.0"
     react-responsive-carousel "3.2.23"
     react-table "7.8.0"
     react-virtual "2.10.4"
@@ -2762,10 +2762,10 @@ react-fit@^1.7.0:
     prop-types "^15.6.0"
     tiny-warning "^1.0.0"
 
-react-i18next@13.4.1:
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.4.1.tgz#cc1fc0422b4652524c8f2f7856fa9b3db4c4dfae"
-  integrity sha512-z02JvLbt6Gavbuhr4CBOI6vasLypo+JSLvMgUOGeOMPv1g6spngfAb9jWAPwvuavPlKYU4dro9yRduflwyBeyA==
+react-i18next@13.5.0:
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-13.5.0.tgz#44198f747628267a115c565f0c736a50a76b1ab0"
+  integrity sha512-CFJ5NDGJ2MUyBohEHxljOq/39NQ972rh1ajnadG9BjTk+UXbHLq4z5DKEbEQBDoIhUmmbuS/fIMJKo6VOax1HA==
   dependencies:
     "@babel/runtime" "^7.22.5"
     html-parse-stringify "^3.0.1"
