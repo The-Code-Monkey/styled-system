@@ -227,15 +227,15 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.7.tgz#577e8a635048875de4c9d6d6a3c21d26ff9f9d08"
   integrity sha512-KQk5OMg5OH6rmbHZxuNROvdI+hKDIUxANaHlV+dPlNN7ED3qYQ/WkpY2qlXww1SIdeMlkIhpN/2L00rof0fXFw==
 
-"@techstack/components@1.3.82":
-  version "1.3.82"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.82.tgz#5188263059d73a629cd9a630e71525386934327a"
-  integrity sha512-GSk26Tpl18oapnIfbBX5j5NcVBBZ83xjk65psLY3Pw1bK7hMdi6lPkT5V4+gy0yJH/SqshZMm7mbDIYP2W+51Q==
+"@techstack/components@1.3.85":
+  version "1.3.85"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.85.tgz#7d138c2ce64801a23d3572826e365bcfb6d29aa6"
+  integrity sha512-EyPyzwkljU1xzrVRFugpy911a1brPJsfI7jiXtUhPC7B7DWfb5VFR1wg2mFEyq+SmZdzgZsTw9kNEiaYjXqMfw==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.7"
     "@techstack/memoize" "1.3.81"
-    "@techstack/react-feather" "1.3.81"
+    "@techstack/react-feather" "1.3.85"
     "@techstack/react-lazy-named" "1.3.81"
     "@techstack/styled-system" "1.0.287"
     "@techstack/theme" "1.3.81"
@@ -258,10 +258,10 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.81.tgz#5a3d5658e45f52de81a9cefd48c9ec97d4e4913c"
   integrity sha512-MixyoXm7pxzrXMcaswa1vU+oQWUgYK4EIgpXXuCmM+IDXYIiZ1c1K5CQgKTpKmwZO/B6FBUvPpdHElNZzPsSjw==
 
-"@techstack/react-feather@1.3.81":
-  version "1.3.81"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.81.tgz#9ce822aa9eab327ab06ebc335faf319a247b67cf"
-  integrity sha512-4wBVCukq0ai8AoqSpD4p75SGAO7Vtz87oK+/w4JTshTvrCryqJ9h36thZNM+OwSasCLTwtdJqB9e1HXQicipdQ==
+"@techstack/react-feather@1.3.85":
+  version "1.3.85"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.85.tgz#0a64f5285c357ba5e61b9ee078f0aba7fb96e022"
+  integrity sha512-2h0d1dT5vHeQFhMgq+UB1ETD/2nYMQvDvD9VhekZDRRgYI4cOaSMrDHPmfAFAp5I5ChqSVja6Y9FqvU4RSNFDQ==
   dependencies:
     react "18.2.0"
 
