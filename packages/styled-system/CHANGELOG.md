@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.292](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.291...@techstack/styled-system@1.0.292) (2023-11-21)
+
+**Note:** Version bump only for package @techstack/styled-system
+
+
+
+
+
 ## [1.0.291](https://github.com/The-Code-Monkey/TechStack/compare/@techstack/styled-system@1.0.290...@techstack/styled-system@1.0.291) (2023-11-21)
 
 
