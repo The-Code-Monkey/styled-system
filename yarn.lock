@@ -3023,10 +3023,10 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.0.tgz#234fdd2444900808c0ab607f19c82bfbdac75172"
   integrity sha512-tTg6sSiFbiogiof3GV4iIRCPS4+46Hvq4QWXGXp00Be/tOnpglXF62xNpCfFwefx9YCXxCyeYSqqaRBjpRCsmQ==
 
-"@techstack/memoize@1.3.99":
-  version "1.3.99"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.99.tgz#580dcbbbce6a91082c01ee512c1ad4422b71afbb"
-  integrity sha512-0SyJ3Y7OTZvCJW+Y9bPd6UO7rJn3pr+zWRvYNzCz8CvPJ+xxj2e7ew6RHJajNztPLAQ8vIGWQnLjAq/MSLb2yA==
+"@techstack/memoize@1.3.100":
+  version "1.3.100"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.100.tgz#6b416591d3092eec0af26d527be1a0f01d8b32f7"
+  integrity sha512-ggXXcjslRgna9K9EuD2Vso9NGD3HRnWV6CxEvbstdXaT0gYLDXEzOxSY0A2qj9SR3kQ/aDQNvXnILJd9iQxD/g==
 
 "@techstack/tcm-cli@1.3.99":
   version "1.3.99"
