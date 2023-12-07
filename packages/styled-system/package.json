@@ -67,7 +67,7 @@
   "dependencies": {
     "@emotion/is-prop-valid": "1.2.1",
     "@techstack/memoize": "1.3.125",
-    "csstype": "3.1.2",
+    "csstype": "3.1.3",
     "react": "18.2.0"
   },
   "gitHead": "7bb2bc7bbce0432773369ca533adf6d1719e877a",
