@@ -244,18 +244,18 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.10.7.tgz#577e8a635048875de4c9d6d6a3c21d26ff9f9d08"
   integrity sha512-KQk5OMg5OH6rmbHZxuNROvdI+hKDIUxANaHlV+dPlNN7ED3qYQ/WkpY2qlXww1SIdeMlkIhpN/2L00rof0fXFw==
 
-"@techstack/components@1.3.128":
-  version "1.3.128"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.128.tgz#4764b743e5f66f61b5ed6a7d670cb3d653527f56"
-  integrity sha512-9/K+AQfTLFyNQtq5O5+WkVD1uq9JTyKPFMk5BkUsiznXrk5Nz+47Lm050lINSppeUcqayoRcYiNtwJ0XiXfE1A==
+"@techstack/components@1.3.129":
+  version "1.3.129"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.129.tgz#8c98ac8490bf95b9f2473980e6827e1e8720f430"
+  integrity sha512-04iO8wrHiQbXsgo6tYsQAFTmUSQa3dXsxlDOI4yeqluclohuICZBBsbQWwf2penbs7wL/LhUosEWxTfMJOID4g==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.10.7"
-    "@techstack/memoize" "1.3.127"
-    "@techstack/react-feather" "1.3.127"
-    "@techstack/react-lazy-named" "1.3.127"
+    "@techstack/memoize" "1.3.128"
+    "@techstack/react-feather" "1.3.128"
+    "@techstack/react-lazy-named" "1.3.128"
     "@techstack/styled-system" "1.0.315"
-    "@techstack/theme" "1.3.127"
+    "@techstack/theme" "1.3.128"
     "@types/react-table" "7.7.18"
     classnames "2.3.2"
     csstype "3.1.3"
@@ -263,7 +263,7 @@
     i18next "23.7.8"
     react "18.2.0"
     react-date-picker "10.5.2"
-    react-datetime-picker "5.5.3"
+    react-datetime-picker "5.6.0"
     react-i18next "13.5.0"
     react-responsive-carousel "3.2.23"
     react-table "7.8.0"
@@ -275,17 +275,22 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.127.tgz#109f739bea970e7e300a47b06e515221c555398e"
   integrity sha512-TiVCehex5+/rLRVtVR6vyeBg1DUCnq5UziuBDlDYgvrpmZDoxTaz6OQOAVq3QvibXXcKHQjNZs1/97QRzJuPQA==
 
-"@techstack/react-feather@1.3.127":
-  version "1.3.127"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.127.tgz#a97f4f8f85754a0d14d30d7ba31b90df001c99ce"
-  integrity sha512-UcvuEkFwFCgSDsLA0AgWKs0s2m6LiWKHQFGd+W7tBxheiwLUEkMVbisC7gESMRZT5vli82V+FefrXt7DqWq65Q==
+"@techstack/memoize@1.3.128":
+  version "1.3.128"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.128.tgz#f1e0fcc8de991f452a91e09d8f8c4a28103bcb28"
+  integrity sha512-9xAhcJi+8OTncJeSWYpG3vY0OLoR8XThrtP+elUArNn/3s9FN5pH0lVMTcOz+ajf11JeLYSDj1mF3ReGSuXHpQ==
+
+"@techstack/react-feather@1.3.128":
+  version "1.3.128"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.128.tgz#205bee37b2800a989611baa6bc208e07bc64aba6"
+  integrity sha512-BgePtfnV98ZV7PKDT0BnM9Xo5ANMaoYWWKrTr3SuIxxMprywCqFpmvv+RxxDknKGdzqSRqWn/wx50dw93FygZw==
   dependencies:
     react "18.2.0"
 
-"@techstack/react-lazy-named@1.3.127":
-  version "1.3.127"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.127.tgz#3e74fbf3dc910b6f3dc4edde16a42e54ca85e8dd"
-  integrity sha512-owUsu6YM0o7TBsQBhKUMP+3af3XIIowIeoROd6XY25EH/X9EtioOnUP75jQe1Z8hen1lukyperqVxLratyaAlw==
+"@techstack/react-lazy-named@1.3.128":
+  version "1.3.128"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.128.tgz#815058272414fa7a7f7e57435ca10c24ab611776"
+  integrity sha512-bDTsStqUQ5Kj3+Fh+f9QNM9jgXQroQacI9ds3QOh67HugnloP3cUKkI+VC4wuPPQH9KIjrt504eTtP+i914vBQ==
   dependencies:
     lodash "4.17.21"
     lodash-es "4.17.21"
@@ -301,10 +306,10 @@
     csstype "3.1.3"
     react "18.2.0"
 
-"@techstack/theme@1.3.127":
-  version "1.3.127"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.127.tgz#81d2abbc4958eaa19c9ffb6123d0217fc5f6c3ca"
-  integrity sha512-DeFRnLJv8/WlZjuYEQKjY4nZaNGOC2f91hqpcPUvJ21OeC8aBX46qecnouFCvvMZ1TA/XEJ5lPtLK5tIhLCHQw==
+"@techstack/theme@1.3.128":
+  version "1.3.128"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.128.tgz#23f45a0e7f51c386c2ac93b8ae772ca2ec72b964"
+  integrity sha512-6twGTzvt6B1dJjMtz3Y3z0BgtrZ99g60FlMvWYYV9kkLmhHsn2idrpPHtovZoj+yDFZJy0eCocJOZ/krWxOPLw==
   dependencies:
     fs-extra "11.2.0"
     lodash "4.17.21"
@@ -2792,10 +2797,10 @@ react-date-picker@^10.5.0:
     react-fit "^1.7.0"
     update-input-width "^1.4.0"
 
-react-datetime-picker@5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.5.3.tgz#4893622926d83f75c8d24f008215dddb9e97f15f"
-  integrity sha512-bWGEPwGrZjaXTB8P4pbTSDygctLaqTWp0nNibaz8po+l4eTh9gv3yiJ+n4NIcpIJDqZaQJO57Bnij2rAFVQyLw==
+react-datetime-picker@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/react-datetime-picker/-/react-datetime-picker-5.6.0.tgz#2a0bfa041f3333cc9afca349eb8661287aa9abfe"
+  integrity sha512-zbYSuYuiRj4/6lR9xGjAgw7V4gpTGtzOwZIfw1TONj6K6OKuaDreczS+6ijJjwLYlMcx8V+Sw1IMP+K059wnnA==
   dependencies:
     "@wojtekmaj/date-utils" "^1.1.3"
     clsx "^2.0.0"
