@@ -18,7 +18,7 @@
     "docs": "cd docs && yarn dev"
   },
   "devDependencies": {
-    "lerna": "8.0.0"
+    "lerna": "8.0.1"
   },
   "packageManager": "yarn@1.22.21"
 }
