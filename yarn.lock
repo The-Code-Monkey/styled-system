@@ -3063,15 +3063,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.133":
-  version "1.3.133"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.133.tgz#b8549f3066773375ebf8865a018e09b8cd0a1af1"
-  integrity sha512-vs5mhtaf91kCG0IRDIyyGpcDfqtfl8mrWtMadBbujgeY3ynInzlMXqRiRmidH06cyhgJO52SrKvmImFy7y7YDA==
+"@techstack/memoize@1.3.134":
+  version "1.3.134"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.134.tgz#4df64f33a5476c2013d0af8cab79126d5f858f00"
+  integrity sha512-OYyMLjGV6L/VtbFYMjVI5yEF31FJCH8nDfW9SY4MwBEUEbLvuUjNOYLrooFesCdiRBlwYfXLXskc76HwmFIVLg==
 
-"@techstack/tcm-cli@1.3.133":
-  version "1.3.133"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.133.tgz#08b4a265d553d3e2399576cf55c4e5fd802e2a3f"
-  integrity sha512-fxrcX1lh3m2SPEciFPlsZVqXkrFP0Ag+W1YykdwVI01dFj1kDt/PzIg6HSx0nxvjko1dk13rI3omSQIzzxoveA==
+"@techstack/tcm-cli@1.3.134":
+  version "1.3.134"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.134.tgz#c8184a7d28bb334cc36caa129a8356bdc1cfadb8"
+  integrity sha512-ckRC9zNVLfRNUfMoFRpeQQ/klyeJOGNzrzOe9L+gEnlMc0Y4l6sRC7GbPBLev6zPO1JzIPrD2fO3sT4hGCjvNQ==
   dependencies:
     "@babel/core" "7.23.6"
     "@babel/parser" "7.23.6"
@@ -3101,7 +3101,7 @@
     eslint-config-prettier "9.1.0"
     eslint-config-react-app "7.0.1"
     eslint-plugin-flowtype "8.0.3"
-    eslint-plugin-import "2.29.0"
+    eslint-plugin-import "2.29.1"
     eslint-plugin-jest "27.6.0"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-no-restricted-imports "0.0.0"
@@ -5559,10 +5559,10 @@ eslint-plugin-flowtype@8.0.3, eslint-plugin-flowtype@^8.0.3:
     lodash "^4.17.21"
     string-natural-compare "^3.0.1"
 
-eslint-plugin-import@2.29.0:
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.29.0.tgz#8133232e4329ee344f2f612885ac3073b0b7e155"
-  integrity sha512-QPOO5NO6Odv5lpoTkddtutccQjysJuFxoPS7fAHO+9m9udNHvTCPSAMW9zGAYj8lAIdr40I8yPCdUYrncXtrwg==
+eslint-plugin-import@2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.29.1.tgz#d45b37b5ef5901d639c15270d74d46d161150643"
+  integrity sha512-BbPC0cuExzhiMo4Ff1BTVwHpjjv28C5R+btTOGaCRC7UEz801up0JadwkeSk5Ued6TG34uaczuVuH6qyy5YUxw==
   dependencies:
     array-includes "^3.1.7"
     array.prototype.findlastindex "^1.2.3"
@@ -5580,7 +5580,7 @@ eslint-plugin-import@2.29.0:
     object.groupby "^1.0.1"
     object.values "^1.1.7"
     semver "^6.3.1"
-    tsconfig-paths "^3.14.2"
+    tsconfig-paths "^3.15.0"
 
 eslint-plugin-import@^2.25.3:
   version "2.27.5"
@@ -10897,10 +10897,20 @@ ts-node@10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tsconfig-paths@^3.14.1, tsconfig-paths@^3.14.2:
+tsconfig-paths@^3.14.1:
   version "3.14.2"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.2.tgz#6e32f1f79412decd261f92d633a9dc1cfa99f088"
   integrity sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==
+  dependencies:
+    "@types/json5" "^0.0.29"
+    json5 "^1.0.2"
+    minimist "^1.2.6"
+    strip-bom "^3.0.0"
+
+tsconfig-paths@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz#5299ec605e55b1abb23ec939ef15edaf483070d4"
+  integrity sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.2"
