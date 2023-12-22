@@ -3063,15 +3063,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.139":
-  version "1.3.139"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.139.tgz#23f4cea30f37bd9ddfa614c8cb9f9b2cd211ae01"
-  integrity sha512-Hj6OUP98zpenyVYlRhXjV2xPJHqS4uM6YZEC0o8HGPSG/rToF5RIPXRmLVMsmxUrL5u40VP0il8bbYgThs57RA==
+"@techstack/memoize@1.3.140":
+  version "1.3.140"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.140.tgz#a619b7c8949131fd7cfb84e848e0ed036bbec2ee"
+  integrity sha512-6gQjUR/0Q0VB25b0gHhv2GdgFHoYFKVRQNrFahIgcrl3uXedAID9x/R39POglb8K6dTL0f4e0MtMkOOve4pB1Q==
 
-"@techstack/tcm-cli@1.3.139":
-  version "1.3.139"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.139.tgz#770430c210f3a8abce44d4f2e6060284128727ea"
-  integrity sha512-ZXlhrDjxrsrvR32GtpL65qd4FIlOJOv4Rfi8nB75Ntvtsjc1z4+a4VmXG6e2RCMpPiPxrCSmXiWFtMjEoQIv+A==
+"@techstack/tcm-cli@1.3.140":
+  version "1.3.140"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.140.tgz#12f30200a5535cd3cc712d97f9fe86dfe907ff31"
+  integrity sha512-YGQOgWe13wgzYyHWKYjKjcwzP3iBFdHF/p/auIh98QYmW3Pz/D2F1S+l5fXMEk9Bwizq8/hDP1Ukxw/2O1vdEQ==
   dependencies:
     "@babel/core" "7.23.6"
     "@babel/parser" "7.23.6"
@@ -3105,7 +3105,7 @@
     eslint-plugin-jest "27.6.0"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-no-restricted-imports "0.0.0"
-    eslint-plugin-prettier "5.1.0"
+    eslint-plugin-prettier "5.1.1"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-testing-library "6.2.0"
@@ -5668,10 +5668,10 @@ eslint-plugin-no-restricted-imports@0.0.0:
   dependencies:
     requireindex "~1.1.0"
 
-eslint-plugin-prettier@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.0.tgz#f14bb2b18756ad54f1ad3dc4c989cb73dfa326a3"
-  integrity sha512-hQc+2zbnMeXcIkg+pKZtVa+3Yqx4WY7SMkn1PLZ4VbBEU7jJIpVn9347P8BBhTbz6ne85aXvQf30kvexcqBeWw==
+eslint-plugin-prettier@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.1.tgz#ab7d9823788b557ff7ccdd50a5849d7760cb8bef"
+  integrity sha512-WQpV3mSmIobb77s4qiCZu3dBrZZ0rj8ckSfBtRrgNK9Wnh2s3eiaxNTWloz1LJ1WtvqZES/PAI7PLvsrGt/CEA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
