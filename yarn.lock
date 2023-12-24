@@ -3063,15 +3063,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.141":
-  version "1.3.141"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.141.tgz#e42271004ba2752be4afa1e2d05b3c096f85e5ff"
-  integrity sha512-Qjm3ZJopNm7YCg5RXFaiptkAmp1kbM6secd4DHt+fZPlPIui5wNxWTMX0MydeeucdLlB7GGr3d/IoAsdK/nvnw==
+"@techstack/memoize@1.3.142":
+  version "1.3.142"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.142.tgz#b09c581ae38d91e99bde1137a4f90cbb4de6e4c6"
+  integrity sha512-SKIDkyaasPY4NLa/v2DA6XJviv5FrFFf59asD5bnYQe7weXeeiqEEgfB1Xw7UjbUc9ElW6EVSPCPaNv3UgCJ+g==
 
-"@techstack/tcm-cli@1.3.141":
-  version "1.3.141"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.141.tgz#e8ab1a6b7a02a679c11798b13394454719290c87"
-  integrity sha512-icsZL6wjTmAz8OLTg57PazjZXCbzqeo71z2y1+GMVN7zudk4LHhDqO63GZWo1wplAxRI0+5mqXsKk10TFcvmEg==
+"@techstack/tcm-cli@1.3.142":
+  version "1.3.142"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.142.tgz#3a23652c65ef71036e11db6a582537864827717f"
+  integrity sha512-8Iuup/2903hGyHmQNhgchwA65667sG3b4ZjiYCKu49N1W5ZEFAbfy7gBnNlAk/NJdi+1RsLzKmL60A59SEVM4w==
   dependencies:
     "@babel/core" "7.23.6"
     "@babel/parser" "7.23.6"
@@ -3117,7 +3117,7 @@
     jest-watch-typeahead "2.2.2"
     jpjs "1.2.1"
     lodash.merge "4.6.2"
-    ora "8.0.0"
+    ora "8.0.1"
     pascal-case "3.1.2"
     postcss "8.4.32"
     prettier "3.1.1"
@@ -9151,10 +9151,10 @@ optionator@^0.9.3:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
 
-ora@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/ora/-/ora-8.0.0.tgz#7e1c296aa96e78372eeef1bb45ded0224ba71549"
-  integrity sha512-RUI+M9AFI9f0h+iPBxBIok+tWHSQYiMpp+NCdEOPFWrSGxl+IIJ4iCiXetSEoiP0AnNv1EcER6l/7t4mfkZjew==
+ora@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-8.0.1.tgz#6dcb9250a629642cbe0d2df3a6331ad6f7a2af3e"
+  integrity sha512-ANIvzobt1rls2BDny5fWZ3ZVKyD6nscLvfFRpQgfWsythlcsVUC9kL0zq6j2Z5z9wwp1kd7wpsD/T9qNPVLCaQ==
   dependencies:
     chalk "^5.3.0"
     cli-cursor "^4.0.0"
@@ -9162,7 +9162,7 @@ ora@8.0.0:
     is-interactive "^2.0.0"
     is-unicode-supported "^2.0.0"
     log-symbols "^6.0.0"
-    stdin-discarder "^0.2.0"
+    stdin-discarder "^0.2.1"
     string-width "^7.0.0"
     strip-ansi "^7.1.0"
 
@@ -10443,10 +10443,10 @@ stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-stdin-discarder@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/stdin-discarder/-/stdin-discarder-0.2.0.tgz#97299ec59581dae5b9625a23b1d1fdf3b83a367e"
-  integrity sha512-ZWOBlQfhYyLvTDu8BneHv0UZA2FhNEIyiwrzMjWahPNzdCeLsfN0ScqTZoAXFeUEmx/X/sHd7SW3x7WBV+f51A==
+stdin-discarder@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/stdin-discarder/-/stdin-discarder-0.2.1.tgz#e69966d2ac1e803f6378584aa7f30a74e01d70ce"
+  integrity sha512-wRXvkxiYhOAduH+LFL/Qpim5zIWKYH1yEGvU0W8PgmabrZZ29iC1LKS8i443SYct12oZmQH7nyEonKiV8RTIsg==
 
 string-length@^4.0.1:
   version "4.0.2"
