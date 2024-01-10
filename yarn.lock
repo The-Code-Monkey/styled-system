@@ -989,16 +989,15 @@
     "@babel/helper-split-export-declaration" "^7.22.5"
     globals "^11.1.0"
 
-"@babel/plugin-transform-classes@^7.23.5":
-  version "7.23.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.23.5.tgz#e7a75f815e0c534cc4c9a39c56636c84fc0d64f2"
-  integrity sha512-jvOTR4nicqYC9yzOHIhXG5emiFEOpappSJAl73SDSEDcybD+Puuze8Tnpb9p9qEyYup24tq891gkaygIFvWDqg==
+"@babel/plugin-transform-classes@^7.23.8":
+  version "7.23.8"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.23.8.tgz#d08ae096c240347badd68cdf1b6d1624a6435d92"
+  integrity sha512-yAYslGsY1bX6Knmg46RjiCiNSwJKv2IUC8qOdYKqMMr0491SXFhcHqOdRDeCRohOOIzwN/90C6mQ9qAKgrP7dg==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.22.5"
-    "@babel/helper-compilation-targets" "^7.22.15"
+    "@babel/helper-compilation-targets" "^7.23.6"
     "@babel/helper-environment-visitor" "^7.22.20"
     "@babel/helper-function-name" "^7.23.0"
-    "@babel/helper-optimise-call-expression" "^7.22.5"
     "@babel/helper-plugin-utils" "^7.22.5"
     "@babel/helper-replace-supers" "^7.22.20"
     "@babel/helper-split-export-declaration" "^7.22.6"
@@ -1701,10 +1700,10 @@
     "@babel/helper-create-regexp-features-plugin" "^7.22.15"
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/preset-env@7.23.7":
-  version "7.23.7"
-  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.23.7.tgz#e5d69b9f14db8a13bae4d8e5ce7f360973626241"
-  integrity sha512-SY27X/GtTz/L4UryMNJ6p4fH4nsgWbz84y9FE0bQeWJP6O5BhgVCt53CotQKHCOeXJel8VyhlhujhlltKms/CA==
+"@babel/preset-env@7.23.8":
+  version "7.23.8"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.23.8.tgz#7d6f8171ea7c221ecd28059e65ad37c20e441e3e"
+  integrity sha512-lFlpmkApLkEP6woIKprO6DO60RImpatTQKtz4sUcDjVcK8M8mQ4sZsuxaTMNOZf0sqAq/ReYW1ZBHnOQwKpLWA==
   dependencies:
     "@babel/compat-data" "^7.23.5"
     "@babel/helper-compilation-targets" "^7.23.6"
@@ -1739,7 +1738,7 @@
     "@babel/plugin-transform-block-scoping" "^7.23.4"
     "@babel/plugin-transform-class-properties" "^7.23.3"
     "@babel/plugin-transform-class-static-block" "^7.23.4"
-    "@babel/plugin-transform-classes" "^7.23.5"
+    "@babel/plugin-transform-classes" "^7.23.8"
     "@babel/plugin-transform-computed-properties" "^7.23.3"
     "@babel/plugin-transform-destructuring" "^7.23.3"
     "@babel/plugin-transform-dotall-regex" "^7.23.3"
@@ -3052,20 +3051,20 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.154":
-  version "1.3.154"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.154.tgz#70998cb858b042707152fef2a83f37bc46b31a98"
-  integrity sha512-kK8xqjg25/m7wu97jpFC3kvmOnWvxWGOHElN1A52uyEby5KopQUeco1+8h/ebxI51rIcuGyqMWYh69YZdDoR+A==
+"@techstack/memoize@1.3.155":
+  version "1.3.155"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.155.tgz#94a15095abbdb0961e5fa450b9b697f7752e1a03"
+  integrity sha512-oaGYb/VPNRY6Ru5Cb2DiJXFQcnVqtt2fBhy0RUEejxbMSaXmim3aN94tUYN5AArQZ44Zq8316Lzvo5EQguv6nA==
 
-"@techstack/tcm-cli@1.3.154":
-  version "1.3.154"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.154.tgz#9baba9607b5c7adfc697661bba4ffda24d58e3f5"
-  integrity sha512-6l2MSpp+r3miH1qHYk5cZno6qaICzr/Xo0StdSc9aIdsb3h2eZ+gYnVc8Cp0vW1HbsuRH5YxgRSc+ekyLIRQ9Q==
+"@techstack/tcm-cli@1.3.155":
+  version "1.3.155"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.155.tgz#387eed76bda5a2d5e5a1df8d1619947ebb70c513"
+  integrity sha512-fELxHMmAOaqt76YLa5g/YBXW2Xged1xSAeZPQ8HdrqrTC8tEtJHQjQ+WnyS9bnWTaOqTeEFbKgm58fDPMR58zw==
   dependencies:
     "@babel/core" "7.23.7"
     "@babel/parser" "7.23.6"
     "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@babel/preset-env" "7.23.7"
+    "@babel/preset-env" "7.23.8"
     "@babel/traverse" "7.23.7"
     "@rollup/plugin-babel" "6.0.4"
     "@rollup/plugin-commonjs" "25.0.7"
