@@ -3051,15 +3051,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.155":
-  version "1.3.155"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.155.tgz#94a15095abbdb0961e5fa450b9b697f7752e1a03"
-  integrity sha512-oaGYb/VPNRY6Ru5Cb2DiJXFQcnVqtt2fBhy0RUEejxbMSaXmim3aN94tUYN5AArQZ44Zq8316Lzvo5EQguv6nA==
+"@techstack/memoize@1.3.156":
+  version "1.3.156"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.156.tgz#344a19c7e24ce207408e9d0b61ec235ed5fdc110"
+  integrity sha512-YNSEW5gQmmmjeVZ0a/oCsooKJeSGG3vIcDo+2DNyowC6k9aDPgHaQGfeGm3P5vaGTS450vqLWGEazB/GZO7EYg==
 
-"@techstack/tcm-cli@1.3.155":
-  version "1.3.155"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.155.tgz#387eed76bda5a2d5e5a1df8d1619947ebb70c513"
-  integrity sha512-fELxHMmAOaqt76YLa5g/YBXW2Xged1xSAeZPQ8HdrqrTC8tEtJHQjQ+WnyS9bnWTaOqTeEFbKgm58fDPMR58zw==
+"@techstack/tcm-cli@1.3.156":
+  version "1.3.156"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.156.tgz#57e8923fe252291bb90112991b0c74a5fadc77fb"
+  integrity sha512-PX/wgSlblKSV6pmSTeJri9cjDIaRnuIxAnEdj6dLyEfNE3dsVjpNOXNrkuECLxqMyWnHs1wrThmTjqfKaSmuFw==
   dependencies:
     "@babel/core" "7.23.7"
     "@babel/parser" "7.23.6"
@@ -3090,10 +3090,10 @@
     eslint-config-react-app "7.0.1"
     eslint-plugin-flowtype "8.0.3"
     eslint-plugin-import "2.29.1"
-    eslint-plugin-jest "27.6.1"
+    eslint-plugin-jest "27.6.2"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-no-restricted-imports "0.0.0"
-    eslint-plugin-prettier "5.1.2"
+    eslint-plugin-prettier "5.1.3"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-testing-library "6.2.0"
@@ -5558,10 +5558,10 @@ eslint-plugin-import@^2.25.3:
     semver "^6.3.0"
     tsconfig-paths "^3.14.1"
 
-eslint-plugin-jest@27.6.1:
-  version "27.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.1.tgz#5e43b07f3ca48d72e4b4fa243531e5153d9ca1dc"
-  integrity sha512-WEYkyVXD9NlmFBKvrkmzrC+C9yZoz5pAml2hO19PlS3spJtoiwj4p2u8spd/7zx5IvRsZsCmsoImaAvBB9X93Q==
+eslint-plugin-jest@27.6.2:
+  version "27.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.2.tgz#8e69404fcd5dfeac03cac478f0ebb9bf2d8db56b"
+  integrity sha512-CI1AlKrsNhYFoP48VU8BVWOi7+qHTq4bRxyUlGjeU8SfFt8abjXhjOuDzUoMp68DoXIx17KpNpIkMrl4s4ZW0g==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -5623,10 +5623,10 @@ eslint-plugin-no-restricted-imports@0.0.0:
   dependencies:
     requireindex "~1.1.0"
 
-eslint-plugin-prettier@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.2.tgz#584c94d4bf31329b2d4cbeb10fd600d17d6de742"
-  integrity sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg==
+eslint-plugin-prettier@5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.3.tgz#17cfade9e732cef32b5f5be53bd4e07afd8e67e1"
+  integrity sha512-C9GCVAs4Eq7ZC/XFQHITLiHJxQngdtraXaM+LoUFoFp/lHNl2Zn8f3WQbe9HvTBBQ9YnKFB0/2Ajdqwo5D1EAw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.6"
