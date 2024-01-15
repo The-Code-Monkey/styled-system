@@ -3051,15 +3051,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.1.tgz#882ca942341f58fea048aa2f403e73a8a34cd882"
   integrity sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==
 
-"@techstack/memoize@1.3.159":
-  version "1.3.159"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.159.tgz#d62f9d77370acb9af156260fb87517197acce533"
-  integrity sha512-99DLsaZmEUHUUcFU21K2ld8ybSn53IuZEtJ8GIz2mhG/WCs0KVwFRA8h8/K6EaYunK5vIdK5m3CvSH4SVPL4Dw==
+"@techstack/memoize@1.3.160":
+  version "1.3.160"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.160.tgz#94d82bcefd03b9ed067720c6f2bc1195937d6580"
+  integrity sha512-HwpgkjNVuBb2yf6AdvoOcl5R4LNJgQgBn5FJ93LIhv8THzpkTJ0l5SFq7EBT26eiEFMbPbWwjeGF4bF3TprcdQ==
 
-"@techstack/tcm-cli@1.3.159":
-  version "1.3.159"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.159.tgz#0b3fcb2aac3f67897ff7d32b6d72aec65b00659c"
-  integrity sha512-AiYW8KztUehatt13tkK4S1DpmPN9wPCRm7YLos4eSKGtD+prAat58JwTqoKAK2LEJEf9aGgTGQQOFC8mTUSZ0A==
+"@techstack/tcm-cli@1.3.160":
+  version "1.3.160"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.160.tgz#d506a01c6cbf4ea05117228a01855244c8664d3f"
+  integrity sha512-u7Uc1cE2e/th78HJ5v6pvM/vEDsQZ04aL0LBOPSh2wYkQ0NuYHjEbDY2moxlPohYqevTdLC3JnpBE/H/MwR1dg==
   dependencies:
     "@babel/core" "7.23.7"
     "@babel/parser" "7.23.6"
@@ -3108,7 +3108,7 @@
     ora "8.0.1"
     pascal-case "3.1.2"
     postcss "8.4.33"
-    prettier "3.2.1"
+    prettier "3.2.2"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.1"
     rollup "4.9.5"
@@ -9484,10 +9484,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.1.tgz#babf33580e16c796a9740b9fae551624f7bfeaab"
-  integrity sha512-qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==
+prettier@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.2.tgz#96e580f7ca9c96090ad054616c0c4597e2844b65"
+  integrity sha512-HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==
 
 pretty-format@^29.0.0, pretty-format@^29.5.0:
   version "29.5.0"
