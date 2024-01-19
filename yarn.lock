@@ -280,6 +280,17 @@
     lodash.debounce "^4.0.8"
     resolve "^1.14.2"
 
+"@babel/helper-define-polyfill-provider@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.5.0.tgz#465805b7361f461e86c680f1de21eaf88c25901b"
+  integrity sha512-NovQquuQLAQ5HuyjCz7WQP9MjRj7dx++yspwiyUiGl9ZyadHRSql1HZh5ogRd8W8w6YM6EQ/NTB8rgjLt5W65Q==
+  dependencies:
+    "@babel/helper-compilation-targets" "^7.22.6"
+    "@babel/helper-plugin-utils" "^7.22.5"
+    debug "^4.1.1"
+    lodash.debounce "^4.0.8"
+    resolve "^1.14.2"
+
 "@babel/helper-environment-visitor@^7.22.20":
   version "7.22.20"
   resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.20.tgz#96159db61d34a29dba454c959f5ae4a649ba9167"
@@ -3051,15 +3062,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.2.tgz#1f53087e1c5043e09a37391702dc3a7ce8751935"
   integrity sha512-874lrMtWYRL+xb/6xzejjwD+krfHTOo+2uFGpZfJScvuNv91Ni2O7k0o09zC70VzCYBGkXquV92ln/H+/ognGg==
 
-"@techstack/memoize@1.3.162":
-  version "1.3.162"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.162.tgz#e4cb70a3982d232d0fb6bff9a3db5286fb12c037"
-  integrity sha512-LC/2ZckaoZK6Rb1PZUbXYS2uF9YngdLC+FwEbp4f/KWd9UN5tKsQ03rvZYZy3UI583rtFPOA9dlTflnBiXU6mA==
+"@techstack/memoize@1.3.163":
+  version "1.3.163"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.163.tgz#0054899833289552e60f3576bc3e76ecfe54cd60"
+  integrity sha512-tv4TCgitOvC9BRVNPsf3mcejeDr8GMf6HpooavhHH42jZVpCmqQVcyGIy3pM0mgdp+QgKukIyu1Fr4/s71Bw2w==
 
-"@techstack/tcm-cli@1.3.162":
-  version "1.3.162"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.162.tgz#342cd58da5202606df9c263233fea7e875744959"
-  integrity sha512-Q6BQa4J1JbU8ERdIQ1kMZEMpsLBSdNADC3on4Wi5WhtLb/zXGl+qxxpEawT51QmaawNNFy2NmTykyWvned32hw==
+"@techstack/tcm-cli@1.3.163":
+  version "1.3.163"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.163.tgz#70cc1c15d8a93e3c295228e475aa18e14cada3d3"
+  integrity sha512-yPcfz5+u9WUN+G73VCvQ+sm8lv0yDB9cTqntAj2fiNP5pl8XlC79gjSmrRIXqbsTln3wU/AS6tz+q7oXm5dzcQ==
   dependencies:
     "@babel/core" "7.23.7"
     "@babel/parser" "7.23.6"
@@ -3078,7 +3089,7 @@
     babel-plugin-annotate-pure-calls "0.4.0"
     babel-plugin-dev-expression "0.2.3"
     babel-plugin-macros "3.1.0"
-    babel-plugin-polyfill-regenerator "0.5.4"
+    babel-plugin-polyfill-regenerator "0.5.5"
     babel-plugin-transform-rename-import "2.3.0"
     camelcase "8.0.0"
     chalk "5.3.0"
@@ -4049,12 +4060,12 @@ babel-plugin-polyfill-corejs3@^0.8.7:
     "@babel/helper-define-polyfill-provider" "^0.4.4"
     core-js-compat "^3.33.1"
 
-babel-plugin-polyfill-regenerator@0.5.4, babel-plugin-polyfill-regenerator@^0.5.4:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.5.4.tgz#c6fc8eab610d3a11eb475391e52584bacfc020f4"
-  integrity sha512-S/x2iOCvDaCASLYsOOgWOq4bCfKYVqvO/uxjkaYyZ3rVsVE3CeAI/c84NpyuBBymEgNvHgjEot3a9/Z/kXvqsg==
+babel-plugin-polyfill-regenerator@0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.5.5.tgz#8b0c8fc6434239e5d7b8a9d1f832bb2b0310f06a"
+  integrity sha512-OJGYZlhLqBh2DDHeqAxWB1XIvr49CxiJ2gIt61/PU55CQK4Z58OzMqjDe1zwQdQk+rBYsRc+1rJmdajM3gimHg==
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.4.4"
+    "@babel/helper-define-polyfill-provider" "^0.5.0"
 
 babel-plugin-polyfill-regenerator@^0.5.0:
   version "0.5.0"
@@ -4062,6 +4073,13 @@ babel-plugin-polyfill-regenerator@^0.5.0:
   integrity sha512-hDJtKjMLVa7Z+LwnTCxoDLQj6wdc+B8dun7ayF2fYieI6OzfuvcLMB32ihJZ4UhCBwNYGl5bg/x/P9cMdnkc2g==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.4.0"
+
+babel-plugin-polyfill-regenerator@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.5.4.tgz#c6fc8eab610d3a11eb475391e52584bacfc020f4"
+  integrity sha512-S/x2iOCvDaCASLYsOOgWOq4bCfKYVqvO/uxjkaYyZ3rVsVE3CeAI/c84NpyuBBymEgNvHgjEot3a9/Z/kXvqsg==
+  dependencies:
+    "@babel/helper-define-polyfill-provider" "^0.4.4"
 
 babel-plugin-transform-react-remove-prop-types@^0.4.24:
   version "0.4.24"

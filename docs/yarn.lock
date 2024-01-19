@@ -244,18 +244,18 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.11.6.tgz#ab753617b64d72f868f6ea4666059912f0c98441"
   integrity sha512-69WEY1PaZROaGYUrseng4/4sMYnRGhDe1vM6888CnWekGz/wuCnvqwOoOuKGYivnaiI4BVmZq4WKWhvahyj3/g==
 
-"@techstack/components@1.3.168":
-  version "1.3.168"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.168.tgz#4b38fe1674d94aaf991cb86eef1c6edb713040a8"
-  integrity sha512-dAcppjZqO5pFdCGc4t1P08wFnbmNLYRSuNexQ6w59l11A53QjUYfJYiNJbkRUPGiUzfArb7nANkSvfC+EU3xmw==
+"@techstack/components@1.3.169":
+  version "1.3.169"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.169.tgz#fbfe5d2ea8c947061c031f417aeaba868beb3bdb"
+  integrity sha512-hw9AAmUwbwDodAhf+n8PD/Ho9LtKba9Py636NVP92q5T973FSREjrVBzJN+jYzrVHOiv2x+IZEcjqA39JqzGDg==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.11.6"
-    "@techstack/memoize" "1.3.162"
-    "@techstack/react-feather" "1.3.162"
-    "@techstack/react-lazy-named" "1.3.162"
-    "@techstack/styled-system" "1.0.356"
-    "@techstack/theme" "1.3.163"
+    "@techstack/memoize" "1.3.163"
+    "@techstack/react-feather" "1.3.163"
+    "@techstack/react-lazy-named" "1.3.163"
+    "@techstack/styled-system" "1.0.357"
+    "@techstack/theme" "1.3.164"
     "@types/react-table" "7.7.19"
     classnames "2.5.1"
     csstype "3.1.3"
@@ -270,52 +270,52 @@
     react-virtual "2.10.4"
     styled-components "6.1.1"
 
-"@techstack/memoize@1.3.161":
-  version "1.3.161"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.161.tgz#0a2084eb96bf4bd5449298fa74c65f588da0e216"
-  integrity sha512-D/M3w0G6xggH5fBcVq1z+AxFymBd7VVromYsesMsY4Gt18vqmHU0p+RvVmTwa8eU2wC9yeVEUmmxCZ/lJ3b07g==
-
 "@techstack/memoize@1.3.162":
   version "1.3.162"
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.162.tgz#e4cb70a3982d232d0fb6bff9a3db5286fb12c037"
   integrity sha512-LC/2ZckaoZK6Rb1PZUbXYS2uF9YngdLC+FwEbp4f/KWd9UN5tKsQ03rvZYZy3UI583rtFPOA9dlTflnBiXU6mA==
 
-"@techstack/react-feather@1.3.162":
-  version "1.3.162"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.162.tgz#c597b745d4b2c6d3405c2d6cf0f23483deb48c65"
-  integrity sha512-BXpiPJlxnymSfcA85nvdkiQr9SThLv82tiVX3z+rsood94YQyCds5POyyg4IGnAt3QjQ9JRjK9Jq2F8Z264DhQ==
+"@techstack/memoize@1.3.163":
+  version "1.3.163"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.163.tgz#0054899833289552e60f3576bc3e76ecfe54cd60"
+  integrity sha512-tv4TCgitOvC9BRVNPsf3mcejeDr8GMf6HpooavhHH42jZVpCmqQVcyGIy3pM0mgdp+QgKukIyu1Fr4/s71Bw2w==
+
+"@techstack/react-feather@1.3.163":
+  version "1.3.163"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.3.163.tgz#afd9024d3549b6382ba4b87f4667122db22f5410"
+  integrity sha512-Vk/kEiJoBs+390lxR8y7fGV5kmcwA8TaaBjl7tHrmZuO+H+klKaLPIgmGhVE4veJd/aw8zIGw+zxbj2ZsHaXNQ==
   dependencies:
     react "18.2.0"
 
-"@techstack/react-lazy-named@1.3.162":
-  version "1.3.162"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.162.tgz#ddc6e1d4aa638c7d2d16e805ceff31ec2c75a5bb"
-  integrity sha512-McVeFR2ZGIHnugRm4NQZ04FHDXTUHmlbTwdpNKGAg/oX0FUubZHuFyy51E45hncsTt4koICKpHL+cUqjpbCaMg==
+"@techstack/react-lazy-named@1.3.163":
+  version "1.3.163"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.163.tgz#15dff590c850793eb0e979b8683c902e1274086a"
+  integrity sha512-12u22Lp1Y6lexzqWQ4YAFRs6vJgBJR5bHTZcCKMbM3U0GM4I8c6JkSMvKgBUqtl+JHG5fHhV363+TZp5G78Aqw==
   dependencies:
     lodash "4.17.21"
     lodash-es "4.17.21"
     react "18.2.0"
 
-"@techstack/styled-system@1.0.356":
-  version "1.0.356"
-  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.356.tgz#3d9d1ad6bc3ac1c2597eac1dd84a223f08ab5862"
-  integrity sha512-Fg1MX5wWGK72LOo4Bvr6Xx+e3jvnMunhhu5RlQurELRvM8DXWk2JvYNAj1f6Z92sh+zlIFRFRjp4Rtv2LRcr7A==
+"@techstack/styled-system@1.0.357":
+  version "1.0.357"
+  resolved "https://registry.yarnpkg.com/@techstack/styled-system/-/styled-system-1.0.357.tgz#4b59c4adaa08c033981ef0687555de529b2daae2"
+  integrity sha512-1D9vAs+DQ00HT80HNrLmOUWITNKgM7rVETI4WZg1O1a6+O3wKvwJZSFQ3lQR9rwY9HRYnJ1/Nbs15JxgrM412Q==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
-    "@techstack/memoize" "1.3.161"
+    "@techstack/memoize" "1.3.162"
     csstype "3.1.3"
     react "18.2.0"
 
-"@techstack/theme@1.3.163":
-  version "1.3.163"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.163.tgz#04a9cc6a6b76f543e055cd2ce40d0807b48e74ee"
-  integrity sha512-uhCY6o8yxDjj0vYr/LNIlIWQv6ijBvQXdJleMbHmClhWyTO9IOyZSzNMhvTyX+gaGzidRwH+He5Bo/qlV17Axg==
+"@techstack/theme@1.3.164":
+  version "1.3.164"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.164.tgz#445b42bb953a8aad87d8f8665775a18f361f28d6"
+  integrity sha512-sQ+RUDO7b9pv1b7Xc8lQ6IZNf96cLz8h0lUo7wyNnJ3hQvY+Q2rvn7mPOFt6S32+iIhJvoVJAjHfg89kT2/KCw==
   dependencies:
     fs-extra "11.2.0"
     lodash "4.17.21"
     lodash-es "4.17.21"
     sade "1.8.1"
-    style-dictionary "3.9.1"
+    style-dictionary "3.9.2"
     tinycolor2 "1.6.0"
 
 "@theguild/remark-mermaid@^0.0.5":
@@ -3198,10 +3198,10 @@ strip-eof@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
   integrity sha512-7FCwGGmx8mD5xQd3RPUvnSpUXHM3BWuzjtpD4TXsfcZ9EL4azvVVUscFYwD9nx8Kh+uCBC00XBtAykoMHwTh8Q==
 
-style-dictionary@3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-3.9.1.tgz#4cd1d426eb6918eca32291130eecebb14ef98a08"
-  integrity sha512-odyTC7wMYE4B3VOhc3LW1g0PCz9g+0WZZt5qp8KpWP9POlhw0+8MYiPQYwYfBmu4MEs1qbZ+GHySu4TTjQPH9A==
+style-dictionary@3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-3.9.2.tgz#5b3ecd4af28a64f4855db71c90d24fd288f27318"
+  integrity sha512-M2pcQ6hyRtqHOh+NyT6T05R3pD/gwNpuhREBKvxC1En0vyywx+9Wy9nXWT1SZ9ePzv1vAo65ItnpA16tT9ZUCg==
   dependencies:
     chalk "^4.0.0"
     change-case "^4.1.2"
