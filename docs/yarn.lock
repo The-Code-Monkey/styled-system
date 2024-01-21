@@ -244,10 +244,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.11.6.tgz#ab753617b64d72f868f6ea4666059912f0c98441"
   integrity sha512-69WEY1PaZROaGYUrseng4/4sMYnRGhDe1vM6888CnWekGz/wuCnvqwOoOuKGYivnaiI4BVmZq4WKWhvahyj3/g==
 
-"@techstack/components@1.3.170":
-  version "1.3.170"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.170.tgz#ccf829a86fb83019ed2980b39d75459399174376"
-  integrity sha512-h0ylPmINQfn5wb+Qq/QQcRnUsyvBdJu0D+fZmq0hs4D2RdasoG5CdGktedQNg91qxUqMx3ONMdQRinm2BD5KcA==
+"@techstack/components@1.3.171":
+  version "1.3.171"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.171.tgz#9c464ab049c781a1f182ab491c6e4aa502b6302d"
+  integrity sha512-sGyPZKzNdlYr5d+lBseZmNH8QBBpRJ9CgvlVNl5S0bYzt9wN0xPvPz9yXs0q/tXOTtb4ERm7hDnzPJfLT49LnQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.11.6"
@@ -260,11 +260,11 @@
     classnames "2.5.1"
     csstype "3.1.3"
     deepmerge "4.3.1"
-    i18next "23.7.16"
+    i18next "23.7.17"
     react "18.2.0"
     react-date-picker "10.6.0"
     react-datetime-picker "5.6.0"
-    react-i18next "14.0.0"
+    react-i18next "14.0.1"
     react-responsive-carousel "3.2.23"
     react-table "7.8.0"
     react-virtual "2.10.4"
@@ -1530,10 +1530,10 @@ html-void-elements@^3.0.0:
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-3.0.0.tgz#fc9dbd84af9e747249034d4d62602def6517f1d7"
   integrity sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==
 
-i18next@23.7.16:
-  version "23.7.16"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.7.16.tgz#7026d18b7a3ac9e2ecfeb78da5e4da5ca33312ef"
-  integrity sha512-SrqFkMn9W6Wb43ZJ9qrO6U2U4S80RsFMA7VYFSqp7oc7RllQOYDCdRfsse6A7Cq/V8MnpxKvJCYgM8++27n4Fw==
+i18next@23.7.17:
+  version "23.7.17"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.7.17.tgz#069e91ecd3813c1c3c9cecef9299f83373782b4e"
+  integrity sha512-Wh3mNWeVlwx5HrDSPeJNUYZUrEwFbqykjy80ktIbgRKz41P51wRNyMfXSf5fICyHNJX4O/4XWbecFkprfS8G6w==
   dependencies:
     "@babel/runtime" "^7.23.2"
 
@@ -2831,10 +2831,10 @@ react-fit@^1.7.0:
     prop-types "^15.6.0"
     tiny-warning "^1.0.0"
 
-react-i18next@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-14.0.0.tgz#eb39d2245fd1024237828c955f770e409a1ccb12"
-  integrity sha512-OCrS8rHNAmnr8ggGRDxjakzihrMW7HCbsplduTm3EuuQ6fyvWGT41ksZpqbduYoqJurBmEsEVZ1pILSUWkHZng==
+react-i18next@14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-14.0.1.tgz#75351b25be076ad7391360b5a111b59ca87e0b63"
+  integrity sha512-TMV8hFismBmpMdIehoFHin/okfvgjFhp723RYgIqB4XyhDobVMyukyM3Z8wtTRmajyFMZrBl/OaaXF2P6WjUAw==
   dependencies:
     "@babel/runtime" "^7.22.5"
     html-parse-stringify "^3.0.1"
