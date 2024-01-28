@@ -2,13 +2,13 @@
   "version": "1.0.365",
   "license": "MIT",
   "name": "@techstack/styled-system",
-  "homepage": "https://github.com/The-Code-Monkey/TechStack/blob/dev/packages/styled-system/README.md",
+  "homepage": "https://styled-system-docs.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/The-Code-Monkey/TechStack.git"
+    "url": "https://github.com/The-Code-Monkey/styled-system.git"
   },
   "bugs": {
-    "url": "https://github.com/The-Code-Monkey/TechStack/issues"
+    "url": "https://github.com/The-Code-Monkey/styled-system/issues"
   },
   "main": "./dist/index.js",
   "module": "./dist/styled-system.esm.js",
