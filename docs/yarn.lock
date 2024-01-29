@@ -244,10 +244,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.11.7.tgz#266af5af8576e8860df8abfe4e32e9c4ffbc76b0"
   integrity sha512-N3ksnkbPbsF3PjubuZCB/etTqvctpXWRHIXTmYfJFnhynQKjeZu8BCuHvdlLPpumKbA+bjY4Ay9AELYLOXPWBg==
 
-"@techstack/components@1.3.178":
-  version "1.3.178"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.178.tgz#e022b829d0a6f068f8b84dbd3a2a5e77e648280b"
-  integrity sha512-GYxJB4wOZ2V2DY8BpEyCv8d1gT6gM0cyFWTjZ9bIricJRJBfwTSvTdKcqOdHm6QnaoRojtHgrK8JTYJX6bM34g==
+"@techstack/components@1.3.179":
+  version "1.3.179"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.179.tgz#a159ad1a54ea609c42903a7a6e98fbaca50a0f80"
+  integrity sha512-yVDj9AhT+XBHzyGrZstETWwfFHt7DbhN1i62pMvQ6EkyoMMgWkmcR1/ye09NPL5w7ILwp08vaTA1fBf5JsPeVA==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.11.7"
@@ -260,7 +260,7 @@
     classnames "2.5.1"
     csstype "3.1.3"
     deepmerge "4.3.1"
-    i18next "23.7.20"
+    i18next "23.8.0"
     react "18.2.0"
     react-date-picker "10.6.0"
     react-datetime-picker "5.6.0"
@@ -1530,10 +1530,10 @@ html-void-elements@^3.0.0:
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-3.0.0.tgz#fc9dbd84af9e747249034d4d62602def6517f1d7"
   integrity sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==
 
-i18next@23.7.20:
-  version "23.7.20"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.7.20.tgz#d558da5b563973ed88c7c21d3670bee6a094b03b"
-  integrity sha512-6qykxPpFPuzxC/VlVCXn3JxkHY5VCxf1w+/8Hz+Wxu4ZvfB+m3sbVruJ3C/rDWlE0Z1GCZTR6sBHIx7KGp0yXA==
+i18next@23.8.0:
+  version "23.8.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.8.0.tgz#87e1d258eac2b0a774ec583b498342abc23ad402"
+  integrity sha512-1H+39doU9dQZrRprpnZ2aZetbX9I1N3bM/YGHN/ZkMJ//wJqrxDEqgI5mmSsh/rglsFBiNxI6UtFZfUO2A6XbA==
   dependencies:
     "@babel/runtime" "^7.23.2"
 
