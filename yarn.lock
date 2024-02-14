@@ -3070,15 +3070,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.2.tgz#1f53087e1c5043e09a37391702dc3a7ce8751935"
   integrity sha512-874lrMtWYRL+xb/6xzejjwD+krfHTOo+2uFGpZfJScvuNv91Ni2O7k0o09zC70VzCYBGkXquV92ln/H+/ognGg==
 
-"@techstack/memoize@1.3.185":
-  version "1.3.185"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.185.tgz#45ae804608fc42607e68cde1bde2b40e2496d526"
-  integrity sha512-GG8ypAuuGWJ6/0KW+re1mjOGtRWen08TIIaH/INq3UNzXcq4SCPzkci1xPk6HJON3M1YMolYSgN6gqyFsDUmng==
+"@techstack/memoize@1.3.186":
+  version "1.3.186"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.186.tgz#184e1d341a439f8eb617095b925c09c08ba54db9"
+  integrity sha512-TU9GXMCaBNz0wh9Ox/cf9Ycidw7x3x9SjfXGWkYebAg/mO2f74DXP26pK/6rEeZ57kooIpreGK0IH1uHwLAtAQ==
 
-"@techstack/tcm-cli@1.3.185":
-  version "1.3.185"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.185.tgz#f58def01306e98d0326c162037853e18dfb8a98e"
-  integrity sha512-7WYGOkzGd+5crV1+UYq4NZu3UvExSKR4Q4EnnfB2W8Z2+mkDfJ+WeEB2eKRVVaXZsKuUWrkdnCtKLfl8ROkH3g==
+"@techstack/tcm-cli@1.3.186":
+  version "1.3.186"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.186.tgz#553c4b1a49c2434909d6c5480f60b7a12131cc97"
+  integrity sha512-c+XqTHeQJfmZaKcdgugyarXNJCViJoSIlqy8NhMjcBrOpOQjix9QLz7QTmv83LqYOeysD3DYQJW8d2W7KoC9+Q==
   dependencies:
     "@babel/core" "7.23.9"
     "@babel/parser" "7.23.9"
@@ -3109,7 +3109,7 @@
     eslint-config-react-app "7.0.1"
     eslint-plugin-flowtype "8.0.3"
     eslint-plugin-import "2.29.1"
-    eslint-plugin-jest "27.6.3"
+    eslint-plugin-jest "27.8.0"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-no-restricted-imports "0.0.0"
     eslint-plugin-prettier "5.1.3"
@@ -5577,10 +5577,10 @@ eslint-plugin-import@^2.25.3:
     semver "^6.3.0"
     tsconfig-paths "^3.14.1"
 
-eslint-plugin-jest@27.6.3:
-  version "27.6.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.3.tgz#8acb8b1e45597fe1f4d4cf25163d90119efc12be"
-  integrity sha512-+YsJFVH6R+tOiO3gCJon5oqn4KWc+mDq2leudk8mrp8RFubLOo9CVyi3cib4L7XMpxExmkmBZQTPDYVBzgpgOA==
+eslint-plugin-jest@27.8.0:
+  version "27.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.8.0.tgz#c8900c3e74e4c6b8cee67ea77dbc8de9cbd9e093"
+  integrity sha512-347hVFiu4ZKMYl5xFp0X81gLNwBdno0dl0CMpUMjwuAux9X/M2a7z+ab2VHmPL6XCT87q8nv1vaVzhIO4TE/hw==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
