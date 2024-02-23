@@ -264,18 +264,18 @@
   resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.0.0.tgz#637bee36f0cabf96a1d436887c90f138a7e9378b"
   integrity sha512-SYXOBTjJb05rXa2vl55TTwO40A6wKu0R5i1qQwhJYNDIqaIGF7D0HsLw+pJAyi2OvntlEIVusx3xtbbgSUi6zg==
 
-"@techstack/components@1.3.240":
-  version "1.3.240"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.240.tgz#fbcfbd458afaa50f499b644185e3e495b7f8f648"
-  integrity sha512-uw38wsfnFkGxz+cPCja/ftaSIx7cJ2Wri3yzPpsvIFpJctdp0e1Ujv9L9SWpA4j6IobOGRXofe8uWXy2YEVjwA==
+"@techstack/components@1.3.242":
+  version "1.3.242"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.242.tgz#f12cfa2cc167bf9b6f0b162a52bde5e486b437b1"
+  integrity sha512-x3Y8ZiEkFq6zxuCO++butg/crH0zTSHPqQtJQPcc+El9VBrlhI5gIyq9070bXKmXRsGqbz6SxbyFRsjtp1ncBg==
   dependencies:
     "@emotion/is-prop-valid" "1.2.1"
     "@tanstack/react-table" "8.12.0"
-    "@techstack/memoize" "1.3.194"
-    "@techstack/react-feather" "1.4.19"
-    "@techstack/react-lazy-named" "1.3.194"
+    "@techstack/memoize" "1.3.196"
+    "@techstack/react-feather" "1.4.21"
+    "@techstack/react-lazy-named" "1.3.196"
     "@techstack/styled-system" "1.0.387"
-    "@techstack/theme" "1.3.195"
+    "@techstack/theme" "1.3.197"
     "@types/react-table" "7.7.19"
     classnames "2.5.1"
     csstype "3.1.3"
@@ -295,22 +295,22 @@
   resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.193.tgz#fc942657ed21e6caab4b528eb6ac45227c217ee6"
   integrity sha512-kDk7BUGfLXYz7NiqxzKGgKE656uPtXF4YwMvDVGBxF1eSIvTmjVCGh9wzZ9AV2BQ+mO8CqtiplhJ5b/nnOKiXw==
 
-"@techstack/memoize@1.3.194":
-  version "1.3.194"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.194.tgz#2e771e8ece46e08a78631617840ad20b6aa84934"
-  integrity sha512-04yxX1woTJ5AcB9PZ7avKyPmH2ytShHOxkqYTk1n5v8TrnlrMuKVevfIwew3Bv4ne9qc8AJ9a6BOQJ8884M+Lg==
+"@techstack/memoize@1.3.196":
+  version "1.3.196"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.196.tgz#0c3aded24c2d5e5a8ec4bd8c5e8084eba823b557"
+  integrity sha512-sJ2E39BurPVESSqIxzCxhIeAsrbcuG/YNb15J8ZTYMdSgiulQ+L8r3LboFIwm9aWfnkITeo3AcG2NQPlPafa9g==
 
-"@techstack/react-feather@1.4.19":
-  version "1.4.19"
-  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.4.19.tgz#58685610133f4871a328cb7db0c7cf0e41a64774"
-  integrity sha512-pyWvHMaINXhDH4ecMzwKg+k1MnQQicqQYY46kcN9f2YXH2SKishDqLit7Xs/zpOlr6UfhE7gsS+yFbhRi2AI1Q==
+"@techstack/react-feather@1.4.21":
+  version "1.4.21"
+  resolved "https://registry.yarnpkg.com/@techstack/react-feather/-/react-feather-1.4.21.tgz#d70a02d031fba2845948183bfa7ef39866b28683"
+  integrity sha512-/Q98R7pLF4otFKCSSI5P7UjIIpDx8XqbxD09WhxuZjRtipsD2hfakrG95xWSKw8qjWlwUfnZbOsTBY73z9WSIw==
   dependencies:
     react "18.2.0"
 
-"@techstack/react-lazy-named@1.3.194":
-  version "1.3.194"
-  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.194.tgz#4565b784a849b16b86aa430f90031beb0c3c5bca"
-  integrity sha512-y2qRH79p1bFfdZqyPN/VyJspLDk1ifTpzMZng+bJ/CF88ZZbObt5vqj8AwMCGowUy2XAJINMrwbFAoUMrs/SZQ==
+"@techstack/react-lazy-named@1.3.196":
+  version "1.3.196"
+  resolved "https://registry.yarnpkg.com/@techstack/react-lazy-named/-/react-lazy-named-1.3.196.tgz#bb0516d73e912f00454a83e09f985884e97f504d"
+  integrity sha512-u1Z0plWoyfL2nf1deZfCypBjPTKg068r6w15IITdn2BTdffKsNea9FTJnT6Q6AqZt6dq+tSUQzzjdpo+rVbADA==
   dependencies:
     lodash "4.17.21"
     lodash-es "4.17.21"
@@ -326,10 +326,10 @@
     csstype "3.1.3"
     react "18.2.0"
 
-"@techstack/theme@1.3.195":
-  version "1.3.195"
-  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.195.tgz#3bb156025937f547dddb2a15cee99423fd199ad5"
-  integrity sha512-oFS72zyeGka5fq6muDC0PixKTvtf42jNGRMENXi77eaj465IqJQRHUlv48l135oFGPJtpCD0aiNyueGcIyhtRQ==
+"@techstack/theme@1.3.197":
+  version "1.3.197"
+  resolved "https://registry.yarnpkg.com/@techstack/theme/-/theme-1.3.197.tgz#5c9fef64b9320fbf3589a484abac76ddef608a31"
+  integrity sha512-7nF5mL5UJl+LBGLWb0keI2ANHh0IXRRMWVvUUfh2tmXo+TsO8qLsqqRLwWDEwEdpxJWmb0hvpdUCsDbJnakHCg==
   dependencies:
     fs-extra "11.2.0"
     lodash "4.17.21"
