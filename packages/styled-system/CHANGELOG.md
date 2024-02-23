@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.389](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.388...@techstack/styled-system@1.0.389) (2024-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update techstack mono repo ([1c33c5f](https://github.com/The-Code-Monkey/styled-system/commit/1c33c5fe0015bf80eab0d26c20650d3e03280449))
+
+
+
+
+
 ## [1.0.388](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.387...@techstack/styled-system@1.0.388) (2024-02-23)
 
 
