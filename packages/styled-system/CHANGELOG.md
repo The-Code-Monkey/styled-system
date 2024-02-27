@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.395](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.394...@techstack/styled-system@1.0.395) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @emotion/is-prop-valid to v1.2.2 ([e5b166b](https://github.com/The-Code-Monkey/styled-system/commit/e5b166b79648d1837e48ea73e8ca3daef0639bd6))
+
+
+
+
+
 ## [1.0.394](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.393...@techstack/styled-system@1.0.394) (2024-02-27)
 
 
