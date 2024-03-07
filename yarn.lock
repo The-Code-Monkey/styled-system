@@ -3077,15 +3077,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.0.2.tgz#1f53087e1c5043e09a37391702dc3a7ce8751935"
   integrity sha512-874lrMtWYRL+xb/6xzejjwD+krfHTOo+2uFGpZfJScvuNv91Ni2O7k0o09zC70VzCYBGkXquV92ln/H+/ognGg==
 
-"@techstack/memoize@1.3.221":
-  version "1.3.221"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.221.tgz#0d9f99df60efad5b2d81e8ec1bb16801946f8e17"
-  integrity sha512-NE07SBKxzEMWZt5PRoqELD1RVqri7ONJ5abL+B6W6ZGhSofcH11rxkuGD8QCQLPrXY9iZpLXLJFxkXUtK3xx1w==
+"@techstack/memoize@1.3.222":
+  version "1.3.222"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.222.tgz#dfbb6c21d42e52cf2bba4e172bf620942d871695"
+  integrity sha512-CWhEyvTffMH3PDHARr30upcXSwrqgJaNefPKiT41+gJw2+v8RYW1y1/4clTcfBfYj3MT49eLhwKdM4OFnf7igA==
 
-"@techstack/tcm-cli@1.3.221":
-  version "1.3.221"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.221.tgz#f857e181f69bf3501dd24f567b0c49105138b34f"
-  integrity sha512-Kn12MLVEvXAwEshA6Mx2o7f0pwGa1mJMy3R0x2bfZRMjXatsbfBQtemxdc3ckjqNkfkzvZjsTsHP9cVkGIBeqg==
+"@techstack/tcm-cli@1.3.222":
+  version "1.3.222"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.222.tgz#9946c2e5a329d368db34781435b6a28fe05079fe"
+  integrity sha512-pE1eLtnE+gzntaqNz0z7Q0nxavp4Q3jHQ2jRl4b18CG/n1KDfxjn8ZQsUANfBZaqYwcyFtpcbBURdIjr2ne0dw==
   dependencies:
     "@babel/core" "7.24.0"
     "@babel/parser" "7.24.0"
@@ -3150,7 +3150,7 @@
     ts-node "10.9.1"
     tslib "2.6.2"
     type-fest "4.11.1"
-    typescript "5.3.3"
+    typescript "5.4.2"
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -11358,11 +11358,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
-
-typescript@5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
-  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 typescript@5.4.2:
   version "5.4.2"
