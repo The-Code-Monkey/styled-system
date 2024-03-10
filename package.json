@@ -20,5 +20,5 @@
   "devDependencies": {
     "lerna": "8.1.2"
   },
-  "packageManager": "yarn@1.22.21"
+  "packageManager": "yarn@1.22.22"
 }
