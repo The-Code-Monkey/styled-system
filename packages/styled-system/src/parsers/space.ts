@@ -211,56 +211,67 @@ const paddingConfig: SystemConfig<string> = {
   padding: {
     property: 'padding',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingTop: {
     property: 'paddingTop',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingRight: {
     property: 'paddingRight',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingBottom: {
     property: 'paddingBottom',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingLeft: {
     property: 'paddingLeft',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingX: {
     properties: ['paddingLeft', 'paddingRight'],
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingY: {
     properties: ['paddingTop', 'paddingBottom'],
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingBlockStart: {
     property: 'paddingBlockStart',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingBlockEnd: {
     property: 'paddingBlockEnd',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingInlineStart: {
     property: 'paddingInlineStart',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
   paddingInlineEnd: {
     property: 'paddingInlineEnd',
     scale: 'space',
+    transform: getMargin,
     defaultScale: defaultTheme.space,
   },
 };
