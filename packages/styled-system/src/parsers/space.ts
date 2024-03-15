@@ -21,7 +21,7 @@ export function getMargin(scale?: Scale, n?: number) {
     return isNegative ? `-${value}` : value;
   }
 
-  return value * (isNegative ? -1 : 1);
+  return value ? value * (isNegative ? -1 : 1) : n;
 }
 
 export interface MarginProps<
