@@ -15,13 +15,13 @@ export function getMargin(scale?: Scale, n?: number) {
 
   const isNegative = n < 0;
   const absolute = Math.abs(n);
-  const value = get(scale, absolute, absolute) as number;
+  const value = get(scale, absolute, absolute, n) as number;
 
   if (!isNumber(value)) {
     return isNegative ? `-${value}` : value;
   }
 
-  return value ? value * (isNegative ? -1 : 1) : n;
+  return value * (isNegative ? -1 : 1);
 }
 
 export interface MarginProps<
