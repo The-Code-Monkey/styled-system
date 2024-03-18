@@ -3088,15 +3088,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.1.1.tgz#355dad87081545960cae735ace97be8b9a20e900"
   integrity sha512-c4XXp2CLvfx2RfzAqIAlxV6OWAQSVquLMNKKD6x9urJD7knjnTesPkbMcf3SkQbjCY4PlLL6kYhaO9drCWGM6g==
 
-"@techstack/memoize@1.3.233":
-  version "1.3.233"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.233.tgz#6c4ee8651ae129bea38178e86ca40f1187bdc2c8"
-  integrity sha512-Q+MA5JRhUldK2wbEiiv0ROEzwNROKfWXvy9hsRRts2D6OdI4bKYvdeA9NfLL0+QPwgVJ9UOTByE8s/uhaYa1qQ==
+"@techstack/memoize@1.3.234":
+  version "1.3.234"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.234.tgz#7dbe3621fb34106f22414c51211457330a90a7ff"
+  integrity sha512-ERGEbepemRGjlD/EJIuzN2OgFNrRrbMSs9E/p1jJfcpdrtoZFjrfH+Awr1nok7fJej/aFbF0qVkQvb3wFmS7xQ==
 
-"@techstack/tcm-cli@1.3.233":
-  version "1.3.233"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.233.tgz#ae327fd52704131ab29da3b0d66fee144a0683ea"
-  integrity sha512-ILxbe3+S+LPJHKRvsfkJ483Tk8OQOKAjstzsDq5MaPTrZQJiXcjSrdTrZ6FyzdANbgcmuOD25OJVct5xOSFBPg==
+"@techstack/tcm-cli@1.3.234":
+  version "1.3.234"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.3.234.tgz#4e62d1254329039db79c07f7273647dcadbe2cb1"
+  integrity sha512-rCNFfUn9oJAVIvpHbYSG9wn0oL3w19gidO9jl4A+iqd/NhZZHTOWL6zfXwXOw4ITTxnVVExPTM4sBl1/uTaRpw==
   dependencies:
     "@babel/core" "7.24.0"
     "@babel/parser" "7.24.0"
@@ -3144,7 +3144,7 @@
     lodash.merge "4.6.2"
     ora "8.0.1"
     pascal-case "3.1.2"
-    postcss "8.4.35"
+    postcss "8.4.36"
     prettier "3.2.5"
     progress-estimator "0.3.1"
     regenerator-runtime "0.14.1"
@@ -9704,14 +9704,14 @@ postcss@8.4.31:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.4.35:
-  version "8.4.35"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.35.tgz#60997775689ce09011edf083a549cea44aabe2f7"
-  integrity sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==
+postcss@8.4.36:
+  version "8.4.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.36.tgz#dba513c3c3733c44e0288a712894f8910bbaabc6"
+  integrity sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
-    source-map-js "^1.0.2"
+    source-map-js "^1.1.0"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -10599,6 +10599,11 @@ source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+source-map-js@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.1.0.tgz#9e7d5cb46f0689fb6691b30f226937558d0fa94b"
+  integrity sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==
 
 source-map-support@0.5.13:
   version "0.5.13"
