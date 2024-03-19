@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.425](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.424...@techstack/styled-system@1.0.425) (2024-03-19)
+
+
+### Bug Fixes
+
+* rem bug should be fixed ([c2b1c9b](https://github.com/The-Code-Monkey/styled-system/commit/c2b1c9bf1d6c39355899d315b89db1cb47ca315a))
+
+
+
+
+
 ## [1.0.424](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.423...@techstack/styled-system@1.0.424) (2024-03-19)
 
 
