@@ -3,7 +3,14 @@ export function get<T = string | number>(
   path: string | number,
   fallback?: string | number | T
 ): T {
-  const key = typeof path === 'string' ? path.split('.') : [path];
+  let key = typeof path === 'string' ? path.split('.') : [path];
+
+  if (
+    typeof path === 'string' &&
+    (path.endsWith('rem') || path.endsWith('px'))
+  ) {
+    key = [path];
+  }
 
   let result: object = obj;
 

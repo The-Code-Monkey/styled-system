@@ -9,8 +9,6 @@ import {
 import { defaultTheme, isNumber } from '../utils';
 
 export function getMargin(scale?: Scale, n?: number) {
-  console.log(n, get(scale, n, n));
-  
   if (!isNumber(n)) {
     return get(scale, n, n);
   }
