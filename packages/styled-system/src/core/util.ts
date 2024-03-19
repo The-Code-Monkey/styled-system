@@ -5,7 +5,10 @@ export function get<T = string | number>(
 ): T {
   let key = typeof path === 'string' ? path.split('.') : [path];
 
-  if (typeof path === 'string' && (path.endsWith('rem') || path.endsWith('px'))) {
+  if (
+    typeof path === 'string' &&
+    (path.endsWith('rem') || path.endsWith('px'))
+  ) {
     key = [path];
   }
 
