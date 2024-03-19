@@ -7,6 +7,12 @@ describe('space', () => {
     expect(styles).toEqual({ margin: '4px' });
   });
 
+  it('should return style objects 0.75rem', () => {
+    const styles = space({ m: '0.75rem', p: '0.75rem' });
+
+    expect(styles).toEqual({ margin: '4px', padding: '4px' });
+  });
+
   it('should return 0 values', () => {
     const styles = space({ m: 0 });
 
