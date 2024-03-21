@@ -271,10 +271,10 @@
   resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.0.0.tgz#637bee36f0cabf96a1d436887c90f138a7e9378b"
   integrity sha512-SYXOBTjJb05rXa2vl55TTwO40A6wKu0R5i1qQwhJYNDIqaIGF7D0HsLw+pJAyi2OvntlEIVusx3xtbbgSUi6zg==
 
-"@techstack/components@1.3.350":
-  version "1.3.350"
-  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.350.tgz#cea8abdbf47aefe94c84c7daa54414e89d310c32"
-  integrity sha512-A6qWn0rL48TDQ5xwgAOl37pdkNiP4Hsg4hXbMCZVZa4wdtUqc3VFyKMgAAj09LiDwni1b7ExQkqfZscyowpgbQ==
+"@techstack/components@1.3.351":
+  version "1.3.351"
+  resolved "https://registry.yarnpkg.com/@techstack/components/-/components-1.3.351.tgz#1f35d3290e067b4c1454f47dd4f55dbc2bb841ca"
+  integrity sha512-fOUrPqrzwm3OuCWME0gBTi8o9j2UyfXmnr4wSIgd6Vf8Iw6M8etJYCZMxuhRNVAQMOsY1CpKbqzXbI5HAh3lVQ==
   dependencies:
     "@emotion/is-prop-valid" "1.2.2"
     "@tanstack/react-table" "8.13.2"
