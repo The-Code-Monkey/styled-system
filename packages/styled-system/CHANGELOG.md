@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.440](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.439...@techstack/styled-system@1.0.440) (2024-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v18.3.1 ([00df6a0](https://github.com/The-Code-Monkey/styled-system/commit/00df6a0650a74f8c3f4dd89f91f1800b28193216))
+
+
+
+
+
 ## [1.0.439](https://github.com/The-Code-Monkey/styled-system/compare/@techstack/styled-system@1.0.438...@techstack/styled-system@1.0.439) (2024-04-25)
 
 
