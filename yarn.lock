@@ -3220,15 +3220,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.1.3.tgz#fbee64c403b1eebae98a84afc176a9e55ead43b5"
   integrity sha512-O4Q4Vr7CInM3kq5GlpgGM7sDLAtbCPVVyN0raNBFBYovhUEmEruEu/qXrGVdeEaA47wXOpMdZ9cYJVTkKNAV2g==
 
-"@techstack/memoize@1.3.268":
-  version "1.3.268"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.268.tgz#e3c79d4784f87afc83e0c249a29ac11444949536"
-  integrity sha512-kauddtBbpC7XAedvMr10Nwmy/oIA6YzafxmAbDRH3gFUP5Fwik4TxaJ7Ur6NJRIxayVMgG/XfXSpaF8GFKGOyQ==
+"@techstack/memoize@1.3.269":
+  version "1.3.269"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.269.tgz#e2a4061aa5dfaec10c6c038067e757a28b261b1e"
+  integrity sha512-U98xo9FNN+l4822CLPsirfmVCCsTl2w495V7Dh7UrGnn39/LcEiyxvFOwIb8gDTMq2L+FrOo+RXD0BNJmc1z4A==
 
-"@techstack/tcm-cli@1.4.17":
-  version "1.4.17"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.17.tgz#ad1e0af6c66fc1530660d7738df6cba835e62450"
-  integrity sha512-HlSPkcseJ+6q72DqlVp6OsD0i7e358JJdbBtmpdYfe/vc2uEz8x6snl7XuEIENlgxgweZ33CGAU/gUPjM2VHdA==
+"@techstack/tcm-cli@1.4.18":
+  version "1.4.18"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.18.tgz#5d78a51296e54076563493c4fa1a23d57a11626b"
+  integrity sha512-CFRwN/7SiflydE4fOSUKm1eRJ7vEJe83MsSWLHjJShasMVA6+ws51HlVc5iD7ZZlcbjrGuiYgvtuDYImuL+YTQ==
   dependencies:
     "@babel/core" "7.24.5"
     "@babel/parser" "7.24.5"
@@ -3266,7 +3266,7 @@
     eslint-plugin-react "7.34.1"
     eslint-plugin-react-hooks "4.6.2"
     eslint-plugin-testing-library "6.2.2"
-    execa "9.0.1"
+    execa "9.0.2"
     figlet "1.7.0"
     fs-extra "11.2.0"
     jest "29.7.0"
@@ -6153,10 +6153,10 @@ execa@5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-execa@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-9.0.1.tgz#e1a0ea8896a8975e581e7f8a905e1f66a2232365"
-  integrity sha512-U5ck8xJmf3sVebV1v+Hh436VWHVHUfzkdbKJynd3kCP9sQRDxCY5x2Tml5lGB7XM6lpj6ATfgWWqynDt2MBLJg==
+execa@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-9.0.2.tgz#9590a079f6632cc6381cb724cc03ae2489cbdea7"
+  integrity sha512-oO281GF7ksH/Ogv1xyDf1prvFta/6/XkGKxRUvA3IB2MU1rCJGlFs86HRZhdooow1ISkR0Np0rOxUCIJVw36Rg==
   dependencies:
     "@sindresorhus/merge-streams" "^4.0.0"
     cross-spawn "^7.0.3"
