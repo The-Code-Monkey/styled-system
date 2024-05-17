@@ -3221,15 +3221,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.1.4.tgz#b5bba86918123783b730879362e78c8cb737d149"
   integrity sha512-QxnGj9cxhCEuqMAV01gqonXIKcc+caZqFHZpV51oL2ZJNGSPP9Q/yyf+7HbVe00faOFd1dZZwMwzZmX7HQ9LbA==
 
-"@techstack/memoize@1.3.272":
-  version "1.3.272"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.272.tgz#32c1c09f800a21503c1626196431501b3c9d3c1c"
-  integrity sha512-yxk+HyR5V/55anFjcN65ygobmMR2t8NeG15hoK+tAZWYwrXikoZ2Sae584YR7IM8RgolxnPaJkwIAdU74X2TMQ==
+"@techstack/memoize@1.3.273":
+  version "1.3.273"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.273.tgz#37139560f18379b8d41bd9587940a666c318757f"
+  integrity sha512-6Or9Q2L/cZYEZNgstETJFxIhR58jIjsNyk5uupC+6OXmtYzQPnHYI6vylhLyEB3GHExZUlhL0RjIQPrrDe/GwA==
 
-"@techstack/tcm-cli@1.4.21":
-  version "1.4.21"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.21.tgz#9876a8ac1fae6d86bb7fd3d5c300f73f6e3742c3"
-  integrity sha512-CCTTBpGtYh54PEmjj1T2RelGbzfnhEDo4cuOf2GRBAno71UpnNRno40cmZF/asggt0I9czIqvGR4prB7SR5fdQ==
+"@techstack/tcm-cli@1.4.22":
+  version "1.4.22"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.22.tgz#aae0088d46954e7fdad9783d6c7b6ad74aa22ce5"
+  integrity sha512-SzkD0C5gOl0L4TR0nAEIcAkWSppxSBPNTLZi55eOiaH6gkTgrjoMB8EKO4ncXtNLsIaU743FgPVI3PG/sLBjjQ==
   dependencies:
     "@babel/core" "7.24.5"
     "@babel/parser" "7.24.5"
