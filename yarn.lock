@@ -3221,15 +3221,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.1.4.tgz#b5bba86918123783b730879362e78c8cb737d149"
   integrity sha512-QxnGj9cxhCEuqMAV01gqonXIKcc+caZqFHZpV51oL2ZJNGSPP9Q/yyf+7HbVe00faOFd1dZZwMwzZmX7HQ9LbA==
 
-"@techstack/memoize@1.3.275":
-  version "1.3.275"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.275.tgz#d5ba67bd9568d4cb7c7f1835526cbf5a4086ff90"
-  integrity sha512-pTGcVLND5R620YkjkWD69AVQji8f8POeVvRh1zO5ILdowGTdYYI7wtKVI7MfauhpKNgNqv6wfe/mQQHo1IwtvA==
+"@techstack/memoize@1.3.277":
+  version "1.3.277"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.277.tgz#1383b123990373e4503ad146d698852a77f0941d"
+  integrity sha512-ak5gZL8mpwL/BimVcz7k5jftDGl5SpdI4931Gjv//xJdOoCLZ9rQVsMTtLiaXdIxsU48liO6Qd6RAkrPtuJViQ==
 
-"@techstack/tcm-cli@1.4.24":
-  version "1.4.24"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.24.tgz#21cc87e102cb18537ef6810b87d2d6d0c06f177c"
-  integrity sha512-w/BRU5tgKGXxhHJJoD1Es8zgoyiPdff2BMgM8+SGmG3sbLlzhoqMLDcB3UYgfMOJCzoX8wspkYzOUiRqzZPBgA==
+"@techstack/tcm-cli@1.4.26":
+  version "1.4.26"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.26.tgz#af7b007ec3f6e7ca954ace0a9bc2b06a283cc31c"
+  integrity sha512-FRm2P8fC5ePt3myJ/srjLewO0YhjK2E/IMX5ZsfC8Gnzd0w93C9ZBmaaUx/H83dcpey+aFpHeRibYWdwtCTNPA==
   dependencies:
     "@babel/core" "7.24.5"
     "@babel/parser" "7.24.5"
@@ -3290,7 +3290,7 @@
     shelljs "0.8.5"
     sort-package-json "2.10.0"
     tiny-glob "0.2.9"
-    ts-jest "29.1.2"
+    ts-jest "29.1.3"
     ts-node "10.9.1"
     tslib "2.6.2"
     type-fest "4.18.2"
@@ -11372,20 +11372,6 @@ ts-api-utils@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz#4b490e27129f1e8e686b45cc4ab63714dc60eea1"
   integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
-
-ts-jest@29.1.2:
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.1.2.tgz#7613d8c81c43c8cb312c6904027257e814c40e09"
-  integrity sha512-br6GJoH/WUX4pu7FbZXuWGKGNDuU7b8Uj77g/Sp7puZV6EXzuByl6JrECvm0MzVzSTkSHWTihsXt+5XYER5b+g==
-  dependencies:
-    bs-logger "0.x"
-    fast-json-stable-stringify "2.x"
-    jest-util "^29.0.0"
-    json5 "^2.2.3"
-    lodash.memoize "4.x"
-    make-error "1.x"
-    semver "^7.5.3"
-    yargs-parser "^21.0.1"
 
 ts-jest@29.1.3:
   version "29.1.3"
