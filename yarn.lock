@@ -3176,15 +3176,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.1.4.tgz#b5bba86918123783b730879362e78c8cb737d149"
   integrity sha512-QxnGj9cxhCEuqMAV01gqonXIKcc+caZqFHZpV51oL2ZJNGSPP9Q/yyf+7HbVe00faOFd1dZZwMwzZmX7HQ9LbA==
 
-"@techstack/memoize@1.3.283":
-  version "1.3.283"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.283.tgz#6c852159ffb1b169eea239a15350e489b9b73984"
-  integrity sha512-Fc9nvy0MRM90OZcF6CXFd7K83niwYgA/oK0IcPCpnwa2gzWOIgcxBvgkKwbY1lBMAQMUR7MPNEaovLVwP6YhSg==
+"@techstack/memoize@1.3.285":
+  version "1.3.285"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.285.tgz#f5e599134865c7be73a2adbdffea8b3f56dc707b"
+  integrity sha512-Z0fDj+y/kFLfpeOSMdF+kIVIcEpnmG+ZDZB7UUcfpJOg2YQz8SGa7ekpIpSrfIUHXI86TvTgVnnM5kUaTobwVQ==
 
-"@techstack/tcm-cli@1.4.30":
-  version "1.4.30"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.30.tgz#eb08f08446de87a8da301f5dab50bdab7b1b150a"
-  integrity sha512-vkNIo6SpPCpmVrbarYMYXqD8d4moOTKW2906z1IDWbQpjElKCS8+U5mH2L6nJY+IzDZWHv8cOZChBB5LmbkKCw==
+"@techstack/tcm-cli@1.4.32":
+  version "1.4.32"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.32.tgz#789a49ef433f2784ef999b33888f0321d1ccc6cc"
+  integrity sha512-dnErviBNgUflMpBE1L7I5QOBbpLrhLTktjl6vyg2G4eb4f8UeoPsq/DVhs+5ec7E4BnyHrNuVMvc2ZKc4vhZXA==
   dependencies:
     "@babel/core" "7.24.6"
     "@babel/parser" "7.24.6"
@@ -3248,7 +3248,7 @@
     ts-jest "29.1.3"
     ts-node "10.9.1"
     tslib "2.6.2"
-    type-fest "4.18.2"
+    type-fest "4.18.3"
     typescript "5.4.5"
 
 "@tootallnate/once@2":
@@ -11454,10 +11454,10 @@ type-detect@4.0.8:
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
-type-fest@4.18.2:
-  version "4.18.2"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.18.2.tgz#8d765c42e7280a11f4d04fb77a00dacc417c8b05"
-  integrity sha512-+suCYpfJLAe4OXS6+PPXjW3urOS4IoP9waSiLuXfLgqZODKw/aWwASvzqE886wA0kQgGy0mIWyhd87VpqIy6Xg==
+type-fest@4.18.3:
+  version "4.18.3"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.18.3.tgz#5249f96e7c2c3f0f1561625f54050e343f1c8f68"
+  integrity sha512-Q08/0IrpvM+NMY9PA2rti9Jb+JejTddwmwmVQGskAlhtcrw1wsRzoR6ode6mR+OAabNa75w/dxedSUY2mlphaQ==
 
 type-fest@^0.18.0:
   version "0.18.1"
