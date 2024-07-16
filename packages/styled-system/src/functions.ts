@@ -171,8 +171,11 @@ export const getContrast = (hexstring: string, colors?: ColorsType): string => {
   // eslint-disable-next-line prefer-const
   let r, g, b;
 
+  // Check if the hexstring is transparent.
+  if (hexstring === 'transparent') {
+    return 'initial';
   // Check the format of the color, HEX or RGB?
-  if (hexstring.match(/^rgb/)) {
+  } else if (hexstring.match(/^rgb/)) {
     // If RGB --> store the red, green, blue values in separate variables
     const color = hexstring.match(
       /^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/
