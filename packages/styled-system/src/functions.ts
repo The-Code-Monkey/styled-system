@@ -174,7 +174,7 @@ export const getContrast = (hexstring: string, colors?: ColorsType): string => {
   // Check if the hexstring is transparent.
   if (hexstring === 'transparent') {
     return 'initial';
-  // Check the format of the color, HEX or RGB?
+    // Check the format of the color, HEX or RGB?
   } else if (hexstring.match(/^rgb/)) {
     // If RGB --> store the red, green, blue values in separate variables
     const color = hexstring.match(
