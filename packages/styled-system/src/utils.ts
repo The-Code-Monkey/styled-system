@@ -7,7 +7,7 @@ export function isNumber(n: number | string | object) {
 }
 
 export function isObject(
-  value: number | string | object | null | (() => unknown)
+  value: number | string | object | null | ((...args: any[]) => unknown)
 ): value is Record<string, unknown> {
   const type = typeof value;
   return (
