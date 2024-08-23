@@ -60,7 +60,7 @@
     "jest": "29.7.0",
     "size-limit": "11.1.4",
     "styled-components": "6.1.12",
-    "ts-jest": "29.2.4",
+    "ts-jest": "29.2.5",
     "tslib": "2.6.3",
     "typescript": "5.4.5"
   },
