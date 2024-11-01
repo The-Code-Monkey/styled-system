@@ -61,7 +61,7 @@
     "size-limit": "11.1.6",
     "styled-components": "6.1.13",
     "ts-jest": "29.2.5",
-    "tslib": "2.8.0",
+    "tslib": "2.8.1",
     "typescript": "5.4.5"
   },
   "dependencies": {
