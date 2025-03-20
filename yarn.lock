@@ -274,10 +274,10 @@
     lodash.debounce "^4.0.8"
     resolve "^1.14.2"
 
-"@babel/helper-define-polyfill-provider@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.6.2.tgz#18594f789c3594acb24cfdb4a7f7b7d2e8bd912d"
-  integrity sha512-LV76g+C502biUK6AyZ3LK10vDpDyCzZnhZFXkH1L75zHPj68+qc8Zfpx2th+gzwA2MzyK+1g/3EPl62yFnVttQ==
+"@babel/helper-define-polyfill-provider@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.6.4.tgz#15e8746368bfa671785f5926ff74b3064c291fab"
+  integrity sha512-jljfR1rGnXXNWnmQg2K3+bvhkxB51Rl32QRaOTuwwjviGrHzIbSc8+x9CpraDtbT7mfyjXObULP4w/adunNwAw==
   dependencies:
     "@babel/helper-compilation-targets" "^7.22.6"
     "@babel/helper-plugin-utils" "^7.22.5"
@@ -3309,15 +3309,15 @@
   resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-11.2.0.tgz#8727d1c2c6669b9d6d1e31012f61b612ead07915"
   integrity sha512-OZHE3putEkQ/fgzz3Tp/0hSmfVo3wyTpOJSRNm6AmcwX4Nm9YtTfbQQ/hZRwbBFR23S7x2Sd9EbqYzngKwbRoA==
 
-"@techstack/memoize@1.3.293":
-  version "1.3.293"
-  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.293.tgz#a02a30761b3a6c64212a352ddb572e131920366c"
-  integrity sha512-PSK+gSBc8yL6T9gPgGHeOlVJL2HdNAFIJkJNLMqvb5nMaLEcJLBRbP9O3PFf+jfTVRGA50lz+FlEfzsQWiQH2Q==
+"@techstack/memoize@1.3.296":
+  version "1.3.296"
+  resolved "https://registry.yarnpkg.com/@techstack/memoize/-/memoize-1.3.296.tgz#7988f84278abd52106f4a379dcaf71e3ef8eb635"
+  integrity sha512-0lpd9BCiU8DBNFBVc5eMLPSGzqM68h8W+uBH8amsRCA7bA7IwUHLK5J58375aDQXaCQC2+I69a9s0we8uPHVpw==
 
-"@techstack/tcm-cli@1.4.40":
-  version "1.4.40"
-  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.40.tgz#46e401c94ef9de917c8d3a22430dc46bc1d58aa8"
-  integrity sha512-vX8BAvr/ppTGh9okrbkFLQxoHF8IWS0Bji4tiX561Y080QhODnt4OfGBFoe5bB83Y8OSaWIKliphQyHm3NrEww==
+"@techstack/tcm-cli@1.4.42":
+  version "1.4.42"
+  resolved "https://registry.yarnpkg.com/@techstack/tcm-cli/-/tcm-cli-1.4.42.tgz#0f49b3441fb4d30608948dd3c3edc4b41f5333ff"
+  integrity sha512-eStbaNVw80zsKO/D2qgJm6aVRE2bw1WwXU4P4V7UV0ZnurOJ+B5dap0LWqB8UOLbDNLt55FMIy9yoTVWU7YwXw==
   dependencies:
     "@babel/core" "7.24.6"
     "@babel/parser" "7.24.6"
@@ -3336,7 +3336,7 @@
     babel-plugin-annotate-pure-calls "0.4.0"
     babel-plugin-dev-expression "0.2.3"
     babel-plugin-macros "3.1.0"
-    babel-plugin-polyfill-regenerator "0.6.2"
+    babel-plugin-polyfill-regenerator "0.6.4"
     babel-plugin-transform-rename-import "2.3.0"
     camelcase "8.0.0"
     chalk "5.3.0"
@@ -4386,12 +4386,12 @@ babel-plugin-polyfill-corejs3@^0.8.1:
     "@babel/helper-define-polyfill-provider" "^0.4.0"
     core-js-compat "^3.30.1"
 
-babel-plugin-polyfill-regenerator@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.6.2.tgz#addc47e240edd1da1058ebda03021f382bba785e"
-  integrity sha512-2R25rQZWP63nGwaAswvDazbPXfrM3HwVoBXK6HcqeKrSrL/JqcC/rDcf95l4r7LXLyxDXc8uQDa064GubtCABg==
+babel-plugin-polyfill-regenerator@0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.6.4.tgz#428c615d3c177292a22b4f93ed99e358d7906a9b"
+  integrity sha512-7gD3pRadPrbjhjLyxebmx/WrFYcuSjZ0XbdUujQMZ/fcE9oeewk2U/7PCvez84UeuK3oSjmPZ0Ch0dlupQvGzw==
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.6.2"
+    "@babel/helper-define-polyfill-provider" "^0.6.4"
 
 babel-plugin-polyfill-regenerator@^0.5.0:
   version "0.5.0"
